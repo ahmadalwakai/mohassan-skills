@@ -1,16 +1,23 @@
 ---
 name: المعلومات الصحية والطبية
 description: المعلومات الصحية والطبية العامة: الأعراض، الأسباب المحتملة، الأمراض، العمليات الجراحية، الأدوية وآثارها الجانبية، مراجعة الطبيب. health medical medicine symptoms symptom disease diseases treatment surgery medication side effects doctor pain headache صحي الصحية طبي طبية أعراض الأعراض مرض أمراض علاج دواء أدوية عملية جراحة صداع ألم الطبيب
-version: 1.0.0
+version: 1.1.0
 category: research
 ---
-Use this for general health and medical information. It informs; it does not diagnose or replace a clinician.
-1. Red flags first. Chest pain, trouble breathing, stroke signs (face drooping, arm weakness, speech problems), severe bleeding, fainting, a sudden severe headache, high fever with a stiff neck or rash, suicidal thoughts, a severe allergic reaction, or symptoms in a newborn mean emergency care now (999 in the UK, 997 or 911 in Saudi Arabia, 112 in much of Europe).
-2. Context that matters: age, duration, severity, other symptoms, conditions, medicines, pregnancy.
-3. Explain clearly: what the condition or procedure is, common causes, typical symptoms, how it is diagnosed, treatment options, usual recovery, and when to see a doctor and how urgently.
-4. List possible causes from common to rare, without frightening speculation, with the signs that point to each.
-5. Medicines: usual uses, common and serious side effects, interactions, and who should avoid them (NSAIDs such as ibuprofen can irritate the stomach and strain the kidneys, and need caution with ulcers, kidney disease, pregnancy and blood thinners). Doses only as on the label or from a pharmacist, never tailored to the person.
-6. Evidence: reputable sources (WHO, NHS, CDC, health ministries, professional guidelines); established facts kept apart from preliminary findings; no miracle claims for foods or supplements.
-7. Procedures such as cataract surgery or LASIK: what happens, typical duration, recovery, risks, suitability; the decision belongs with the specialist.
-8. Mental health questions get a warm, non-judgmental tone and real support options.
-Answer shape: a direct answer, key facts in short sections, red flags and when to seek care, then a one-line reminder to confirm with a doctor or pharmacist.
+معلومات صحية وطبية عامة. تثقّف ولا تشخّص، ولا تغني عن الطبيب.
+
+## الخطوات
+1. علامات الخطر أولًا: ألم الصدر، وصعوبة التنفس، وعلامات الجلطة الدماغية (تدلّي الوجه، وضعف الذراع، واضطراب الكلام)، والنزيف الشديد، والإغماء، والصداع المفاجئ الشديد، والحمى العالية مع تيبس الرقبة أو طفح، والأفكار الانتحارية، والتحسس الشديد، وأي أعراض لدى حديث الولادة؛ كلها تعني طوارئ فورًا (999 في بريطانيا، و997 أو 911 في السعودية، و112 في معظم أوروبا).
+2. السياق المهم: العمر، والمدة، والشدة، والأعراض الأخرى، والأمراض، والأدوية، والحمل.
+3. اشرح بوضوح: ما الحالة أو الإجراء، والأسباب الشائعة، والأعراض المعتادة، وطريقة التشخيص، وخيارات العلاج، ومدة التعافي المعتادة، ومتى تجب زيارة الطبيب وبأي سرعة.
+4. اسرد الأسباب المحتملة من الشائع إلى النادر، دون تخمين مخيف، مع العلامات التي تشير إلى كل منها.
+5. الأدوية: الاستخدامات المعتادة، والآثار الجانبية الشائعة والخطيرة، والتداخلات، ومن يجب أن يتجنبها (مضادات الالتهاب مثل الإيبوبروفين قد تهيّج المعدة وتجهد الكلى، وتحتاج حذرًا مع القرحة وأمراض الكلى والحمل ومميعات الدم). الجرعات كما في النشرة أو من الصيدلي فقط، ولا تُفصَّل على الشخص أبدًا.
+6. الدليل: مصادر موثوقة (منظمة الصحة العالمية، وNHS، وCDC، ووزارات الصحة، والإرشادات المهنية)؛ والحقائق الثابتة منفصلة عن النتائج الأولية؛ ولا ادعاءات معجزة لأطعمة أو مكملات.
+7. الإجراءات مثل جراحة الماء الأبيض أو الليزك: ما الذي يحدث، والمدة المعتادة، والتعافي، والمخاطر، ومن يناسبه؛ والقرار للطبيب المختص.
+8. أسئلة الصحة النفسية تُقابل بنبرة دافئة غير حاكمة وخيارات دعم حقيقية.
+
+## شكل الجواب
+جواب مباشر، ثم الحقائق الأساسية في أقسام قصيرة، ثم علامات الخطر ومتى تُطلب الرعاية، وسطر أخير يذكّر بالتأكد من الطبيب أو الصيدلي.
+
+## ما أحتاجه منك
+- العمر، والأعراض ومدتها وشدتها، وأي أمراض أو أدوية حالية.

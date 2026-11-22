@@ -1,18 +1,25 @@
 ---
 name: الخصوصية وحماية البيانات
 description: الخصوصية وحماية البيانات الشخصية: GDPR، سياسة الخصوصية، الموافقة، ملفات تعريف الارتباط، الاحتفاظ بالبيانات، حقوق الأفراد، تسرب البيانات. privacy gdpr ccpa pdpl protection personal consent cookie banner retention dpia breach dpo خصوصية الخصوصية سياسة البيانات الشخصية الموافقة تسرب
-version: 1.0.0
+version: 1.1.0
 category: security
 ---
-Use this for handling personal data lawfully and respectfully.
-1. Map the data first: what is collected, why, where it is stored, who can access it, which processors receive it, and how long it is kept.
-2. Lawful basis under GDPR and UK GDPR: contract, legal obligation, legitimate interests (with a balancing test), consent, vital or public interest. Use consent only when the person has a real choice; it must be specific, informed, freely given and as easy to withdraw as to give.
-3. Collect the minimum, keep it only as long as needed under a written retention schedule, and delete or anonymize on schedule.
-4. A privacy notice in plain language: who you are, what you collect, purposes and lawful bases, recipients, international transfers, retention periods, rights, and how to complain to the regulator.
-5. Individual rights answered within one month: access, correction, deletion, restriction, objection, portability, and stopping direct marketing at any time.
-6. Cookies and trackers: non-essential ones (analytics, advertising) need prior consent with a reject option as easy as accept; no pre-ticked boxes.
-7. Security of processing: access control, encryption in transit and at rest, staff training, data processing agreements with suppliers.
-8. Breaches: assess quickly, notify the regulator within 72 hours when people are at risk, and tell affected people when the risk is high.
-9. High-risk processing (large-scale sensitive data, monitoring, profiling) needs a DPIA before it starts.
-10. Other regimes differ (Saudi PDPL, UAE PDPL, CCPA): name the jurisdiction and recommend local legal review for anything binding.
-Answer shape: the obligations that apply, then concrete steps or draft text, labelled as general information.
+التعامل مع البيانات الشخصية بما يوافق القانون ويحترم أصحابها.
+
+## الخطوات
+1. ارسم خريطة البيانات أولًا: ما الذي يُجمع، ولماذا، وأين يُخزَّن، ومن يصل إليه، ومن يعالجه من الموردين، وكم يُحتفظ به.
+2. الأساس القانوني وفق GDPR واللائحة البريطانية: العقد، أو الالتزام القانوني، أو المصلحة المشروعة (مع اختبار موازنة)، أو الموافقة، أو المصلحة الحيوية أو العامة. ولا تعتمد على الموافقة إلا حين يملك الشخص خيارًا حقيقيًا؛ ويجب أن تكون محددة ومستنيرة وحرة، وسحبها سهل كمنحها.
+3. اجمع الحد الأدنى، واحتفظ به ما دام لازمًا فقط وفق جدول احتفاظ مكتوب، واحذفه أو اجعله مجهول الهوية في موعده.
+4. إشعار خصوصية بلغة بسيطة: من أنت، وما تجمعه، والأغراض وأسسها القانونية، والجهات المستلمة، والنقل الدولي، ومدد الاحتفاظ، والحقوق، وطريقة الشكوى إلى الجهة الرقابية.
+5. حقوق الأفراد يُجاب عنها خلال شهر: الاطلاع، والتصحيح، والحذف، والتقييد، والاعتراض، وقابلية النقل، ووقف التسويق المباشر في أي وقت.
+6. ملفات تعريف الارتباط والمتتبعات: غير الضرورية منها (التحليلات، والإعلانات) تحتاج موافقة مسبقة مع خيار رفض بسهولة القبول؛ ولا مربعات محددة مسبقًا.
+7. أمن المعالجة: التحكم في الوصول، والتشفير أثناء النقل والتخزين، وتدريب الموظفين، واتفاقيات معالجة البيانات مع الموردين.
+8. الاختراقات: قيّمها بسرعة، وأبلغ الجهة الرقابية خلال 72 ساعة حين يتعرض الأفراد للخطر، وأخبر المتأثرين حين يكون الخطر مرتفعًا.
+9. المعالجة عالية الخطورة (بيانات حساسة على نطاق واسع، أو مراقبة، أو تنميط) تحتاج تقييم أثر لحماية البيانات (DPIA) قبل بدئها.
+10. الأنظمة الأخرى تختلف (نظام حماية البيانات الشخصية السعودي، والإماراتي، وCCPA): سمِّ الولاية القضائية، وانصح بمراجعة قانونية محلية لأي التزام ملزم.
+
+## شكل الجواب
+الالتزامات التي تنطبق، ثم خطوات ملموسة أو نص مسودة، موسومة بأنها معلومات عامة.
+
+## ما أحتاجه منك
+- البلد، ونوع البيانات التي تجمعها ولأي غرض، وأين تُخزَّن.

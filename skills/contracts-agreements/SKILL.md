@@ -1,15 +1,22 @@
 ---
 name: العقود والاتفاقيات
 description: صياغة ومراجعة العقود والاتفاقيات: عقد عمل مستقل، عقد خدمات، اتفاقية عدم إفشاء NDA، الشروط والأحكام، البنود الأساسية، الدفعات، الإنهاء، المسؤولية. contract contracts agreement agreements freelance nda terms conditions clauses clause liability termination عقد عقود العقد اتفاقية اتفاقيات بنود البنود الشروط والأحكام الإنهاء إفشاء
-version: 1.0.0
+version: 1.1.0
 category: business
 ---
-Use this to draft or review contracts and agreements. Drafts are a starting point; important contracts need a lawyer in the relevant country.
-1. Identify the parties (full legal names, registration numbers, addresses), the governing law and jurisdiction, and the purpose of the agreement.
-2. Core clauses of a service or freelance agreement: scope and deliverables (specific, with exclusions), timeline and milestones, fees and payment terms (deposit, schedule, late-payment interest, currency, taxes), revisions and change requests, acceptance criteria, intellectual property (who owns the work and when, usually on full payment), confidentiality, warranties, limitation of liability (often capped at the fees paid), termination (notice, payment for work done), independent contractor status, dispute resolution, signatures and date.
-3. NDA: what counts as confidential, exclusions (already public, independently developed), permitted use, duration, return or destruction of information, remedies.
-4. Review checklist: vague scope, open-ended obligations, unlimited liability or indemnities, automatic renewals, one-sided termination, missing payment protection, IP that transfers before payment, overly broad non-compete clauses, penalties.
-5. Plain language beats legalese: short sentences, defined terms used consistently, numbered clauses.
-6. Local requirements: some contracts need set forms, registration or an Arabic version (Saudi leases go through Ejar; government contracts have their own rules), and employment contracts must follow labour law.
-7. Keep signed copies, and make every amendment in writing.
-Answer shape: the draft with numbered clauses and [placeholders], then a short list of points to confirm with a lawyer.
+صياغة العقود والاتفاقيات أو مراجعتها. المسودة نقطة بداية، والعقود المهمة تحتاج محاميًا في البلد المعني.
+
+## الخطوات
+1. حدّد الأطراف (الأسماء القانونية الكاملة، وأرقام السجل، والعناوين)، والقانون الحاكم وجهة الاختصاص، والغرض من الاتفاق.
+2. البنود الأساسية لعقد خدمات أو عمل حر: النطاق والمخرجات (محددة مع الاستثناءات)، والجدول الزمني والمراحل، والأتعاب وشروط الدفع (الدفعة المقدمة، والجدول، وغرامة التأخير، والعملة، والضرائب)، والتعديلات وطلبات التغيير، ومعايير القبول، والملكية الفكرية (من يملك العمل ومتى، وعادة عند السداد الكامل)، والسرية، والضمانات، وتحديد المسؤولية (غالبًا بسقف الأتعاب المدفوعة)، والإنهاء (الإشعار، ودفع مقابل المنجز)، وصفة المتعاقد المستقل، وحل النزاعات، والتوقيعات والتاريخ.
+3. اتفاقية عدم الإفصاح: ما يُعد سريًا، والاستثناءات (المعلن مسبقًا، والمطوَّر باستقلال)، والاستخدام المسموح، والمدة، وإعادة المعلومات أو إتلافها، والتعويضات.
+4. قائمة المراجعة: نطاق غامض، والتزامات مفتوحة، ومسؤولية أو تعويضات بلا حد، وتجديد تلقائي، وإنهاء من طرف واحد، وغياب حماية الدفع، وملكية فكرية تنتقل قبل الدفع، وعدم منافسة أوسع من اللازم، وغرامات.
+5. اللغة الواضحة أفضل من التعقيد القانوني: جمل قصيرة، ومصطلحات معرَّفة تُستخدم بثبات، وبنود مرقمة.
+6. المتطلبات المحلية: بعض العقود تحتاج نماذج محددة أو تسجيلًا أو نسخة عربية (عقود الإيجار في السعودية عبر منصة إيجار، وللعقود الحكومية أنظمتها)، وعقود العمل تتبع نظام العمل.
+7. احفظ النسخ الموقعة، واجعل كل تعديل مكتوبًا.
+
+## شكل الجواب
+المسودة ببنود مرقمة و[مواضع فارغة]، ثم قائمة قصيرة بنقاط يُتحقق منها مع محامٍ.
+
+## ما أحتاجه منك
+- نوع العقد، والأطراف وبلدهم، وأهم الشروط المتفق عليها (المبلغ، والمدة، والنطاق).

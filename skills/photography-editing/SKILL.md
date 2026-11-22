@@ -1,16 +1,23 @@
 ---
 name: التصوير وتحرير الصور
 description: التصوير الفوتوغرافي وتحرير الصور: تصوير المنتجات بالجوال، الإضاءة، التكوين، إعدادات الكاميرا، تعديل الألوان، Lightroom، Photoshop، إزالة الخلفية. photography photo photos picture pictures camera lighting composition exposure aperture shutter editing lightroom photoshop retouch background تصوير التصوير أصور اصور صور الصور كاميرا إضاءة الإضاءة تعديل خلفية
-version: 1.0.0
+version: 1.1.0
 category: media
 ---
-Use this for taking better photos and editing them.
-1. Light decides most of the result: soft, diffused light (a window with a sheer curtain, overcast daylight, a softbox) for products and portraits; no mixed color temperatures; a white card or foam board to fill shadows.
-2. Products with a phone: clean the lens; shoot near a window on a plain white or neutral paper sweep; phone on a tripod at product height; use the 2x lens or step back to avoid wide-angle distortion; long-press to lock focus and exposure; shoot front, 45 degrees, details, in use and with a sense of scale.
-3. Composition: rule of thirds or deliberate centered symmetry, simple backgrounds, leading lines, consistent framing across a product set.
-4. Camera basics: aperture sets depth of field (f/1.8 to f/2.8 for a soft background, f/8 to f/11 for everything sharp); shutter at least 1/focal length handheld and faster for motion; the lowest ISO the light allows; RAW when editing matters.
-5. Editing order (Lightroom or Snapseed): crop and straighten, white balance, exposure, contrast, highlights and shadows, then color (HSL), then local adjustments, then sharpening and noise reduction. Edit a set with one preset for consistency.
-6. Underexposed photo: raise exposure moderately, lift shadows, protect highlights, restore a little contrast, reduce noise; very dark JPEGs lose detail, so reshoot when possible.
-7. Background removal: subject-selection tools in phones, Photoshop or dedicated removers, then a clean white background (many marketplaces require pure white) with a soft natural shadow.
-8. Web export: sRGB, long edge of 1600 to 2400 px for galleries, compressed JPEG or WebP, descriptive file names and alt text.
-Answer shape: a short shoot checklist, then settings and editing steps for the specific case.
+التقاط صور أفضل وتحريرها.
+
+## الخطوات
+1. الضوء يحدد معظم النتيجة: ضوء ناعم منتشر (نافذة بستارة شفافة، أو نهار غائم، أو صندوق إضاءة) للمنتجات والصور الشخصية؛ ولا خلط لدرجات حرارة اللون؛ وبطاقة بيضاء أو لوح فوم لملء الظلال.
+2. تصوير المنتجات بالهاتف: نظّف العدسة؛ وصوّر قرب نافذة على خلفية ورقية بيضاء أو محايدة منحنية؛ والهاتف على حامل بارتفاع المنتج؛ واستخدم عدسة 2x أو ابتعد لتجنب تشوه الزاوية الواسعة؛ واضغط مطولًا لتثبيت التركيز والتعريض؛ وصوّر من الأمام، و45 درجة، والتفاصيل، وأثناء الاستخدام، ومع ما يوضح الحجم.
+3. التكوين: قاعدة الأثلاث أو تناظر مركزي مقصود، وخلفيات بسيطة، وخطوط موجِّهة، وتأطير ثابت عبر مجموعة المنتجات.
+4. أساسيات الكاميرا: فتحة العدسة تحدد عمق الميدان (من f/1.8 إلى f/2.8 لخلفية ناعمة، ومن f/8 إلى f/11 لوضوح الكل)؛ وسرعة الغالق لا تقل عن 1/البعد البؤري باليد، وأسرع للحركة؛ وأقل ISO يسمح به الضوء؛ وصيغة RAW حين يهم التحرير.
+5. ترتيب التحرير (Lightroom أو Snapseed): القص والتسوية، ثم توازن الأبيض، والتعريض، والتباين، والإضاءات والظلال، ثم اللون (HSL)، ثم التعديلات الموضعية، ثم الحدة وتقليل التشويش. وحرّر المجموعة بإعداد مسبق واحد للاتساق.
+6. صورة معتمة: ارفع التعريض باعتدال، وافتح الظلال، واحمِ الإضاءات، وأعد قليلًا من التباين، وقلّل التشويش؛ وصور JPEG المظلمة جدًا تفقد التفاصيل، فأعد التصوير حين يمكن.
+7. إزالة الخلفية: أدوات تحديد الموضوع في الهواتف أو Photoshop أو المزيلات المتخصصة، ثم خلفية بيضاء نظيفة (أسواق كثيرة تشترط الأبيض الخالص) مع ظل طبيعي ناعم.
+8. التصدير للويب: sRGB، والضلع الأطول من 1600 إلى 2400 بكسل للمعارض، وJPEG أو WebP مضغوط، وأسماء ملفات ونص بديل وصفية.
+
+## شكل الجواب
+قائمة تصوير قصيرة، ثم الإعدادات وخطوات التحرير للحالة المحددة.
+
+## ما أحتاجه منك
+- ما الذي تصوره ولأي غرض، والجهاز المستخدم، وصورة أو وصف للمشكلة.

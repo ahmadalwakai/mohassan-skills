@@ -1,16 +1,23 @@
 ---
 name: تحليل البيانات
 description: تحليل البيانات واستخراج النتائج: تنظيف البيانات، الاتجاهات، المقارنات، التقسيم، الأسباب، pandas، SQL، Power BI، الرؤى والتوصيات. data analysis analytics analyze analyse dataset insights trends cleaning pandas sql powerbi tableau eda تحليل تحليلات البيانات بيانات حلل أحلل احلل أحللها اتجاهات رؤى
-version: 1.0.0
+version: 1.1.0
 category: analytics
 ---
-Use this to analyze data and turn it into findings and decisions.
-1. Start from the question and the decision it informs ("which products lose money?", "why did sales drop in March?"), then list the data needed and its source.
-2. Understand the data first: what one row means, columns and units, date range, how it was collected, known gaps.
-3. Clean: remove duplicates, fix types (dates, numbers stored as text), standardize categories and spellings, handle missing values deliberately (drop, fill or flag, and say which), inspect outliers before removing them, reconcile totals with a trusted figure.
-4. Explore: totals and averages, distributions, trends over time by week or month with seasonality, breakdowns by segment (product, region, channel, customer type), comparisons with the previous period and the same period last year.
-5. Explain changes by decomposition: total change = volume effect + price effect + mix effect, or split by segment to find which part moved.
-6. Correlation is not causation: look for confounders and check whether a pattern holds within subgroups.
-7. Right tool for the size: Excel or Google Sheets with pivot tables for small data, SQL for databases, Python (pandas) or R for large or repeated analysis, Power BI or Tableau for shared dashboards.
-8. Communicate: the headline finding first, one chart per point, the size of the effect in business terms (money, customers), confidence and limitations, and the recommended action.
-Answer shape: findings in order of importance with numbers, the method in a short paragraph, next steps; code or formulas when asked.
+تحليل البيانات وتحويلها إلى نتائج وقرارات.
+
+## الخطوات
+1. ابدأ بالسؤال والقرار الذي يخدمه («أي المنتجات تخسر؟»، «لماذا هبطت المبيعات في مارس؟»)، ثم حدّد البيانات اللازمة ومصدرها.
+2. افهم البيانات أولًا: ماذا يمثل الصف الواحد، والأعمدة ووحداتها، والمدى الزمني، وطريقة الجمع، والفجوات المعروفة.
+3. التنظيف: أزل التكرار، وصحّح الأنواع (تواريخ، وأرقام مخزنة نصًا)، ووحّد الفئات والتهجئة، وعالج القيم المفقودة عن قصد (حذف، أو تعبئة، أو تعليم، مع ذكر ما اخترت)، وافحص القيم الشاذة قبل حذفها، وطابق المجاميع مع رقم موثوق.
+4. الاستكشاف: المجاميع والمتوسطات، والتوزيعات، والاتجاهات أسبوعيًا أو شهريًا مع الموسمية، والتقسيم حسب الشرائح (المنتج، والمنطقة، والقناة، ونوع العميل)، والمقارنة بالفترة السابقة وبالفترة نفسها من العام الماضي.
+5. فسّر التغيّر بالتفكيك: التغير الكلي = أثر الكمية + أثر السعر + أثر المزيج، أو قسّم حسب الشريحة لتعرف أي جزء تحرك.
+6. الارتباط ليس سببية: ابحث عن العوامل المربكة، وتحقق أن النمط يصمد داخل المجموعات الفرعية.
+7. الأداة حسب الحجم: Excel أو Google Sheets بالجداول المحورية للبيانات الصغيرة، وSQL لقواعد البيانات، وPython (pandas) أو R للتحليل الكبير أو المتكرر، وPower BI أو Tableau للوحات المشتركة.
+8. التواصل: النتيجة الرئيسية أولًا، ورسم واحد لكل نقطة، وحجم الأثر بلغة العمل (مال، وعملاء)، ودرجة الثقة والقيود، والإجراء الموصى به.
+
+## شكل الجواب
+النتائج مرتبة حسب الأهمية بالأرقام، ثم المنهج في فقرة قصيرة، ثم الخطوات التالية، والكود أو الصيغ عند الطلب.
+
+## ما أحتاجه منك
+- السؤال الذي تريد إجابته، ووصف البيانات (الأعمدة، والفترة، والحجم) أو عينة منها.

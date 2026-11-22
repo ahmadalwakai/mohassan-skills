@@ -1,16 +1,23 @@
 ---
 name: التسويق بالبريد الإلكتروني
 description: التسويق بالبريد الإلكتروني والنشرات البريدية: بناء القائمة، رسائل الترحيب، الحملات البريدية، معدل الفتح، تجنب السبام، وصول الرسائل، الأتمتة، Mailchimp. newsletter newsletters subscribers welcome sequence automation deliverability spam mailchimp klaviyo نشرة بريدية النشرة البريدية القائمة المشتركين الترحيب السبام سبام المزعجة
-version: 1.0.0
+version: 1.1.0
 category: marketing
 ---
-Use this for newsletters, automated email sequences and email campaigns.
-1. Permission first: build the list with clear opt-in (sign-up forms, an unticked checkbox at checkout, lead magnets), honour unsubscribes immediately, and never buy lists. Consent rules apply (GDPR and PECR in the UK and EU, CAN-SPAM in the US).
-2. Deliverability: send from your own domain with SPF, DKIM and DMARC configured; warm new domains up gradually; remove hard bounces and long-inactive subscribers; avoid spam-style subject lines and image-only emails; include a postal address and a visible unsubscribe link.
-3. Welcome sequence, the most engaged emails of all: email 1 at once with what was promised and what to expect; email 2 the story or main benefit; email 3 social proof; email 4 an offer or next step; spread over about a week.
-4. Other automations: abandoned cart, post-purchase thanks and review request, win-back after inactivity, birthdays or anniversaries.
-5. Campaigns: one goal per email; a specific subject line (often under about 50 characters) with preview text that complements it; short copy; one main button; mobile-first layout.
-6. Segment by interest, purchase history, location and engagement; smaller relevant sends beat blasting everyone.
-7. Measure delivery rate, click-through rate, conversions and revenue per email, unsubscribes and spam complaints (keep complaints below about 0.1%). Open rates are unreliable because privacy features inflate them.
-8. A/B test subject lines and offers on part of the list before the full send.
-Answer shape: the sequence or email drafts (subject, preview, body, button), plus the technical checklist.
+النشرات البريدية وسلاسل الرسائل الآلية والحملات عبر البريد الإلكتروني.
+
+## الخطوات
+1. الإذن أولًا: ابنِ القائمة باشتراك صريح (نماذج تسجيل، ومربع غير محدد مسبقًا عند الشراء، وهدايا جذب)، ونفّذ إلغاء الاشتراك فورًا، ولا تشترِ قوائم أبدًا. قواعد الموافقة سارية (GDPR وPECR في بريطانيا والاتحاد الأوروبي، وCAN-SPAM في أمريكا).
+2. الوصول إلى البريد الوارد: الإرسال من نطاقك مع إعداد SPF وDKIM وDMARC، وتسخين النطاقات الجديدة تدريجيًا، وحذف العناوين المرتدة نهائيًا والمشتركين الخاملين طويلًا، وتجنب عناوين تشبه الرسائل المزعجة والرسائل المكونة من صور فقط، وإضافة عنوان بريدي ورابط إلغاء اشتراك ظاهر.
+3. سلسلة الترحيب، وهي أكثر الرسائل تفاعلًا: الرسالة 1 فورًا بما وُعد به وما ينتظر المشترك؛ والرسالة 2 القصة أو الفائدة الرئيسية؛ والرسالة 3 الدليل الاجتماعي؛ والرسالة 4 عرض أو خطوة تالية؛ موزعة على نحو أسبوع.
+4. آليات أخرى: السلة المتروكة، وشكر ما بعد الشراء وطلب المراجعة، واستعادة الخاملين، وأعياد الميلاد والمناسبات.
+5. الحملات: هدف واحد لكل رسالة؛ وعنوان محدد (غالبًا أقل من نحو 50 حرفًا) مع نص معاينة يكمله؛ ونص قصير؛ وزر رئيسي واحد؛ وتصميم للجوال أولًا.
+6. التقسيم حسب الاهتمام وسجل الشراء والموقع والتفاعل؛ الإرسال الأصغر الملائم أفضل من مخاطبة الجميع.
+7. قِس معدل التسليم، ومعدل النقر، والتحويلات، والإيراد لكل رسالة، وإلغاء الاشتراك، وشكاوى الإزعاج (أبقها دون نحو 0.1%). معدلات الفتح غير موثوقة لأن ميزات الخصوصية تضخّمها.
+8. اختبر العناوين والعروض على جزء من القائمة قبل الإرسال الكامل.
+
+## شكل الجواب
+السلسلة أو مسودات الرسائل (العنوان، ونص المعاينة، والمتن، والزر)، ثم قائمة الفحص التقنية.
+
+## ما أحتاجه منك
+- النشاط والجمهور، والأداة المستخدمة، وهدف الرسائل.

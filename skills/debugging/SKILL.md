@@ -1,16 +1,23 @@
 ---
 name: تشخيص الأخطاء البرمجية وإصلاحها
 description: تشخيص الأخطاء البرمجية وإصلاحها: خطأ برمجي، استثناء، تتبع المكدس، تعطل، تجمد، خطأ متقطع، نتيجة خاطئة. debug debugging bug bugs error errors exception stack trace traceback crash crashes fix broken typeerror undefined null خطأ أخطاء الخطأ ايرور إيرور يتعطل يعلق معطل إصلاح اصلاح
-version: 1.0.0
+version: 1.1.0
 category: coding
 ---
-Use this when code fails, throws, hangs or gives a wrong result.
-1. Facts before theories: the exact error text and stack trace, the input that triggers it, expected versus actual result, what changed recently (code, dependency, data, environment) and whether it fails always or only sometimes.
-2. Read the stack trace from the first frame in the project's own code. The failing line is often where a bad value is used, not where it was created; trace the value backwards.
-3. Reproduce with the smallest input that still fails. If it is intermittent, suspect timing, shared state, caching, ordering, time zones or an external service.
-4. Test one hypothesis at a time with a cheap check: log the actual value, set a breakpoint, add an assertion, or write a unit test that fails for the right reason. Change one variable per experiment.
-5. Bisect when the cause is unclear: halve the input, the code path or the commit range (git bisect) until the cause is isolated.
-6. Symptom shortcuts: undefined or null means data is missing or arrives late; works only locally means config, versions, paths or environment variables differ; worked yesterday means a dependency, data or deploy change; slowness usually means I/O in a loop or a missing index.
-7. Fix the cause, not the symptom: no blanket try/catch and no silent defaults that hide the failure. Add a test that would have caught it.
-8. Explain the root cause in one or two sentences, then the fix, then how to verify it.
-When evidence is missing, ask once for the exact error text and the surrounding code.
+تتبّع الخطأ حين يفشل الكود أو يرمي استثناءً أو يتوقف أو يعطي نتيجة خاطئة، حتى الوصول إلى السبب الجذري.
+
+## الخطوات
+1. الحقائق قبل النظريات: نص الخطأ بالضبط وتتبع المكدس، والمدخل الذي يسببه، والنتيجة المتوقعة مقابل الفعلية، وما الذي تغيّر مؤخرًا (الكود، أو الاعتماديات، أو البيانات، أو البيئة)، وهل يفشل دائمًا أم أحيانًا.
+2. اقرأ تتبع المكدس من أول إطار في كود المشروع نفسه. سطر الفشل غالبًا حيث تُستخدم القيمة الخاطئة لا حيث نشأت؛ تتبّع القيمة إلى الوراء.
+3. أعد إنتاج الخطأ بأصغر مدخل ما زال يفشل. إن كان متقطعًا فاشتبه في التوقيت، أو الحالة المشتركة، أو التخزين المؤقت، أو الترتيب، أو المناطق الزمنية، أو خدمة خارجية.
+4. اختبر فرضية واحدة في كل مرة بفحص رخيص: سجّل القيمة الفعلية، أو ضع نقطة توقف، أو أضف تأكيدًا (assertion)، أو اكتب اختبار وحدة يفشل للسبب الصحيح. غيّر متغيرًا واحدًا في كل تجربة.
+5. نصّف حين يغمض السبب: نصّف المدخل أو مسار الكود أو نطاق الإيداعات (`git bisect`) حتى يُعزل السبب.
+6. اختصارات الأعراض: `undefined` أو `null` يعني بيانات ناقصة أو متأخرة؛ يعمل محليًا فقط يعني اختلاف الإعدادات أو الإصدارات أو المسارات أو متغيرات البيئة؛ كان يعمل أمس يعني تغيّر اعتمادية أو بيانات أو نشر؛ والبطء غالبًا إدخال وإخراج داخل حلقة أو فهرس ناقص.
+7. أصلح السبب لا العرَض: لا `try/catch` شاملًا ولا قيمًا افتراضية صامتة تخفي الفشل، وأضف اختبارًا كان سيلتقط الخطأ.
+8. إن نقص الدليل فاطلب مرة واحدة نص الخطأ بالضبط والكود المحيط به.
+
+## شكل الجواب
+السبب الجذري في جملة أو جملتين، ثم الإصلاح، ثم طريقة التحقق منه.
+
+## ما أحتاجه منك
+- نص الخطأ كاملًا مع تتبع المكدس، والكود المعني، وما تغيّر قبل ظهوره.

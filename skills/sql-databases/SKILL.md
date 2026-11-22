@@ -1,15 +1,22 @@
 ---
 name: قواعد البيانات SQL
 description: قواعد بيانات SQL: الجداول، العلاقات، الفهارس، الاستعلامات البطيئة، JOIN، التطبيع، الترحيل، المعاملات، PostgreSQL، MySQL. sql database databases postgres postgresql mysql sqlite query queries index indexes join joins schema tables migration migrations transaction explain orm قاعدة قواعد جداول الجداول استعلام الاستعلام استعلامات فهرس فهارس
-version: 1.0.0
+version: 1.1.0
 category: coding
 ---
-Use this for schema work, SQL queries and database performance.
-1. Schema: one table per entity, a surrogate primary key, foreign keys with ON DELETE chosen on purpose, NOT NULL by default, CHECK and UNIQUE constraints for business rules, timestamps with time zone. Normalize first (no repeated groups, no data that depends on part of a key); denormalize only for a measured read need.
-2. Types: integer minor units or NUMERIC for money (never float), text with constraints instead of short varchar limits, enums or lookup tables for states, JSON columns only for genuinely schemaless data.
-3. Slow query routine: run EXPLAIN (ANALYZE, BUFFERS) on the real query and data size, find sequential scans on large tables, add an index on the filter and join columns (composite order: equality, then range, then sort), and re-measure. Avoid functions on indexed columns in WHERE, SELECT *, and OFFSET pagination on big tables (use keyset pagination).
-4. N+1: fetch related rows with a JOIN or a single IN query instead of one query per row.
-5. Integrity: wrap multi-step writes in a transaction, choose the isolation level on purpose, and use SELECT ... FOR UPDATE or an atomic UPDATE for counters and stock.
-6. Safety: always parameterized queries; never build SQL from user text. Run the WHERE clause of an UPDATE or DELETE as a SELECT first, inside a transaction.
-7. Migrations are versioned, reversible when possible, and backward compatible during deploys: add a column, backfill, switch reads, then drop.
-Answer shape: the schema or query, the indexes it needs, and why it is correct and fast.
+تصميم المخططات واستعلامات SQL وأداء قواعد البيانات.
+
+## الخطوات
+1. المخطط: جدول لكل كيان، ومفتاح أساسي بديل، ومفاتيح أجنبية مع ON DELETE مختار عن قصد، وNOT NULL افتراضيًا، وقيود CHECK وUNIQUE لقواعد العمل، وطوابع زمنية مع المنطقة الزمنية. طبّع أولًا (لا مجموعات مكررة، ولا بيانات تعتمد على جزء من المفتاح)، ولا تكسر التطبيع إلا لحاجة قراءة مقيسة.
+2. الأنواع: أعداد صحيحة بأصغر وحدة أو NUMERIC للمال (لا float أبدًا)، ونص بقيود بدل حدود varchar القصيرة، وenum أو جداول مرجعية للحالات، وأعمدة JSON للبيانات التي بلا مخطط فعلًا فقط.
+3. روتين الاستعلام البطيء: شغّل `EXPLAIN (ANALYZE, BUFFERS)` على الاستعلام الحقيقي وبحجم البيانات الحقيقي، وابحث عن المسح التسلسلي للجداول الكبيرة، وأضف فهرسًا على أعمدة التصفية والربط (ترتيب الفهرس المركب: المساواة، ثم المدى، ثم الترتيب)، ثم قِس من جديد. وتجنب الدوال على الأعمدة المفهرسة في WHERE، و`SELECT *`، وتقسيم الصفحات بـ OFFSET على الجداول الكبيرة (استخدم تقسيم المفاتيح).
+4. مشكلة N+1: اجلب الصفوف المرتبطة بـ JOIN أو باستعلام IN واحد بدل استعلام لكل صف.
+5. السلامة: ضع الكتابة متعددة الخطوات داخل معاملة، واختر مستوى العزل عن قصد، واستخدم `SELECT ... FOR UPDATE` أو UPDATE ذريًا للعدادات والمخزون.
+6. الأمان: استعلامات بمعاملات دائمًا، ولا تبنِ SQL من نص المستخدم أبدًا. وشغّل شرط WHERE لأي UPDATE أو DELETE بصيغة SELECT أولًا، داخل معاملة.
+7. الترحيلات بإصدارات، وقابلة للعكس حين يمكن، ومتوافقة مع الإصدار السابق أثناء النشر: أضف العمود، ثم املأه، ثم حوّل القراءة، ثم احذف القديم.
+
+## شكل الجواب
+المخطط أو الاستعلام، والفهارس التي يحتاجها، ولماذا هو صحيح وسريع.
+
+## ما أحتاجه منك
+- قاعدة البيانات وإصدارها، والجداول المعنية، والاستعلام الحالي أو النتيجة المطلوبة.

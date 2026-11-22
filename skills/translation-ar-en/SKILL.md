@@ -1,16 +1,23 @@
 ---
 name: الترجمة والتوطين
 description: ترجمة النصوص للعربية والإنجليزية وبالعكس والتوطين: ترجمة رسمية وتسويقية وتقنية وقانونية، اللهجات والفصحى، المصطلحات، أسلوب السوق السعودي والخليجي والمصري. translation translate translator localization localize msa dialect terminology subtitles ترجمة الترجمة ترجم مترجم التوطين توطين للإنجليزية للعربية بالإنجليزي بالعربي الفصحى اللهجة اللهجات
-version: 1.0.0
+version: 1.1.0
 category: languages
 ---
-Use this to translate between Arabic and English or adapt content for a market.
-1. Clarify purpose, audience and register: official or legal, marketing, technical, conversational; MSA or a dialect (Gulf, Saudi, Egyptian, Levantine, Maghrebi); British or American English.
-2. Translate meaning, not words: rebuild sentences so they read naturally. Arabic often prefers verbal sentences and linked clauses; English prefers shorter sentences in subject-verb order.
-3. Keep exactly: names, numbers, dates, amounts, product names, code, units and legal references. Convert date and number formats only when asked or when the audience requires it, and keep currencies explicit.
-4. Terminology: established terms of the field, one translation per term throughout, and the English term in brackets after the Arabic on first use in technical texts.
-5. Marketing and website localization: adapt tone, idioms, examples and calls to action to the market (Saudi customers respond to respectful, warm and concise phrasing; literal slogans rarely work), and check that measurements, prices, holidays and imagery fit.
-6. Legal and official texts: precise and close to the source where meaning binds; flag ambiguous source wording instead of choosing silently; recommend a certified translator when the document goes to an authority.
-7. Dialect to MSA and back: keep meaning and politeness level, and flag words without a direct equivalent.
-8. Check: read the translation alone for fluency, then against the source for omissions, additions and numbers.
-Answer shape: the translation only, then a short note on choices or ambiguities when useful.
+الترجمة بين العربية والإنجليزية، أو تكييف المحتوى لسوق معين.
+
+## الخطوات
+1. وضّح الغرض والجمهور والمستوى: رسمي أو قانوني، أو تسويقي، أو تقني، أو حواري؛ والفصحى أو لهجة (خليجية، أو سعودية، أو مصرية، أو شامية، أو مغاربية)؛ والإنجليزية البريطانية أو الأمريكية.
+2. ترجم المعنى لا الكلمات: أعد بناء الجمل لتُقرأ بشكل طبيعي. العربية تفضّل غالبًا الجمل الفعلية والعبارات المترابطة، والإنجليزية تفضّل جملًا أقصر بترتيب الفاعل ثم الفعل.
+3. احفظ بدقة: الأسماء، والأرقام، والتواريخ، والمبالغ، وأسماء المنتجات، والكود، والوحدات، والمراجع القانونية. ولا تحوّل صيغ التواريخ والأرقام إلا عند الطلب أو حين يقتضيه الجمهور، وأبقِ العملات صريحة.
+4. المصطلحات: المصطلحات المستقرة في المجال، وترجمة واحدة لكل مصطلح في النص كله، والمصطلح الإنجليزي بين قوسين بعد العربي عند أول ذكر في النصوص التقنية.
+5. التسويق وتعريب المواقع: كيّف النبرة والتعابير والأمثلة والدعوات إلى الإجراء للسوق (العميل السعودي يتجاوب مع الصياغة المحترمة الدافئة الموجزة، والشعارات الحرفية نادرًا ما تنجح)، وتأكد أن المقاييس والأسعار والعطل والصور تناسبه.
+6. النصوص القانونية والرسمية: دقيقة وقريبة من المصدر حيث يُلزم المعنى؛ ونبّه إلى الصياغة الملتبسة في المصدر بدل الاختيار بصمت؛ وانصح بمترجم معتمد حين يُقدَّم المستند إلى جهة رسمية.
+7. من اللهجة إلى الفصحى والعكس: حافظ على المعنى ومستوى التهذيب، ونبّه إلى الكلمات التي لا مقابل مباشرًا لها.
+8. الفحص: اقرأ الترجمة وحدها للسلاسة، ثم مقابل المصدر بحثًا عن الحذف والإضافة والأرقام.
+
+## شكل الجواب
+الترجمة وحدها، ثم ملاحظة قصيرة عن الاختيارات أو الالتباسات عند الفائدة.
+
+## ما أحتاجه منك
+- النص، واتجاه الترجمة، والجمهور والغرض، واللهجة أو نوع الإنجليزية المطلوب.

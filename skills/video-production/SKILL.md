@@ -1,16 +1,23 @@
 ---
 name: إنتاج الفيديو والمونتاج
 description: إنتاج الفيديو والمونتاج: التصوير، الفيديو القصير لتيك توك وريلز وشورتس، يوتيوب، السيناريو، الصوت، الإضاءة، القص، الترجمة على الفيديو، إعدادات التصدير. video videos editing editor premiere davinci capcut youtube tiktok reels shorts storyboard export subtitles فيديو الفيديو فيديوهات مونتاج المونتاج يوتيوب تيك توك تيكتوك ريلز
-version: 1.0.0
+version: 1.1.0
 category: media
 ---
-Use this for planning, shooting and editing videos, short or long.
-1. Plan from the goal and the platform: short vertical video (TikTok, Reels, Shorts: 9:16, 15 to 60 seconds), long YouTube video (16:9 with chapters), ads (brand and offer within the first seconds). Write a one-line idea, then a script or shot list.
-2. Short-form structure: a hook in the first one to two seconds (a bold claim, the result shown first, a question, movement), a new beat every two to three seconds, on-screen captions because most viewers watch muted, one clear call to action, and an ending that loops.
-3. Shooting: a stable camera (tripod or gimbal), light facing the subject (a window or a key light at 45 degrees), lens at eye level, a clean background, plenty of B-roll (hands, product, process), and ten seconds of room silence for noise cleanup.
-4. Sound matters more than image: a clip-on or shotgun microphone close to the speaker, a quiet room with soft furnishings, levels peaking around -12 to -6 dB.
-5. Editing: cut pauses and repeats, keep shots short, use J and L cuts for natural flow, add high-contrast captions, keep music well under speech (about 20 dB lower), correct color first and grade lightly after.
-6. Export: H.264 or H.265 MP4 at the footage's native resolution and frame rate (1080p or 4K; 24, 30 or 60 fps); a generous bitrate for YouTube (around 10 to 20 Mbps for 1080p30); AAC audio at 48 kHz; 1080 x 1920 for vertical platforms.
-7. YouTube packaging: a thumbnail with one clear subject and few large words, and a title whose promise the video keeps.
-8. Use only licensed music, footage and fonts, and get permission from the people filmed.
-Answer shape: a script or shot list with timings, then shooting and editing notes and export settings.
+تخطيط الفيديوهات وتصويرها ومونتاجها، القصيرة والطويلة.
+
+## الخطوات
+1. خطط من الهدف والمنصة: فيديو عمودي قصير (TikTok وReels وShorts: بنسبة 9:16 ومن 15 إلى 60 ثانية)، أو فيديو YouTube طويل (16:9 مع فصول)، أو إعلانات (العلامة والعرض في الثواني الأولى). اكتب الفكرة في سطر، ثم نصًا أو قائمة لقطات.
+2. بنية الفيديو القصير: خطّاف في أول ثانية أو ثانيتين (ادعاء جريء، أو النتيجة أولًا، أو سؤال، أو حركة)، وإيقاع جديد كل ثانيتين إلى ثلاث، وترجمة مكتوبة على الشاشة لأن معظم المشاهدين يشاهدون بلا صوت، ودعوة واحدة واضحة إلى الإجراء، ونهاية تعيد الحلقة.
+3. التصوير: كاميرا ثابتة (حامل ثلاثي أو مثبّت)، وضوء يواجه الموضوع (نافذة أو ضوء رئيسي بزاوية 45 درجة)، والعدسة بمستوى العين، وخلفية نظيفة، ولقطات إضافية كثيرة (اليدان، والمنتج، والعملية)، وعشر ثوانٍ من صمت الغرفة لتنظيف الضجيج.
+4. الصوت أهم من الصورة: ميكروفون مشبك أو موجّه قريب من المتحدث، وغرفة هادئة بأثاث ناعم، وقمم مستوى بين −12 و−6 ديسيبل.
+5. المونتاج: احذف الوقفات والتكرار، واجعل اللقطات قصيرة، واستخدم قطعات J وL لتدفق طبيعي، وأضف ترجمة عالية التباين، وأبقِ الموسيقى أخفض كثيرًا من الكلام (بنحو 20 ديسيبل)، وصحّح الألوان أولًا ثم لوّن بخفة.
+6. التصدير: MP4 بترميز H.264 أو H.265 بدقة المادة الأصلية ومعدل إطاراتها (1080p أو 4K؛ و24 أو 30 أو 60 إطارًا في الثانية)؛ ومعدل بت سخي ليوتيوب (نحو 10 إلى 20 ميجابت في الثانية لـ 1080p30)؛ وصوت AAC بتردد 48 كيلوهرتز؛ و1080 × 1920 للمنصات العمودية.
+7. تغليف YouTube: صورة مصغرة بموضوع واحد واضح وكلمات قليلة كبيرة، وعنوان يفي الفيديو بوعده.
+8. استخدم موسيقى ولقطات وخطوطًا مرخصة فقط، واحصل على إذن من يظهرون في التصوير.
+
+## شكل الجواب
+نص أو قائمة لقطات بالتوقيت، ثم ملاحظات التصوير والمونتاج وإعدادات التصدير.
+
+## ما أحتاجه منك
+- الهدف والمنصة، والمدة، والمعدات المتوفرة، وفكرة الفيديو أو موضوعه.

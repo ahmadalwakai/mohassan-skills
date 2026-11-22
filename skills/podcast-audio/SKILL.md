@@ -1,16 +1,23 @@
 ---
 name: الصوت والبودكاست
 description: تسجيل الصوت والبودكاست والتعليق الصوتي: الميكروفون، عزل الغرفة، إزالة الضوضاء والصدى، المونتاج الصوتي، مستوى الصوت، النشر على منصات البودكاست. podcast podcasts audio voice recording microphone mic noise echo reverb audacity audition levels lufs voiceover بودكاست البودكاست صوتي الصوتي ميكروفون مايك ضوضاء الضوضاء صدى الصدى تسجيل
-version: 1.0.0
+version: 1.1.0
 category: media
 ---
-Use this for recording, cleaning and publishing spoken audio.
-1. Room before gear: a small furnished room (curtains, rugs, a sofa, a wardrobe full of clothes) beats a bare room with an expensive microphone. Switch off fans and air conditioning while recording.
-2. Microphone: for home studios a dynamic USB or XLR microphone rejects room noise better than a condenser. Keep it 5 to 10 cm from the mouth, slightly off-axis, with a pop filter. Record each speaker on a separate track.
-3. Levels: speech peaking around -12 to -6 dBFS, never clipping; masters as 48 kHz, 24-bit WAV.
-4. Cleanup order (Audacity, Adobe Audition, Descript, iZotope RX): cut mistakes and long pauses; reduce noise using a sample of room silence, gently to avoid a robotic sound; de-reverb if needed; EQ (high-pass near 80 Hz, less mud around 200 to 400 Hz, a little presence around 3 to 5 kHz); de-ess; compress for even volume; finish with a limiter.
-5. Loudness for publishing: about -16 LUFS integrated for stereo podcasts (-19 for mono), true peak at or below -1 dBTP.
-6. Format: a clear premise and audience, consistent length and release schedule, a 30-second opening that says what the episode delivers, segments, and a call to action at the end.
-7. Publishing: a podcast host creates the RSS feed, which is then submitted to Apple Podcasts, Spotify and other directories; square cover art at 3000 x 3000 px; searchable episode titles and show notes; transcripts for accessibility and search.
-8. Guests: written or recorded consent, and licensed music only.
-Answer shape: equipment and room advice for the budget, the processing chain with settings, then publishing steps.
+تسجيل الصوت المنطوق وتنظيفه ونشره، كالبودكاست والتعليق الصوتي.
+
+## الخطوات
+1. الغرفة قبل المعدات: غرفة صغيرة مؤثثة (ستائر، وسجاد، وأريكة، وخزانة ملابس ممتلئة) أفضل من غرفة فارغة مع ميكروفون غالٍ. وأطفئ المراوح والمكيف أثناء التسجيل.
+2. الميكروفون: في الاستوديو المنزلي يرفض الميكروفون الديناميكي (USB أو XLR) ضجيج الغرفة أفضل من المكثف. ضعه على بعد 5 إلى 10 سم من الفم، مائلًا قليلًا عن محوره، مع مرشح للنفخات. وسجّل كل متحدث على مسار منفصل.
+3. المستويات: قمم الكلام بين −12 و−6 dBFS دون تشبع أبدًا، والنسخ الأصلية بصيغة WAV بتردد 48 كيلوهرتز وعمق 24 بت.
+4. ترتيب التنظيف (Audacity أو Adobe Audition أو Descript أو iZotope RX): قص الأخطاء والوقفات الطويلة؛ ثم تقليل الضجيج بعينة من صمت الغرفة وبرفق لتجنب الصوت الآلي؛ ثم إزالة الصدى عند الحاجة؛ ثم المعادلة (تمرير عالٍ قرب 80 هرتز، وتخفيف الطين حول 200 إلى 400 هرتز، وحضور خفيف حول 3 إلى 5 كيلوهرتز)؛ ثم تخفيف حروف الصفير؛ ثم الضغط لتوحيد الارتفاع؛ وأخيرًا المحدِّد.
+5. علو الصوت للنشر: نحو −16 LUFS متكاملة للبودكاست الستيريو (−19 للأحادي)، والقمة الحقيقية عند −1 dBTP أو أقل.
+6. الشكل: فكرة وجمهور واضحان، وطول وجدول نشر ثابتان، وافتتاحية 30 ثانية تقول ما تقدمه الحلقة، وفقرات، ودعوة إلى الإجراء في النهاية.
+7. النشر: منصة استضافة تنشئ خلاصة RSS تُقدَّم بعدها إلى Apple Podcasts وSpotify والأدلة الأخرى؛ وغلاف مربع بمقاس 3000 × 3000 بكسل؛ وعناوين حلقات وملاحظات قابلة للبحث؛ ونصوص مكتوبة لسهولة الوصول والبحث.
+8. الضيوف: موافقة مكتوبة أو مسجلة، وموسيقى مرخصة فقط.
+
+## شكل الجواب
+نصائح المعدات والغرفة حسب الميزانية، ثم سلسلة المعالجة بإعداداتها، ثم خطوات النشر.
+
+## ما أحتاجه منك
+- نوع المحتوى، وعدد المتحدثين، والمعدات المتوفرة، والميزانية.

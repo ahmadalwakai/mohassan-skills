@@ -1,16 +1,23 @@
 ---
 name: أبحاث السوق والمنافسين والاستبيانات
 description: دراسة السوق وتحليل المنافسين والعملاء والاستبيانات: حجم السوق، الشريحة المستهدفة، المنافسون، أسعار السوق، مقابلات العملاء، أسئلة الاستبيان، الطلب. market competitors competitor competitive survey surveys questionnaire audience demand tam sam som السوق المنافسين منافسين المنافسون استبيان استبيانات الاستبيان الشريحة المستهدفة الطلب
-version: 1.0.0
+version: 1.1.0
 category: research
 ---
-Use this to understand a market, its customers and its competitors before a decision.
-1. Define the decision the research supports (enter a market, launch a product, set prices, choose a location) and the questions that will decide it.
-2. Desk research first: industry reports, government statistics, trade associations, competitors' sites and reviews, search trends and keyword volumes, and social media conversations.
-3. Size the market bottom-up: potential customers × the share realistically reachable × purchase frequency × average price. Show TAM, SAM and SOM with stated assumptions; avoid top-down "one percent of a huge market" estimates.
-4. Competitors: list direct and indirect ones and compare offer, price, location, channels and reviews (what customers praise and complain about); find a gap you can own.
-5. Customer research: 5 to 15 interviews with real target customers about current behaviour, problems, alternatives and what they pay, then a survey to quantify.
-6. Survey design: one purpose per question, neutral wording, one idea per question, answer options that do not overlap, consistent scales (for example 1 to 5), screening questions first, under about ten minutes, and a pilot before sending; no leading or double-barrelled questions.
-7. Local businesses: visit competitors, count footfall at the site at different times, check rents and permits.
-8. Test demand cheaply before investing: a landing page, pre-orders, a pop-up or a small ad test.
-Answer shape: the research plan or a findings table, then what it means for the decision and the open questions.
+فهم السوق وعملائه ومنافسيه قبل اتخاذ قرار.
+
+## الخطوات
+1. حدّد القرار الذي يخدمه البحث (دخول سوق، أو إطلاق منتج، أو تحديد أسعار، أو اختيار موقع) والأسئلة التي ستحسمه.
+2. البحث المكتبي أولًا: تقارير القطاع، والإحصاءات الحكومية، والجمعيات المهنية، ومواقع المنافسين ومراجعاتهم، واتجاهات البحث وأحجام الكلمات، ونقاشات وسائل التواصل.
+3. قدّر حجم السوق من الأسفل إلى الأعلى: العملاء المحتملون × الحصة الممكن بلوغها واقعيًا × تكرار الشراء × متوسط السعر. اعرض TAM وSAM وSOM بافتراضات معلنة، وتجنب تقديرات «1% من سوق ضخمة».
+4. المنافسون: اسرد المباشرين وغير المباشرين، وقارن العرض والسعر والموقع والقنوات والمراجعات (ما يمدحه العملاء وما يشكون منه)، وابحث عن فجوة يمكنك امتلاكها.
+5. بحث العملاء: من 5 إلى 15 مقابلة مع عملاء مستهدفين حقيقيين عن سلوكهم الحالي ومشكلاتهم وبدائلهم وما يدفعونه، ثم استبيان لقياس ذلك كميًا.
+6. تصميم الاستبيان: غرض واحد وفكرة واحدة لكل سؤال، وصياغة محايدة، وخيارات إجابة لا تتداخل، ومقاييس ثابتة (مثل 1 إلى 5)، وأسئلة الفرز أولًا، ومدة أقل من نحو عشر دقائق، وتجربة أولية قبل التوزيع؛ ولا أسئلة موجِّهة أو مزدوجة.
+7. الأنشطة المحلية: زر المنافسين، وعدّ المارة عند الموقع في أوقات مختلفة، وتحقق من الإيجارات والتصاريح.
+8. اختبر الطلب بتكلفة قليلة قبل الاستثمار: صفحة هبوط، أو طلبات مسبقة، أو ركن مؤقت، أو اختبار إعلاني صغير.
+
+## شكل الجواب
+خطة البحث أو جدول النتائج، ثم ما تعنيه للقرار، والأسئلة التي ما زالت مفتوحة.
+
+## ما أحتاجه منك
+- القرار المطلوب، والمنتج أو الخدمة، والسوق الجغرافية، والميزانية المتاحة للبحث.

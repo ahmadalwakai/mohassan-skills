@@ -1,16 +1,23 @@
 ---
 name: رسم بياني ومخططات
 description: الرسوم البيانية وتصوير البيانات: اختيار نوع المخطط، الأعمدة، الخطوط، الدائري، لوحات المعلومات dashboards، الألوان، التسميات، إبراز الأرقام بوضوح. chart charts graph visualization visualisation plot plots dashboard dashboards infographic bar pie scatter histogram بياني البياني الرسوم البيانية رسوم مخطط مخططات المخطط إنفوجرافيك
-version: 1.0.0
+version: 1.1.0
 category: analytics
 ---
-Use this to choose and design charts and dashboards that communicate clearly.
-1. Start from the message: write the one sentence the chart must prove ("March sales fell 18% after the price rise"), then choose the form.
-2. Chart choice: change over time → line (columns for few periods); comparing categories → horizontal bars sorted by value; part of a whole → stacked bar, or a pie with two to four slices at most; distribution → histogram or box plot; relationship → scatter plot; geography → a map only when location matters; exact values → a table.
-3. Remove clutter: no 3D, light or no gridlines, few decimals, direct labels instead of legends where possible, bar axes starting at zero.
-4. Color with purpose: one highlight color for the key series and greys for context, colorblind-safe palettes, the same color for the same category across charts, never red and green as the only distinction.
-5. The title states the finding, the subtitle states units and period, the source sits at the bottom.
-6. Honest scales: identical axes when charts are compared side by side, per-capita or percentage figures when group sizes differ.
-7. Dashboards: three to five headline KPIs at the top compared with target or previous period, trends below, details and filters last, the main view on one screen, every metric defined.
-8. Arabic charts: right-to-left order for categories and legends, an Arabic-capable font, consistent digits.
-Answer shape: the recommended chart type and why, a spec (axes, series, colors, title) or code (for example matplotlib or a spreadsheet chart), and the takeaway sentence.
+اختيار الرسوم البيانية ولوحات المؤشرات وتصميمها لتوصل الرسالة بوضوح.
+
+## الخطوات
+1. ابدأ بالرسالة: اكتب الجملة الواحدة التي يجب أن يثبتها الرسم («هبطت مبيعات مارس 18% بعد رفع السعر»)، ثم اختر الشكل.
+2. اختيار الرسم: التغير عبر الزمن ← خط (أو أعمدة للفترات القليلة)؛ مقارنة فئات ← أشرطة أفقية مرتبة بالقيمة؛ جزء من كل ← شريط مكدس، أو دائرة بشريحتين إلى أربع فقط؛ التوزيع ← مدرج تكراري أو مخطط صندوقي؛ العلاقة ← مخطط انتشار؛ الجغرافيا ← خريطة فقط حين يهم الموقع؛ القيم الدقيقة ← جدول.
+3. أزل الزحام: لا رسوم ثلاثية الأبعاد، وخطوط شبكة خفيفة أو لا شيء، وكسور عشرية قليلة، وتسميات مباشرة بدل وسيلة الإيضاح حين يمكن، ومحاور الأشرطة تبدأ من الصفر.
+4. اللون بقصد: لون إبراز واحد للسلسلة الأهم ورماديات للسياق، ولوحات آمنة لعمى الألوان، واللون نفسه للفئة نفسها في كل الرسوم، ولا يكون الأحمر والأخضر الفارق الوحيد أبدًا.
+5. العنوان يذكر النتيجة، والعنوان الفرعي يذكر الوحدات والفترة، والمصدر في الأسفل.
+6. مقاييس أمينة: محاور متطابقة حين تُقارن الرسوم جنبًا إلى جنب، ونسب مئوية أو أرقام للفرد حين تختلف أحجام المجموعات.
+7. اللوحات: من ثلاثة إلى خمسة مؤشرات رئيسية في الأعلى مقارنة بالهدف أو الفترة السابقة، والاتجاهات تحتها، والتفاصيل والمرشحات أخيرًا، والعرض الرئيسي في شاشة واحدة، وكل مقياس معرَّف.
+8. الرسوم العربية: ترتيب الفئات ووسيلة الإيضاح من اليمين إلى اليسار، وخط يدعم العربية، وأرقام موحدة.
+
+## شكل الجواب
+نوع الرسم الموصى به وسببه، ثم مواصفاته (المحاور، والسلاسل، والألوان، والعنوان) أو كوده (مثل matplotlib أو رسم في جدول بيانات)، ثم الجملة الخلاصة.
+
+## ما أحتاجه منك
+- البيانات أو وصفها، والرسالة التي تريد إيصالها، وأين سيُعرض الرسم.

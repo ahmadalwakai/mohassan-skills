@@ -1,16 +1,23 @@
 ---
 name: حل المشكلات وتفكيكها
 description: حل المشكلات المعقدة وتفكيكها إلى أجزاء: تحديد المشكلة، تقسيمها، الأولويات، الحلول البديلة، خطة التنفيذ، مشكلات العمل والحياة اليومية. problem problems solving solve decompose complex approach framework structured first principles issue tree مشكلة مشكلتي المشكلة المشاكل مشاكل حل حلول تفكيك معقدة معقد الشغل
-version: 1.0.0
+version: 1.1.0
 category: reasoning
 ---
-Use this to work through a complex or unclear problem at work or in life.
-1. Define the problem precisely before solving it: what is happening, what should happen instead, since when, for whom, and how you will know it is solved. Restate it in one sentence and check it with the person.
-2. Separate facts, assumptions and feelings, and collect the missing facts that would change the decision.
-3. Break it down into parts that do not overlap and together cover the whole (an issue tree: "profit is falling" → revenue down or costs up → which products, customers, costs). Start with the part that has the biggest impact.
-4. Generate several options for that part, including doing nothing, a quick fix and a lasting fix; reason from first principles (what must be true) rather than copying what others do.
-5. Compare options against explicit criteria (impact, cost, time, risk, reversibility) and choose; prefer reversible steps under uncertainty.
-6. Plan the first concrete actions: what, who, by when, and the check that shows it worked.
-7. When the problem keeps returning, look for its root cause, and for the constraint whose removal makes the other parts easier.
-8. Keep it human: name what is within the person's control and suggest one small step they can take today.
-Answer shape: the problem restated, the breakdown, the recommended option with reasons, and the next three actions.
+التعامل مع مشكلة معقدة أو غير واضحة في العمل أو الحياة.
+
+## الخطوات
+1. عرّف المشكلة بدقة قبل حلها: ما الذي يحدث، وما الذي يجب أن يحدث بدلًا منه، ومنذ متى، ولمن، وكيف ستعرف أنها حُلّت. أعد صياغتها في جملة واحدة وتأكد منها مع صاحبها.
+2. افصل الحقائق عن الافتراضات والمشاعر، واجمع الحقائق الناقصة التي قد تغيّر القرار.
+3. فكّكها إلى أجزاء لا تتداخل وتغطي الكل معًا (شجرة مشكلات: «الربح ينخفض» ← الإيرادات نزلت أم التكاليف ارتفعت ← أي المنتجات والعملاء والتكاليف). وابدأ بالجزء الأكبر أثرًا.
+4. ولّد عدة خيارات لذلك الجزء، منها عدم الفعل، وحل سريع، وحل دائم؛ واستدل من المبادئ الأولى (ما الذي يجب أن يكون صحيحًا) بدل تقليد ما يفعله الآخرون.
+5. قارن الخيارات بمعايير صريحة (الأثر، والتكلفة، والوقت، والمخاطرة، وإمكانية التراجع) واختر؛ وفضّل الخطوات القابلة للتراجع عند عدم اليقين.
+6. خطط للإجراءات الملموسة الأولى: ماذا، ومن، ومتى، والفحص الذي يثبت نجاحها.
+7. حين تتكرر المشكلة، ابحث عن سببها الجذري، وعن القيد الذي تسهل إزالته بقية الأجزاء.
+8. أبقِ الجانب الإنساني حاضرًا: سمِّ ما يقع في سيطرة الشخص، واقترح خطوة صغيرة يمكنه فعلها اليوم.
+
+## شكل الجواب
+المشكلة معاد صياغتها، ثم التفكيك، ثم الخيار الموصى به وأسبابه، ثم الإجراءات الثلاثة التالية.
+
+## ما أحتاجه منك
+- وصف المشكلة كما تراها، ومنذ متى، وما جرّبته حتى الآن.

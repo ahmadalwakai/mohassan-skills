@@ -1,16 +1,24 @@
 ---
 name: حماية الحسابات والأجهزة
 description: حماية الحسابات والأجهزة: التحقق بخطوتين، مدير كلمات المرور، استرجاع حساب مخترق، إنستغرام، واتساب، البريد، الجوال، الفيروسات، النسخ الاحتياطي. hacked hack recovery recover 2fa authenticator manager passkey antivirus malware ransomware backup instagram whatsapp gmail حساب حسابي مخترق مخترقة اخترق انسرق سرقة استرجاع استرداد فيروس فيروسات
-version: 1.0.0
+version: 1.1.0
 category: security
 ---
-Use this for protecting accounts and devices, or recovering a hacked account.
-1. Hacked account: use the platform's official recovery flow from its app or site; change the password from a clean device; sign out all other sessions; check and correct the recovery email and phone, connected apps, mail forwarding rules and payment details; then turn on two-factor sign-in.
-2. WhatsApp: register the number again to push the intruder out, set a two-step verification PIN, and warn contacts that requests for money or codes did not come from you.
-3. Email is the master key, because every other password reset lands there; secure it first.
-4. Strong setup: a password manager with a unique long password per site; two-factor sign-in with an authenticator app, passkeys or a security key (SMS only when nothing else exists); backup codes kept offline.
-5. Devices: automatic system and app updates, a screen lock with a strong PIN, encryption on (default on modern phones), apps only from official stores, unused apps removed, permissions reviewed.
-6. Malware signs: sudden pop-ups, unknown apps, battery drain, settings that change by themselves. Run the built-in tools (Windows Security, Play Protect), remove suspicious apps, and reset the device after backing up data if doubt remains.
-7. Backups against theft and ransomware: the 3-2-1 rule (three copies, two media, one offsite or in the cloud), at least one copy not permanently connected, and a restore that has been tested.
-8. Public Wi-Fi: prefer mobile data or a trusted VPN for sensitive accounts.
-Answer shape: urgent steps first (stop the damage), then hardening steps, as a numbered checklist.
+حماية الحسابات والأجهزة، واستعادة حساب مخترَق خطوة بخطوة.
+
+## الخطوات
+1. حساب مخترَق: استخدم مسار الاستعادة الرسمي من تطبيق المنصة أو موقعها، وغيّر كلمة المرور من جهاز سليم، وأنهِ الجلسات الأخرى كلها، وراجع البريد والهاتف الاحتياطيين والتطبيقات المرتبطة وقواعد تحويل البريد وبيانات الدفع وصحّحها، ثم فعّل التحقق بخطوتين.
+2. واتساب: سجّل الرقم من جديد لإخراج المتطفل، وفعّل رمز التحقق بخطوتين، ونبّه جهات الاتصال إلى أن طلبات المال أو الرموز لم تصدر منك.
+3. البريد الإلكتروني أساس كل شيء، لأن استعادة كل حساب آخر تمر به؛ أمّنه أولًا.
+4. إعداد قوي: مدير كلمات مرور مع كلمة مرور طويلة فريدة لكل موقع؛ وتحقق بخطوتين بتطبيق مصادقة أو مفاتيح مرور (Passkeys) أو مفتاح أمان، والرسائل النصية فقط عند غياب البديل؛ ورموز احتياطية محفوظة دون اتصال.
+5. الأجهزة: تحديث تلقائي للنظام والتطبيقات، وقفل شاشة برمز قوي، وتشفير مفعّل، وتطبيقات من المتاجر الرسمية فقط، وحذف ما لا يُستخدم منها، ومراجعة الأذونات.
+6. علامات البرمجيات الخبيثة: نوافذ منبثقة مفاجئة، وتطبيقات مجهولة، واستنزاف للبطارية، وإعدادات تتغير وحدها. شغّل الأدوات المدمجة (Windows Security وPlay Protect) واحذف المشبوه، وأعد ضبط الجهاز بعد نسخ بياناتك إن بقي الشك.
+7. النسخ الاحتياطي ضد السرقة والفدية: قاعدة 3-2-1 (ثلاث نسخ، على وسيطين، وواحدة خارج المكان أو في السحابة)، ونسخة غير متصلة دائمًا، واستعادة مجرَّبة.
+8. شبكات Wi-Fi العامة: فضّل بيانات الجوال أو VPN موثوقًا للحسابات الحساسة.
+
+## شكل الجواب
+الخطوات العاجلة أولًا لإيقاف الضرر، ثم خطوات التحصين، في قائمة مرقمة.
+
+## ما أحتاجه منك
+- المنصة أو الجهاز المعني، وما الذي حدث بالضبط.
+- هل ما زلت تستطيع الدخول إلى الحساب؟

@@ -1,16 +1,23 @@
 ---
 name: تسويق الأعمال المحلية
 description: تسويق الأعمال والمحلات المحلية: ملف جوجل التجاري Google Business Profile، الخرائط، التقييمات، عملاء الحي والمدينة، المكالمات، الحجوزات، الإعلانات المحلية. local business profile maps reviews nearby neighbourhood calls bookings leads barber salon restaurant tradesmen محلي المحلي المحلية محل المحل محلات الحي حيي الخرائط التقييمات عملاء زبائن حلاقة
-version: 1.0.0
+version: 1.1.0
 category: marketing
 ---
-Use this to bring more local customers to a shop, salon, restaurant or service business.
-1. Google Business Profile first: the right primary and secondary categories, service area or address, hours (including holidays), phone, booking or quote link, services with prices or ranges, fresh real photos, weekly posts, answered questions. It drives most map and "near me" results.
-2. Reviews: ask every happy customer right after the job with a direct review link or QR code, and reply to all reviews; never buy or fake them or reward only positive ones.
-3. Consistency: the same business name, address and phone on the website, directories (Apple Maps, Bing Places, Yelp, local and trade directories) and social profiles.
-4. Website for local intent: city and area in titles and headings, a page per main service and area with unique content, click-to-call, visible prices or price guidance, a booking form, reviews and photos of local work.
-5. Paid local ads: search ads on high-intent terms with location targeting and call assets; Local Services Ads where available; small social ads around the shop's radius for offers and events.
-6. Community: partnerships with nearby businesses, leaflets in the right streets, sponsorship of local teams or events, and a referral reward for existing customers.
-7. Retention: rebooking reminders by SMS or WhatsApp with consent, and replies to enquiries within minutes, not hours.
-8. Track where each customer came from (ask, call tracking, unique offers) and spend more where customers come from.
-Answer shape: a 30-day action plan in priority order, starting with the profile and review steps.
+جلب مزيد من العملاء المحليين إلى متجر أو صالون أو مطعم أو نشاط خدمي.
+
+## الخطوات
+1. ملف النشاط التجاري على Google أولًا: الفئة الرئيسية والثانوية الصحيحتان، ونطاق الخدمة أو العنوان، وساعات العمل (والعطل)، والهاتف، ورابط الحجز أو طلب السعر، والخدمات بأسعارها أو نطاقاتها، وصور حقيقية حديثة، ومنشورات أسبوعية، وأسئلة مجاب عنها. هذا الملف يقود معظم نتائج الخرائط وعمليات البحث عن «بالقرب مني».
+2. المراجعات: اطلب من كل عميل راضٍ تقييمًا بعد العمل مباشرة برابط مباشر أو رمز QR، ورد على كل المراجعات؛ ولا تشترِ مراجعات ولا تزيّفها ولا تكافئ الإيجابية منها وحدها.
+3. الاتساق: الاسم والعنوان والهاتف نفسها في الموقع، والأدلة (Apple Maps، وBing Places، وYelp، والأدلة المحلية والمهنية)، وحسابات التواصل الاجتماعي.
+4. موقع للبحث المحلي: المدينة والحي في العناوين، وصفحة لكل خدمة ومنطقة رئيسية بمحتوى فريد، واتصال بلمسة، وأسعار أو إرشاد للأسعار ظاهر، ونموذج حجز، ومراجعات وصور لأعمال محلية.
+5. الإعلانات المحلية المدفوعة: إعلانات بحث على العبارات عالية النية مع استهداف جغرافي وإضافات الاتصال، وإعلانات الخدمات المحلية حيث تتوفر، وإعلانات اجتماعية صغيرة حول نطاق المتجر للعروض والفعاليات.
+6. المجتمع: شراكات مع أنشطة مجاورة، ومنشورات ورقية في الشوارع المناسبة، ورعاية فرق أو فعاليات محلية، ومكافأة إحالة للعملاء الحاليين.
+7. الاحتفاظ بالعملاء: تذكير بإعادة الحجز برسالة نصية أو واتساب بموافقة العميل، ورد على الاستفسارات خلال دقائق لا ساعات.
+8. تتبّع مصدر كل عميل (السؤال، وتتبع المكالمات، والعروض الخاصة) وزد الإنفاق حيث يأتي العملاء.
+
+## شكل الجواب
+خطة عمل لثلاثين يومًا مرتبة حسب الأولوية، تبدأ بخطوات الملف والمراجعات.
+
+## ما أحتاجه منك
+- نوع النشاط، والمدينة والحي، وهل لديك ملف على Google وموقع إلكتروني.

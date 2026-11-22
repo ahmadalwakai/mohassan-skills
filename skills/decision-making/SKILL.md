@@ -1,16 +1,23 @@
 ---
 name: اتخاذ القرار والمفاضلة
 description: اتخاذ القرارات والمفاضلة والاختيار: الحيرة في الاختيار، خياران أو أكثر، الإيجابيات والسلبيات، مصفوفة القرار، المخاطر، قرارات العمل والوظيفة والحياة، القرارات الصعبة. decision decisions decide deciding choose choice options pros cons tradeoffs matrix weighted regret dilemma قرار القرار قرارات أقرر اقرر محتار محتارة حائر الخيارات خيارين المفاضلة الإيجابيات السلبيات
-version: 1.0.0
+version: 1.1.0
 category: reasoning
 ---
-Use this to help someone make a hard choice between options.
-1. Clarify the decision and its deadline: what exactly is being chosen, what happens if nothing is decided, and whether it can be reversed (reversible decisions deserve speed, irreversible ones care).
-2. Make the options explicit and look for a better third one: combine, delay, test first, negotiate.
-3. Find what matters to this person: list the criteria (income, growth, stability, location, family time, values, risk tolerance) and ask them to rank or weight them.
-4. Score each option against the criteria in a simple weighted matrix, then compare the result with intuition; a mismatch often reveals a hidden criterion.
-5. Downside thinking: the worst realistic case for each option, how likely it is, whether it is survivable, and what would have to be true for each option to be right.
-6. Useful lenses: 10-10-10 (how it will feel in 10 days, 10 months, 10 years), regret minimization, and what they would advise a friend.
-7. Career moves such as quitting to start a business: a savings runway of often 6 to 12 months of expenses, testing the business on the side first, and a realistic path back if it fails.
-8. The choice is theirs: when asked, give a clear recommendation with reasons and the conditions under which the other option would win.
-Answer shape: a short comparison table or weighted matrix, the recommendation with reasons, and the one fact worth checking before deciding.
+مساعدة شخص على اتخاذ قرار صعب بين خيارات.
+
+## الخطوات
+1. وضّح القرار وموعده: ما الذي يُختار بالضبط، وماذا يحدث إن لم يُتخذ قرار، وهل يمكن التراجع عنه (القرار القابل للعكس يستحق السرعة، وغير القابل يستحق التأني).
+2. اجعل الخيارات صريحة وابحث عن خيار ثالث أفضل: الدمج، أو التأجيل، أو التجربة أولًا، أو التفاوض.
+3. اعرف ما يهم هذا الشخص: اسرد المعايير (الدخل، والنمو، والاستقرار، والمكان، ووقت العائلة، والقيم، وتحمّل المخاطرة) واطلب ترتيبها أو وزنها.
+4. قيّم كل خيار مقابل المعايير في مصفوفة موزونة بسيطة، ثم قارن النتيجة بالحدس؛ الاختلاف بينهما يدل غالبًا على معيار خفي.
+5. فكّر في الأسوأ: أسوأ حالة واقعية لكل خيار، واحتمالها، وهل يمكن تحمّلها، وما الذي يجب أن يكون صحيحًا ليكون كل خيار هو الصواب.
+6. عدسات مفيدة: 10-10-10 (كيف سيبدو بعد 10 أيام و10 أشهر و10 سنوات)، وتقليل الندم، وبماذا كان سينصح صديقًا.
+7. تغيير المسار المهني مثل ترك الوظيفة لبدء مشروع: مدخرات تغطي غالبًا من 6 إلى 12 شهرًا من المصاريف، وتجربة المشروع جانبيًا أولًا، وطريق عودة واقعي إن فشل.
+8. القرار قراره: وحين يُطلب منك، قدّم توصية واضحة بأسبابها والشروط التي يفوز فيها الخيار الآخر.
+
+## شكل الجواب
+جدول مقارنة قصير أو مصفوفة موزونة، ثم التوصية وأسبابها، والحقيقة الواحدة التي تستحق التحقق قبل القرار.
+
+## ما أحتاجه منك
+- الخيارات المطروحة، وموعد القرار، وما يهمك أكثر من غيره.

@@ -1,17 +1,24 @@
 ---
 name: إدارة المشاريع
 description: إدارة المشاريع والفرق: التخطيط، المهام، الجدول الزمني، مواعيد التسليم، المخاطر، Agile، Scrum، Kanban، Waterfall، المتابعة، أدوات Trello وJira وAsana. project management manager planning tasks timeline deadlines milestones risks agile scrum kanban waterfall gantt sprint trello jira asana المشاريع مشروع أدير ادير مدير مهام المهام تسليم التسليم مواعيد
-version: 1.0.0
+version: 1.1.0
 category: business
 ---
-Use this to plan and run projects with deadlines, budgets and teams.
-1. Define the project on one page: goal, scope (in and out), deliverables, deadline, budget, stakeholders, constraints and how success is judged.
-2. Break the work down: deliverables into tasks of one to five days, each with an owner, an estimate and dependencies. Estimate in ranges and add contingency (often 15 to 25%) for unknowns.
-3. Schedule: order tasks by dependency, find the critical path (the chain that sets the end date), set milestones, keep the plan visible on a Gantt chart or a board.
-4. Choose the method: Waterfall for fixed, well-understood scope with external constraints (construction, events, regulated work); Agile (Scrum sprints of one to two weeks, or Kanban flow) for evolving products where feedback changes priorities; many teams combine fixed milestones with agile execution.
-5. Run it: a short weekly status (done, next, blockers, risks), a daily check-in for active teams, one task tool (Trello, Asana, Jira, Notion) as the single source of truth, decisions written down.
-6. Risk register: risk, likelihood, impact, owner, mitigation and trigger, reviewed weekly.
-7. Scope change: every new request is judged for its effect on time and cost and decided explicitly; silent scope creep is the main cause of missed deadlines.
-8. Small teams: clear roles (RACI for key decisions), balanced workload, fast unblocking, visible recognition.
-9. Close: deliver, get acceptance, run a short retrospective on what to keep and what to change.
-Answer shape: a plan (phases, tasks, owners, dates) or the requested artifact, plus the top risks and the meeting rhythm.
+تخطيط المشاريع وإدارتها بمواعيد وميزانيات وفرق.
+
+## الخطوات
+1. عرّف المشروع في صفحة: الهدف، والنطاق (ما يدخل وما يخرج)، والمخرجات، والموعد النهائي، والميزانية، وأصحاب المصلحة، والقيود، وكيف يُحكم على النجاح.
+2. فكّك العمل: المخرجات إلى مهام من يوم إلى خمسة أيام، لكل منها مسؤول وتقدير واعتماديات. قدّر بنطاقات وأضف احتياطيًا (غالبًا 15 إلى 25%) للمجهول.
+3. الجدولة: رتّب المهام حسب الاعتماديات، وحدّد المسار الحرج (السلسلة التي تحدد تاريخ الانتهاء)، وضع محطات، وأبقِ الخطة ظاهرة على مخطط Gantt أو لوحة مهام.
+4. اختر المنهج: الشلال (Waterfall) للنطاق الثابت المفهوم جيدًا مع قيود خارجية (البناء، والفعاليات، والأعمال المنظمة)؛ وAgile (سباقات Scrum من أسبوع إلى أسبوعين، أو تدفق Kanban) للمنتجات المتطورة حيث تغيّر الملاحظات الأولويات؛ وفرق كثيرة تجمع محطات ثابتة مع تنفيذ مرن.
+5. التشغيل: حالة أسبوعية قصيرة (ما أُنجز، والتالي، والعوائق، والمخاطر)، ولقاء يومي قصير للفرق النشطة، وأداة مهام واحدة (Trello أو Asana أو Jira أو Notion) مصدرًا وحيدًا للحقيقة، وقرارات مكتوبة.
+6. سجل المخاطر: الخطر، واحتماله، وأثره، ومسؤوله، وتخفيفه، ومؤشر وقوعه، ويُراجع أسبوعيًا.
+7. تغيير النطاق: كل طلب جديد يُقيَّم أثره على الوقت والتكلفة ويُحسم صراحة؛ والزحف الصامت للنطاق السبب الأول لتفويت المواعيد.
+8. الفرق الصغيرة: أدوار واضحة (RACI للقرارات المهمة)، وحمل عمل متوازن، وإزالة سريعة للعوائق، وتقدير ظاهر.
+9. الإغلاق: سلّم، واحصل على القبول، وأجرِ مراجعة قصيرة لما يُحتفظ به وما يُغيَّر.
+
+## شكل الجواب
+خطة (المراحل، والمهام، والمسؤولون، والتواريخ) أو المستند المطلوب، مع أهم المخاطر وإيقاع الاجتماعات.
+
+## ما أحتاجه منك
+- هدف المشروع وموعده، والفريق، والميزانية، وما أُنجز حتى الآن.

@@ -1,16 +1,23 @@
 ---
 name: تقييم المصادر والتحقق من المعلومات
 description: التحقق من الأخبار والمعلومات وتقييم المصادر: الإشاعات، الأخبار الكاذبة، مصداقية المواقع، صور مضللة، الأدلة، المصدر الأصلي. factcheck verify verification credibility reliable misinformation disinformation fake news rumor hoax إشاعة اشاعة إشاعات شائعة الكاذبة كاذب خبر مصداقية موثوق موثوقية مضلل المضللة التحقق
-version: 1.0.0
+version: 1.1.0
 category: research
 ---
-Use this to judge whether a claim, news item, image or website can be trusted.
-1. Identify the exact claim: who says what, when, and based on what. Restate vague claims precisely before checking them.
-2. Find the original source: trace quotes, statistics and screenshots back to the first publication (the study, the official statement, the full video). Many errors come from secondhand summaries.
-3. Read laterally: rather than judging a site by its own pages, search what independent sources say about it and about the claim; check the author, publisher, expertise, funding and track record.
-4. Corroborate: credible claims appear in several independent reliable sources (established news agencies, official bodies, peer-reviewed research). One source copied by many sites is still one source.
-5. Warning signs: old news recirculated, wrong location, emotional or sensational wording, missing evidence, numbers without a base, misleading charts, domains imitating known outlets.
-6. Images and video: reverse image search (Google Lens, TinEye), find the earliest copy, compare weather, signs and shadows with the claimed place and time, and suspect editing or AI generation when details do not add up.
-7. Science and health claims: systematic reviews and guidelines outweigh single studies; check sample size, whether the study was in humans, and whether the effect matters in practice.
-8. Grade the conclusion honestly: confirmed, likely, unproven, misleading or false, with the evidence for the grade.
-Answer shape: the verdict first, then the evidence with sources named, then what would change the verdict.
+الحكم على ما إذا كان ادعاء أو خبر أو صورة أو موقع جديرًا بالثقة.
+
+## الخطوات
+1. حدّد الادعاء بالضبط: من يقول ماذا، ومتى، وبناءً على ماذا. وأعد صياغة الادعاءات المبهمة بدقة قبل فحصها.
+2. جِد المصدر الأصلي: تتبّع الاقتباسات والإحصاءات ولقطات الشاشة إلى أول نشر (الدراسة، أو البيان الرسمي، أو الفيديو الكامل). أخطاء كثيرة تأتي من ملخصات منقولة.
+3. اقرأ أفقيًا: بدل الحكم على الموقع من صفحاته، ابحث عما تقوله مصادر مستقلة عنه وعن الادعاء، وافحص الكاتب والناشر والخبرة والتمويل والسجل السابق.
+4. التأكيد: الادعاءات الموثوقة تظهر في عدة مصادر مستقلة موثوقة (وكالات أنباء راسخة، وجهات رسمية، وأبحاث محكَّمة). ومصدر واحد نسخته مواقع كثيرة يبقى مصدرًا واحدًا.
+5. علامات التحذير: خبر قديم يُعاد تداوله، أو مكان خاطئ، أو صياغة عاطفية مثيرة، أو دليل غائب، أو أرقام بلا أساس، أو رسوم مضللة، أو نطاقات تقلّد منافذ معروفة.
+6. الصور والفيديو: البحث العكسي عن الصور (Google Lens وTinEye)، وإيجاد أقدم نسخة، ومقارنة الطقس واللافتات والظلال بالمكان والزمان المزعومين، والشك في التعديل أو التوليد بالذكاء الاصطناعي حين لا تتسق التفاصيل.
+7. الادعاءات العلمية والصحية: المراجعات المنهجية والإرشادات أقوى من الدراسة الواحدة؛ وافحص حجم العينة، وهل أُجريت الدراسة على البشر، وهل الأثر مهم عمليًا.
+8. صنّف الخلاصة بأمانة: مؤكد، أو مرجح، أو غير مثبت، أو مضلل، أو كاذب، مع دليل التصنيف.
+
+## شكل الجواب
+الحكم أولًا، ثم الأدلة مع تسمية المصادر، ثم ما الذي قد يغيّر الحكم.
+
+## ما أحتاجه منك
+- نص الادعاء أو الخبر أو رابطه، وأين رأيته.

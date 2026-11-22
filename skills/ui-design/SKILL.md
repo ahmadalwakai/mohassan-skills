@@ -1,18 +1,25 @@
 ---
 name: واجهات المستخدم UI
 description: تصميم واجهات المستخدم UI للمواقع والتطبيقات ولوحات التحكم: التسلسل البصري، المسافات، الشبكة، الأزرار، النماذج، الحالات، الوضع الداكن، شاشات الجوال. ui interface interfaces dashboard screens figma mockup wireframe spacing buttons forms dark mode تصميم التصميم واجهة واجهات الواجهة لوحة تحكم شاشة شاشات
-version: 1.0.0
+version: 1.1.0
 category: design
 ---
-Use this for designing or critiquing the screens of a website, app or dashboard.
-1. Start from the task: who uses the screen, the one main action, and the information needed to take it. Every element must support that; remove what does not.
-2. Visual hierarchy: one focal point per screen; size, weight, color and position show importance; the primary action is the most prominent button, secondary actions are quieter, destructive actions sit apart.
-3. Spacing on a 4 or 8 px scale (4, 8, 12, 16, 24, 32, 48, 64); related items closer than unrelated ones; whitespace before borders and boxes.
-4. Layout: a 12-column grid on desktop and 4 on mobile, consistent alignment edges, reading width of about 60 to 75 characters.
-5. Type: one or two families, a clear size scale (for example 12, 14, 16, 20, 24, 32), body text at 16 px or more, line height near 1.5.
-6. Color: neutral base, one brand accent, semantic colors for success, warning, error and info; text contrast of at least 4.5:1; meaning never carried by color alone.
-7. Every component needs its states: default, hover, visible focus, active, disabled, loading, empty, error and success.
-8. Forms: labels above fields, placeholders never replacing labels, validation after a field is left, error messages that say how to fix, sensible defaults.
-9. Dashboards: three to five key numbers at the top with comparison to a previous period, then trends, then detail tables with filters.
-10. Mobile: touch targets of at least 44 px, primary actions within thumb reach, nothing that works only on hover.
-Answer shape: the layout section by section (or code or a wireframe), with the reasoning behind the main choices.
+تصميم شاشات موقع أو تطبيق أو لوحة مؤشرات، أو نقدها.
+
+## الخطوات
+1. ابدأ بالمهمة: من يستخدم الشاشة، والإجراء الرئيسي الواحد، والمعلومات اللازمة لاتخاذه. كل عنصر يجب أن يخدم ذلك؛ واحذف ما لا يخدمه.
+2. التسلسل البصري: نقطة تركيز واحدة لكل شاشة؛ والحجم والوزن واللون والموضع تُظهر الأهمية؛ والإجراء الرئيسي هو الزر الأبرز، والثانوية أهدأ، والهدّامة منفصلة.
+3. المسافات على سلّم 4 أو 8 بكسل (4، 8، 12، 16، 24، 32، 48، 64)؛ والعناصر المترابطة أقرب من غير المترابطة؛ والمساحة البيضاء قبل الحدود والصناديق.
+4. التخطيط: شبكة من 12 عمودًا على الحاسوب و4 على الجوال، وحواف محاذاة ثابتة، وعرض قراءة من نحو 60 إلى 75 حرفًا.
+5. الخط: عائلة أو اثنتان، وسلّم أحجام واضح (مثل 12، 14، 16، 20، 24، 32)، ونص المتن 16 بكسل أو أكثر، وارتفاع سطر قرب 1.5.
+6. اللون: قاعدة محايدة، ولون إبراز واحد للعلامة، وألوان دلالية للنجاح والتحذير والخطأ والمعلومة؛ وتباين نص لا يقل عن 4.5:1؛ ولا معنى يحمله اللون وحده.
+7. كل مكوّن يحتاج حالاته: الافتراضية، والتمرير، والتركيز الظاهر، والنشطة، والمعطلة، والتحميل، والفارغة، والخطأ، والنجاح.
+8. النماذج: التسميات فوق الحقول، والنص النائب لا يحل محل التسمية أبدًا، والتحقق بعد مغادرة الحقل، ورسائل خطأ تقول كيف يُصلح، وقيم افتراضية معقولة.
+9. اللوحات: من ثلاثة إلى خمسة أرقام رئيسية في الأعلى مع مقارنة بفترة سابقة، ثم الاتجاهات، ثم جداول التفاصيل مع المرشحات.
+10. الجوال: أهداف لمس 44 بكسل على الأقل، والإجراءات الرئيسية في متناول الإبهام، ولا شيء يعمل بالتمرير فوقه فقط.
+
+## شكل الجواب
+التخطيط قسمًا قسمًا (أو كود أو مخطط هيكلي)، مع التعليل وراء الاختيارات الرئيسية.
+
+## ما أحتاجه منك
+- الشاشة وغرضها ومستخدموها، والمنصة، ولقطة أو وصف للتصميم الحالي إن وُجد.

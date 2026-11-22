@@ -1,16 +1,23 @@
 ---
 name: حل مشكلات ويندوز وتسريع الحاسوب
 description: حل مشكلات ويندوز وتسريع الحاسوب واللابتوب: البطء، الشاشة الزرقاء، التحديثات، تعليق البرامج، امتلاء القرص، برامج بدء التشغيل، التعريفات، الصوت والطابعة. windows pc laptop slow freeze freezing crash bluescreen bsod update updates drivers startup disk storage printer ويندوز الويندوز اللابتوب لابتوب الكمبيوتر الحاسوب بطيء بطء تسريع الشاشة الزرقاء تعريفات التعريفات
-version: 1.0.0
+version: 1.1.0
 category: computer
 ---
-Use this to fix common Windows problems and speed up a PC or laptop.
-1. Note the Windows version, when the problem started, what changed (update, program, device) and any exact error or stop code.
-2. Slow computer: check Task Manager (Ctrl+Shift+Esc) for CPU, memory and disk use; disable unneeded startup apps; free disk space (Settings → System → Storage; keep 15 to 20% free); uninstall unused programs; run a full Windows Security scan. An SSD is the biggest upgrade for an old hard drive; 8 GB of RAM is a practical minimum.
-3. Slow after an update: let indexing finish (an hour or so), restart, update drivers from the manufacturer, and if needed uninstall the update (Settings → Windows Update → Update history → Uninstall updates) or use System Restore.
-4. Blue screen: note the stop code; a recent driver or hardware change is the usual cause. Start in Safe Mode if it repeats, roll back or update the suspect driver, run `sfc /scannow` and `DISM /Online /Cleanup-Image /RestoreHealth` in an administrator terminal, test memory with Windows Memory Diagnostic and the disk with `chkdsk`, and check temperatures.
-5. A program that freezes: update or reinstall it, disable conflicting add-ons, try it under a new Windows user account.
-6. Printer, sound or Wi-Fi: built-in troubleshooters (Settings → System → Troubleshoot), reinstall the driver in Device Manager, check cables and the default device.
-7. Before risky steps (resets, registry edits, deleting files), back up important data; "Reset this PC → Keep my files" is the last resort.
-8. A clicking disk, overheating or a swollen battery needs repair; stop using a swollen battery at once.
-Answer shape: likely causes ranked, then numbered steps from quickest and safest to more involved, with exact menu paths and commands.
+إصلاح مشكلات Windows الشائعة وتسريع الحاسوب.
+
+## الخطوات
+1. دوّن إصدار Windows، ومتى بدأت المشكلة، وما الذي تغيّر (تحديث، أو برنامج، أو جهاز)، وأي رسالة خطأ أو رمز توقف بالضبط.
+2. الحاسوب البطيء: افحص «إدارة المهام» (Ctrl+Shift+Esc) لاستهلاك المعالج والذاكرة والقرص؛ وعطّل تطبيقات بدء التشغيل غير اللازمة؛ وحرّر مساحة القرص (الإعدادات ← النظام ← التخزين، وأبقِ 15 إلى 20% فارغة)؛ وأزل البرامج غير المستخدمة؛ وشغّل فحصًا كاملًا في «أمن Windows». وقرص SSD أكبر ترقية لجهاز قديم، و8 جيجابايت ذاكرة حد أدنى عملي.
+3. البطء بعد تحديث: دع الفهرسة تنتهي (نحو ساعة)، وأعد التشغيل، وحدّث التعريفات من موقع الصانع، وعند الحاجة أزل التحديث (الإعدادات ← Windows Update ← محفوظات التحديث ← إلغاء تثبيت التحديثات) أو استخدم «استعادة النظام».
+4. الشاشة الزرقاء: دوّن رمز التوقف؛ فتغيير حديث في تعريف أو قطعة هو السبب المعتاد. ابدأ في «الوضع الآمن» إن تكررت، وأرجع التعريف المشتبه به أو حدّثه، وشغّل `sfc /scannow` و`DISM /Online /Cleanup-Image /RestoreHealth` في طرفية بصلاحيات المسؤول، واختبر الذاكرة بأداة «تشخيص ذاكرة Windows» والقرص بـ `chkdsk`، وافحص درجات الحرارة.
+5. برنامج يتجمد: حدّثه أو أعد تثبيته، وعطّل الإضافات المتعارضة، وجرّبه بحساب مستخدم جديد.
+6. الطابعة أو الصوت أو الواي فاي: أدوات استكشاف الأخطاء المدمجة (الإعدادات ← النظام ← استكشاف الأخطاء وإصلاحها)، وأعد تثبيت التعريف من «إدارة الأجهزة»، وافحص الكابلات والجهاز الافتراضي.
+7. قبل الخطوات الخطرة (إعادة الضبط، أو تعديل السجل، أو حذف الملفات) انسخ بياناتك المهمة احتياطيًا؛ و«إعادة تعيين هذا الكمبيوتر ← الاحتفاظ بملفاتي» هو الملاذ الأخير.
+8. القرص الذي يطقطق والسخونة الزائدة يحتاجان إصلاحًا، والبطارية المنتفخة يتوقف استخدامها فورًا.
+
+## شكل الجواب
+الأسباب المرجحة مرتبة، ثم خطوات مرقمة من الأسهل والأسلم إلى الأعمق، مع مسارات القوائم والأوامر بالضبط.
+
+## ما أحتاجه منك
+- إصدار Windows، والمشكلة بالضبط ومتى بدأت، وأي رسالة خطأ ظهرت.

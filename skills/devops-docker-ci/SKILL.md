@@ -1,16 +1,23 @@
 ---
 name: Docker والنشر المستمر
 description: النشر والتشغيل: Docker، Dockerfile، docker compose، CI/CD، GitHub Actions، الخوادم، النشر التلقائي، الاستضافة، المراقبة. docker dockerfile compose container containers kubernetes k8s ci cd pipeline actions deploy deployment devops nginx vps linux hosting دوكر حاويات استضافة النشر نشر التلقائي
-version: 1.0.0
+version: 1.1.0
 category: coding
 ---
-Use this for containers, CI/CD pipelines and deploying services.
-1. Dockerfile: an official slim base image pinned to a version; a multi-stage build (tools in the build stage, only the output in the runtime stage); copy dependency manifests and install before copying source so layers cache; run as a non-root user; set production mode; add a HEALTHCHECK; never bake credentials into the image, inject them at runtime.
-2. A .dockerignore that excludes dependency folders, build output, logs and local credential files.
-3. docker compose for local stacks: app, database and cache with named volumes, health-based depends_on, and ports bound to localhost.
-4. CI on every pull request: install from the lock file, lint, type-check, unit tests, build, then integration tests against service containers; cache dependencies; keep it under about ten minutes.
-5. CD: build once, tag the image with the commit hash, deploy the same image to staging and then production, run migrations as a separate step, keep a one-command rollback to the previous tag.
-6. Credentials live in the CI or host secret store and arrive as environment variables; scope them to the minimum and rotate them.
-7. Production basics: TLS at a reverse proxy or the platform, restart policies, resource limits, central logs, uptime and error alerts, automated database backups with a tested restore.
-8. Zero-downtime deploys need health checks and backward-compatible database changes.
-Answer shape: complete files (Dockerfile, compose or workflow YAML), then the commands to build, test and deploy.
+الحاويات وخطوط CI/CD ونشر الخدمات.
+
+## الخطوات
+1. Dockerfile: صورة أساس رسمية مصغّرة مثبتة على إصدار؛ وبناء متعدد المراحل (الأدوات في مرحلة البناء، والناتج فقط في مرحلة التشغيل)؛ وانسخ ملفات الاعتماديات وثبّتها قبل نسخ المصدر لتُخزَّن الطبقات مؤقتًا؛ وشغّل بمستخدم غير root؛ واضبط وضع الإنتاج؛ وأضف `HEALTHCHECK`؛ ولا تضع بيانات الاعتماد داخل الصورة أبدًا، بل مرّرها وقت التشغيل.
+2. ملف `.dockerignore` يستثني مجلدات الاعتماديات وناتج البناء والسجلات وملفات الاعتماد المحلية.
+3. `docker compose` للبيئة المحلية: التطبيق وقاعدة البيانات والذاكرة المؤقتة مع وحدات تخزين مسماة، و`depends_on` مبني على الفحص الصحي، ومنافذ مربوطة بـ `localhost`.
+4. CI مع كل طلب دمج: التثبيت من ملف القفل، ثم الفحص الأسلوبي، وفحص الأنواع، واختبارات الوحدات، والبناء، ثم اختبارات التكامل مع حاويات الخدمات؛ وخزّن الاعتماديات مؤقتًا؛ وأبقِ المدة نحو عشر دقائق أو أقل.
+5. CD: ابنِ مرة واحدة، ووسم الصورة ببصمة الإيداع، ونفّذ النشر بالصورة نفسها إلى بيئة الاختبار ثم الإنتاج، وشغّل الترحيلات خطوة منفصلة، واحتفظ بتراجع بأمر واحد إلى الوسم السابق.
+6. بيانات الاعتماد تبقى في مخزن الأسرار لدى CI أو الخادم وتصل متغيرات بيئة؛ اجعل صلاحياتها في الحد الأدنى وجدّدها دوريًا.
+7. أساسيات الإنتاج: TLS عند وكيل عكسي أو المنصة، وسياسات إعادة التشغيل، وحدود الموارد، وسجلات مركزية، وتنبيهات للتوقف والأخطاء، ونسخ احتياطي آلي لقاعدة البيانات مع استعادة مجرَّبة.
+8. النشر دون توقف يحتاج فحوصًا صحية وتغييرات في قاعدة البيانات متوافقة مع الإصدار السابق.
+
+## شكل الجواب
+ملفات كاملة (Dockerfile، أو compose، أو YAML لخط العمل)، ثم أوامر البناء والاختبار والنشر.
+
+## ما أحتاجه منك
+- لغة التطبيق وإطاره، ومكان الاستضافة، وأداة CI المستخدمة.

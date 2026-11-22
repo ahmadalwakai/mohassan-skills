@@ -1,16 +1,23 @@
 ---
 name: المعلومات القانونية العامة
 description: معلومات قانونية عامة: حقوق المستأجر والمالك، حقوق المستهلك، حقوق العامل، تسجيل الشركات، الشكاوى الرسمية، المطالبات الصغيرة، الحاجة إلى محامٍ. legal law laws rights tenant landlord deposit consumer employment dispute complaint court claim lawyer solicitor قانون قانوني قانونية القانون حقوق حقوقي حقي المستأجر المالك التأمين محامي محامٍ محكمة شكوى
-version: 1.0.0
+version: 1.1.0
 category: research
 ---
-Use this for general legal information. It explains rules and options; it is not legal advice for a specific case.
-1. Identify the jurisdiction first (the country, and the region where it matters, such as England and Wales versus Scotland); the answer depends on it. Ask if it is unknown.
-2. Explain the rule, likely rights and obligations, the usual process, deadlines, costs and useful evidence.
-3. Tenancy deposits in England and Wales: protected in an approved scheme with the prescribed information within 30 days; disputes go to the scheme's free service; an unprotected deposit can cost the landlord one to three times its amount. Saudi rental contracts are registered on Ejar.
-4. Consumer purchases: faulty goods usually entitle a repair, replacement or refund within set periods (in the UK a 30-day right to reject under the Consumer Rights Act 2015, and 14 days to cancel most online purchases).
-5. Usual first steps: gather documents (contract, receipts, messages, photos), send a clear written complaint with a deadline, use the official complaint or ombudsman route, then small claims or court if needed.
-6. Employment: contracts, notice, wages, leave and dismissal follow local labour law; point to the relevant body (Acas in the UK, the Ministry of Human Resources and Social Development in Saudi Arabia).
-7. Business: registration, licences and tax registration depend on the activity and the country (Companies House and HMRC in the UK).
-8. Recommend a qualified lawyer or an advice service (Citizens Advice in the UK) when significant money is at stake, deadlines are close, or the matter is criminal, immigration, family or already in court.
-Answer shape: the short answer, the rule, the practical steps in order, and a clear note on when to get professional advice.
+معلومات قانونية عامة تشرح القواعد والخيارات، وليست استشارة قانونية لحالة بعينها.
+
+## الخطوات
+1. حدّد الولاية القضائية أولًا (البلد، والإقليم حين يهم، مثل إنجلترا وويلز مقابل اسكتلندا)؛ فالجواب يتوقف عليها. واسأل عنها إن كانت مجهولة.
+2. اشرح القاعدة، والحقوق والالتزامات المرجحة، والإجراء المعتاد، والمواعيد، والتكاليف، والأدلة المفيدة.
+3. تأمين الإيجار في إنجلترا وويلز: يُحفظ في نظام حماية معتمد مع المعلومات المقررة خلال 30 يومًا، والنزاعات تذهب إلى خدمة النظام المجانية، والتأمين غير المحمي قد يكلّف المؤجر من مرة إلى ثلاث مرات قيمته. وعقود الإيجار في السعودية تُوثَّق في منصة إيجار.
+4. مشتريات المستهلك: البضاعة المعيبة تمنح عادة حق الإصلاح أو الاستبدال أو الاسترداد خلال مدد محددة (في بريطانيا حق رفض خلال 30 يومًا وفق قانون حقوق المستهلك 2015، و14 يومًا لإلغاء معظم المشتريات عبر الإنترنت).
+5. الخطوات الأولى المعتادة: اجمع المستندات (العقد، والإيصالات، والرسائل، والصور)، وقدّم شكوى مكتوبة واضحة بمهلة محددة، واستخدم مسار الشكاوى الرسمي أو أمين المظالم، ثم دعاوى المطالبات الصغيرة أو المحكمة عند الحاجة.
+6. العمل: العقود والإشعار والأجور والإجازات والفصل تتبع قانون العمل المحلي؛ وأشر إلى الجهة المعنية (Acas في بريطانيا، ووزارة الموارد البشرية والتنمية الاجتماعية في السعودية).
+7. الأعمال: التسجيل والتراخيص والتسجيل الضريبي تعتمد على النشاط والبلد (Companies House وHMRC في بريطانيا).
+8. انصح بمحامٍ مؤهل أو خدمة استشارات (Citizens Advice في بريطانيا) حين يكون المبلغ كبيرًا، أو المواعيد قريبة، أو المسألة جنائية أو هجرة أو أسرية أو منظورة أمام المحكمة.
+
+## شكل الجواب
+الجواب المختصر، ثم القاعدة، ثم الخطوات العملية بالترتيب، وملاحظة واضحة عن متى تُطلب استشارة مختص.
+
+## ما أحتاجه منك
+- البلد والمدينة، وما الذي حدث بالتواريخ، والمستندات المتوفرة لديك.

@@ -1,16 +1,23 @@
 ---
 name: الطبخ والوصفات
 description: الطبخ والوصفات وأفكار الوجبات: طبخات عربية وعالمية، الكبسة، المندي، المقادير، البدائل، الأكل الصحي، الحلويات، تخطيط وجبات الأسبوع. cooking cook recipe recipes dinner lunch breakfast meal meals ingredients baking dessert kitchen طبخ الطبخ أطبخ اطبخ نطبخ طبخة طبخات وصفة وصفات مقادير أكلة اكلة عشاء للعشاء غداء فطور حلويات كبسة الكبسة
-version: 1.0.0
+version: 1.1.0
 category: creativity
 ---
-Use this for recipes, meal ideas, cooking techniques and kitchen questions.
-1. Work from the constraints: ingredients at hand, number of people, time, equipment, skill level, dietary needs (halal, vegetarian, allergies, diabetes) and the cuisine wanted.
-2. Recipe format: name, servings, total time, ingredients with exact quantities in grams and in cups and spoons when helpful, then numbered steps with times, temperatures and doneness cues (golden, bubbling, internal temperature).
-3. Food safety: chicken cooked to 74 °C (165 °F) inside, minced meat to 71 °C, fish to 63 °C; leftovers cooled within two hours and refrigerated; reheated until steaming; raw meat kept apart from ready-to-eat food.
-4. Rice dishes (kabsa, mandi, biryani): wash basmati until the water runs clear, soak 20 to 30 minutes, cook in measured stock (about 1.5 cups of liquid per cup of soaked rice, adjusted to the pot), and rest covered before fluffing. Build flavor with well-browned onions, spices toasted in fat, tomato, and dried lime for kabsa.
-5. Substitutions: practical swaps (yogurt for sour cream, chickpeas for meat, oven instead of frying) and how they change the result.
-6. Lighter versions: more vegetables and legumes, grilling or baking instead of deep frying, measured oil, whole grains, less salt and sugar, without promising medical effects.
-7. Scaling: multiply ingredients, but scale salt, spices and liquid with care in large pots, and adjust cooking time to thickness, not only quantity.
-8. Weekly plans: balance protein, vegetables and grains, reuse ingredients across days, and add a shopping list grouped by section.
-Answer shape: one intro line, the recipe in the format above, and one or two serving or variation tips.
+وصفات الطبخ وأفكار الوجبات وتقنيات الطهي وأسئلة المطبخ.
+
+## الخطوات
+1. انطلق من القيود: المكونات المتوفرة، وعدد الأشخاص، والوقت، والأدوات، ومستوى المهارة، والاحتياجات الغذائية (حلال، نباتي، حساسية، سكري)، والمطبخ المطلوب.
+2. شكل الوصفة: الاسم، وعدد الحصص، والوقت الكلي، والمكونات بكميات دقيقة بالغرام، وبالأكواب والملاعق عند الحاجة، ثم خطوات مرقمة بالأوقات والحرارة وعلامات النضج (ذهبي، يغلي، حرارة الداخل).
+3. سلامة الغذاء: الدجاج حتى 74 °م في الداخل، واللحم المفروم حتى 71 °م، والسمك حتى 63 °م؛ وتبريد البقايا خلال ساعتين ثم حفظها في الثلاجة؛ وإعادة التسخين حتى يتصاعد البخار؛ وفصل اللحم النيء عن الطعام الجاهز.
+4. أطباق الأرز (الكبسة، والمندي، والبرياني): اغسل البسمتي حتى يصفو الماء، وانقعه 20 إلى 30 دقيقة، واطبخه بمرق مقيس (نحو كوب ونصف من السائل لكل كوب أرز منقوع، مع مراعاة القدر)، واتركه مغطى قبل التقليب. ابنِ النكهة ببصل محمّر جيدًا وبهارات محمصة في الدهن وطماطم، وليمون أسود للكبسة.
+5. البدائل: استبدالات عملية (لبن زبادي بدل القشطة الحامضة، وحمص بدل اللحم، وفرن بدل القلي) وكيف تغيّر النتيجة.
+6. نسخ أخف: خضار وبقوليات أكثر، وشوي أو خبز في الفرن بدل القلي الغزير، وزيت مقيس، وحبوب كاملة، وملح وسكر أقل، دون وعود بآثار طبية.
+7. مضاعفة الكميات: ضاعف المكونات، لكن زد الملح والبهارات والسائل بحذر في القدور الكبيرة، واضبط وقت الطهي حسب السماكة لا الكمية وحدها.
+8. الخطط الأسبوعية: وازن البروتين والخضار والحبوب، وأعد استخدام المكونات عبر الأيام، وأضف قائمة تسوق مقسمة حسب الأقسام.
+
+## شكل الجواب
+سطر تمهيدي، ثم الوصفة بالشكل أعلاه، ونصيحة أو نصيحتان للتقديم أو التنويع.
+
+## ما أحتاجه منك
+- المكونات المتوفرة، وعدد الأشخاص، والوقت المتاح، وأي قيود غذائية.

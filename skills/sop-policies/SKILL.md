@@ -1,16 +1,23 @@
 ---
 name: إجراءات العمل والسياسات
 description: كتابة إجراءات العمل المعيارية SOP والسياسات الداخلية: سياسة الاسترجاع والاستبدال، سياسة الإلغاء، دليل الموظفين، تعليمات التشغيل، قوائم التحقق. sop procedure procedures policy policies refund returns cancellation handbook checklist workflow إجراءات الإجراءات سياسة السياسات الاسترجاع الاستبدال الإلغاء الموظفين لموظفي تعليمات التشغيل
-version: 1.0.0
+version: 1.1.0
 category: documents
 ---
-Use this to write standard operating procedures, internal policies and customer-facing policies.
-1. Purpose and scope first: why the procedure exists, who it applies to, where it starts and ends, and what is out of scope.
-2. SOP format: title, version and date, owner, purpose, scope, roles, required tools or forms, numbered steps written as instructions with one action each ("Check the ID against the booking"), decision points as clear if-then rules, what to record, exceptions and escalation contacts, related documents.
-3. Write from how the work is really done: talk to the people who do it, simplify, then test the draft with someone new following it.
-4. Make it usable: checklists for routine tasks, flowcharts for decisions, short sentences, the same terms throughout, the most common path first.
-5. Customer policies (refunds, returns, cancellations, delivery): plain language, specific time limits and conditions, how to request, how long it takes, any costs and exceptions. They must respect consumer law where the goods are sold (in the UK most online purchases carry a 14-day cancellation right); recommend a legal check.
-6. HR and conduct policies: purpose, rules, examples, reporting route, consequences, and compliance with local labour law.
-7. Keep it alive: an owner, a review date at least yearly, version history, and a way for staff to suggest changes.
-8. A draft policy is never presented as legal advice.
-Answer shape: the ready document with headings and numbered steps, plus a short list of points the owner must confirm.
+كتابة إجراءات التشغيل القياسية والسياسات الداخلية والسياسات الموجهة للعملاء.
+
+## الخطوات
+1. الغرض والنطاق أولًا: لماذا وُجد الإجراء، ومن يشمل، وأين يبدأ وأين ينتهي، وما الذي يخرج عن نطاقه.
+2. شكل الإجراء القياسي: العنوان، والإصدار والتاريخ، والمالك، والغرض، والنطاق، والأدوار، والأدوات أو النماذج اللازمة، وخطوات مرقمة مكتوبة تعليمات بفعل واحد لكل منها («طابق الهوية مع الحجز»)، ونقاط القرار قواعد واضحة (إذا… فـ…)، وما يجب تسجيله، والاستثناءات وجهات التصعيد، والمستندات ذات الصلة.
+3. اكتب من الواقع: تحدث مع من يؤدون العمل، وبسّط، ثم اختبر المسودة بشخص جديد يتبعها.
+4. اجعله قابلًا للاستخدام: قوائم فحص للمهام الروتينية، ومخططات انسيابية للقرارات، وجمل قصيرة، ومصطلحات ثابتة، والمسار الأكثر شيوعًا أولًا.
+5. سياسات العملاء (الاسترداد، والإرجاع، والإلغاء، والتوصيل): لغة بسيطة، ومدد وشروط محددة، وطريقة الطلب، والمدة اللازمة، وأي تكاليف واستثناءات. ويجب أن تحترم قانون المستهلك حيث تُباع السلع (في بريطانيا معظم المشتريات عبر الإنترنت لها حق إلغاء 14 يومًا)؛ وانصح بمراجعة قانونية.
+6. سياسات الموارد البشرية والسلوك: الغرض، والقواعد، والأمثلة، ومسار الإبلاغ، والعواقب، والتوافق مع قانون العمل المحلي.
+7. أبقِها حية: مالك، وموعد مراجعة سنوي على الأقل، وسجل إصدارات، وطريقة لاقتراح التعديلات من الموظفين.
+8. لا تُقدَّم مسودة السياسة على أنها استشارة قانونية أبدًا.
+
+## شكل الجواب
+المستند جاهزًا بالعناوين والخطوات المرقمة، مع قائمة قصيرة بنقاط يجب أن يؤكدها المالك.
+
+## ما أحتاجه منك
+- العملية أو السياسة المطلوبة، ومن يطبقها، والبلد، وطريقة العمل الحالية.

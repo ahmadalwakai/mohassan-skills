@@ -1,19 +1,26 @@
 ---
 name: الكتابة والقواعد الإنجليزية
 description: قواعد اللغة الإنجليزية والكتابة بالإنجليزي: الأزمنة، present perfect، أدوات التعريف، حروف الجر، تصحيح القواعد، تحسين الأسلوب، الكتابة الرسمية. grammar tenses tense present perfect articles prepositions proofread proofreading punctuation ielts toefl الإنجليزية الانجليزية الإنجليزي الانجليزي إنجليزي انجليزي قواعد الأزمنة القواعد
-version: 1.0.0
+version: 1.1.0
 category: languages
 ---
-Use this for English grammar questions and improving English text.
-1. Tenses that learners mix up:
-   - Present perfect (have + past participle) links the past to now: experiences ("I have visited Rome"), changes up to now, recent events that matter now. It does not take a finished time ("yesterday", "in 2020"); those need the past simple.
-   - Past simple for finished actions at a known time; past continuous for an action in progress when another happened.
-   - Present continuous for now and for fixed future arrangements; present simple for habits and facts.
-   - Future: will for decisions and predictions, going to for plans and predictions from evidence.
-2. Articles: a or an for one non-specific countable thing; the for something specific or already known; no article for general plural or uncountable nouns ("Water is essential"). Arabic speakers often add "the" to general nouns, so check that first.
-3. Prepositions of time: at for clock times, on for days and dates, in for months, years and parts of the day.
-4. Patterns to check in Arabic speakers' English: a missing "is" or "are", adjective order (before the noun), plurals after numbers, "since" versus "for", "make" versus "do", long sentences chained with "and".
-5. Professional style: short clear sentences, active voice, concrete verbs, no filler ("in order to" becomes "to"), one spelling standard (British or American).
-6. When correcting, fix the errors, keep the writer's meaning and voice, then list the main patterns with a one-line rule each.
-7. Exams (IELTS, TOEFL): answer the exact task, organize clearly, vary vocabulary naturally, manage time.
-Answer shape: the corrected text first, then the key fixes with a short explanation and an example each.
+أسئلة قواعد اللغة الإنجليزية وتحسين النصوص الإنجليزية.
+
+## الخطوات
+1. الأزمنة التي يخلط بينها المتعلمون:
+   - المضارع التام (have + التصريف الثالث) يربط الماضي بالآن: التجارب ("I have visited Rome")، والتغيرات حتى الآن، والأحداث القريبة المهمة الآن. ولا يأتي مع زمن منتهٍ ("yesterday"، "in 2020")؛ فهذه تحتاج الماضي البسيط.
+   - الماضي البسيط لفعل انتهى في وقت معروف، والماضي المستمر لفعل كان جاريًا حين وقع آخر.
+   - المضارع المستمر للآن وللترتيبات المستقبلية الثابتة، والمضارع البسيط للعادات والحقائق.
+   - المستقبل: will للقرارات والتوقعات، وgoing to للخطط والتوقعات المبنية على دليل.
+2. أدوات التعريف: a أو an لشيء واحد غير محدد يُعد، وthe لشيء محدد أو معروف، ولا أداة مع الجمع العام أو غير المعدود ("Water is essential"). المتحدثون بالعربية يضيفون the كثيرًا قبل الأسماء العامة، فافحصها أولًا.
+3. حروف الجر للزمن: at للساعة، وon للأيام والتواريخ، وin للأشهر والسنوات وأجزاء اليوم.
+4. أنماط تُفحص في إنجليزية المتحدثين بالعربية: غياب is أو are، وموضع الصفة (قبل الاسم)، والجمع بعد الأعداد، وsince مقابل for، وmake مقابل do، والجمل الطويلة المربوطة بـ and.
+5. الأسلوب المهني: جمل قصيرة واضحة، والمبني للمعلوم، وأفعال محددة، وحذف الحشو ("in order to" تصبح "to")، وتهجئة واحدة (بريطانية أو أمريكية).
+6. عند التصحيح أصلح الأخطاء، وحافظ على معنى الكاتب وصوته، ثم اذكر أهم الأنماط مع قاعدة في سطر لكل منها.
+7. الاختبارات (IELTS وTOEFL): أجب عن المهمة بالضبط، ونظّم بوضوح، ونوّع المفردات بشكل طبيعي، وأدر الوقت.
+
+## شكل الجواب
+النص مصحَّحًا أولًا، ثم أهم التصحيحات مع شرح قصير ومثال لكل منها.
+
+## ما أحتاجه منك
+- النص الإنجليزي أو السؤال، والغرض منه: عمل، أو دراسة، أو اختبار.

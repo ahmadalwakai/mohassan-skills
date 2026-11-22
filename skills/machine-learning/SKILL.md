@@ -1,16 +1,23 @@
 ---
 name: تعلم الآلة والذكاء الاصطناعي
 description: تعلم الآلة والذكاء الاصطناعي: تدريب النماذج، التصنيف، التنبؤ، الشبكات العصبية، الإفراط في التعلم overfitting، تقييم النماذج، scikit-learn، PyTorch، النماذج اللغوية. machine learning ml ai model models training train classification classifier neural network networks deep overfitting evaluation sklearn pytorch tensorflow llm الآلة الذكاء الاصطناعي نموذج نماذج تدريب أدرب ادرب العصبية
-version: 1.0.0
+version: 1.1.0
 category: analytics
 ---
-Use this for machine learning projects, model training and evaluation.
-1. Frame the problem: the decision the model supports, the target to predict, the task type (classification, regression, ranking, clustering, forecasting), a metric tied to business value, and a simple baseline to beat (rules, averages, last value).
-2. Data first: enough labelled examples that represent real use; check for leakage (features containing the answer or coming from the future), duplicates, class imbalance and label quality. Split into train, validation and test sets, by time for time series.
-3. Start simple: linear or logistic regression and gradient-boosted trees (XGBoost, LightGBM) are strong on tabular data; deep learning suits images, audio, text or very large data.
-4. Overfitting (strong on training data, weak on new data): more data or augmentation, simpler models, regularization (L1/L2, dropout, weight decay), early stopping on validation loss, cross-validation, removal of leaky or noisy features.
-5. Evaluate with the right metric: precision, recall, F1 and PR-AUC for imbalanced classes; MAE or RMSE for regression; calibration when probabilities drive decisions. Inspect errors by segment, not only the average.
-6. Report honestly: test-set results once, several seeds or confidence intervals, comparison with the baseline; never tune on the test set.
-7. Production: monitor input drift and accuracy over time, retrain on a schedule or trigger, version data and models, keep a human check on high-stakes decisions.
-8. Language models: try prompting and retrieval before fine-tuning, evaluate on fixed real examples, watch cost, latency and privacy.
-Answer shape: the approach step by step, a code skeleton (scikit-learn or PyTorch) when useful, and how to judge whether it works.
+مشاريع تعلم الآلة وتدريب النماذج وتقييمها.
+
+## الخطوات
+1. صُغ المسألة: القرار الذي يدعمه النموذج، والهدف المتوقَّع، ونوع المهمة (تصنيف، أو انحدار، أو ترتيب، أو تجميع، أو تنبؤ زمني)، ومقياس مرتبط بقيمة العمل، وخط أساس بسيط يجب التفوق عليه (قواعد، أو متوسطات، أو آخر قيمة).
+2. البيانات أولًا: أمثلة موسومة كافية تمثل الاستخدام الحقيقي؛ وافحص التسرب (خصائص تحوي الجواب أو تأتي من المستقبل)، والتكرار، وعدم توازن الفئات، وجودة الوسوم. قسّم إلى تدريب وتحقق واختبار، وبالزمن في السلاسل الزمنية.
+3. ابدأ بسيطًا: الانحدار الخطي أو اللوجستي والأشجار المعززة بالتدرج (XGBoost وLightGBM) قوية على البيانات الجدولية، والتعلم العميق يناسب الصور والصوت والنص والبيانات الضخمة جدًا.
+4. فرط التخصيص (قوي على التدريب ضعيف على الجديد): بيانات أكثر أو تعزيز البيانات، ونماذج أبسط، وتنظيم (L1/L2 وdropout وweight decay)، وإيقاف مبكر على خسارة التحقق، وتحقق متقاطع، وإزالة الخصائص المسرِّبة أو المشوشة.
+5. قيّم بالمقياس الصحيح: الدقة والاستدعاء وF1 وPR-AUC للفئات غير المتوازنة، وMAE أو RMSE للانحدار، والمعايرة حين تقود الاحتمالات القرارات. وافحص الأخطاء حسب الشرائح لا المتوسط وحده.
+6. أبلغ بأمانة: نتائج مجموعة الاختبار مرة واحدة، وعدة بذور أو فترات ثقة، ومقارنة بخط الأساس؛ ولا تضبط النموذج على مجموعة الاختبار أبدًا.
+7. الإنتاج: راقب انجراف المدخلات والدقة مع الوقت، وأعد التدريب بجدول أو محفّز، وأدر نسخ البيانات والنماذج، وأبقِ مراجعة بشرية للقرارات عالية الخطورة.
+8. النماذج اللغوية: جرّب صياغة الأوامر والاسترجاع قبل الضبط الدقيق، وقيّم على أمثلة حقيقية ثابتة، وراقب التكلفة وزمن الاستجابة والخصوصية.
+
+## شكل الجواب
+المنهج خطوة بخطوة، وهيكل كود (scikit-learn أو PyTorch) عند الفائدة، وطريقة الحكم على نجاحه.
+
+## ما أحتاجه منك
+- المسألة والقرار الذي يخدمه النموذج، وشكل البيانات وحجمها، وما جُرّب حتى الآن.

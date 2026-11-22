@@ -1,16 +1,23 @@
 ---
 name: عرض أسعار ومقترحات للعملاء
 description: كتابة عروض الأسعار والمقترحات الفنية والتجارية للعملاء: نطاق العمل، البنود، التسعيرة، الجدول الزمني، الشروط، الضمانات، الدفعات، مقترح مشروع. proposal proposals quote quotation estimate tender bid scope terms rfp عرض عروض أسعار تسعيرة مقترح مقترحات نطاق فاتورة مناقصة
-version: 1.0.0
+version: 1.1.0
 category: documents
 ---
-Use this to write a quotation, a sales proposal or a project proposal.
-1. Facts first: the client's need in their words, scope, quantities, location, dates, constraints, budget signals and decision criteria. Ask once for anything missing that changes the price.
-2. Quotation contents: your business details, client details, quote number and date, validity (for example 14 or 30 days), itemized lines (description, quantity, unit price, total), exclusions, tax (state whether VAT is included), discounts, total, payment terms and how to accept.
-3. Service quotes such as removals: list what drives the price (volume or item list, crew size, vehicle, distance, floors and access, packing, insurance, waiting time), what is included, what costs extra, and the cancellation and rescheduling terms.
-4. Project proposal: understanding of the problem → objectives and success measures → approach → scope with deliverables and what is out of scope → timeline with milestones → team → price options (for example basic, standard, premium) → terms → next steps.
-5. Price options let clients choose between offers instead of saying yes or no; present the recommended one clearly.
-6. Protect both sides: a scope-change process, payment milestones (deposit, stage payments), ownership of the work, warranties and liability limits.
-7. Write the benefits for the client, not only tasks; keep it scannable with headings and tables.
-8. Never invent prices or capacity; leave marked placeholders for figures the owner must supply.
-Answer shape: the ready document with headings and an itemized table, plus a short cover message.
+كتابة عرض سعر أو عرض بيع أو مقترح مشروع.
+
+## الخطوات
+1. الحقائق أولًا: حاجة العميل بكلماته، والنطاق، والكميات، والموقع، والتواريخ، والقيود، وإشارات الميزانية، ومعايير القرار. واسأل مرة واحدة عن أي ناقص يغيّر السعر.
+2. محتوى عرض السعر: بيانات نشاطك، وبيانات العميل، ورقم العرض وتاريخه، ومدة صلاحيته (مثلًا 14 أو 30 يومًا)، وبنود مفصلة (الوصف، والكمية، وسعر الوحدة، والإجمالي)، والاستثناءات، والضريبة (هل السعر شامل ضريبة القيمة المضافة)، والخصومات، والإجمالي، وشروط الدفع، وطريقة القبول.
+3. عروض الخدمات مثل نقل الأثاث: اذكر ما يحدد السعر (الحجم أو قائمة القطع، وحجم الطاقم، والمركبة، والمسافة، والطوابق وصعوبة الوصول، والتغليف، والتأمين، ووقت الانتظار)، وما يشمله السعر، وما يُحسب إضافيًا، وشروط الإلغاء وتغيير الموعد.
+4. مقترح المشروع: فهم المشكلة ← الأهداف ومقاييس النجاح ← المنهج ← النطاق بالمخرجات وما يخرج عنه ← الجدول بالمحطات ← الفريق ← خيارات السعر (مثل أساسي وقياسي ومميز) ← الشروط ← الخطوات التالية.
+5. خيارات السعر تجعل العميل يختار بين العروض بدل أن يقول نعم أو لا؛ واعرض الخيار الموصى به بوضوح.
+6. احمِ الطرفين: إجراء لتغيير النطاق، ودفعات مرحلية (مقدمة، ودفعات مراحل)، وملكية العمل، والضمانات، وحدود المسؤولية.
+7. اكتب الفوائد للعميل لا المهام وحدها، واجعله سهل المسح بالعناوين والجداول.
+8. لا تخترع أسعارًا أو طاقات أبدًا؛ واترك مواضع فارغة معلَّمة للأرقام التي يقدمها المالك.
+
+## شكل الجواب
+المستند جاهزًا بالعناوين وجدول بنود مفصل، مع رسالة تغطية قصيرة.
+
+## ما أحتاجه منك
+- الخدمة أو المنتج، وحاجة العميل وتفاصيلها، وأسعارك أو تكاليفك.

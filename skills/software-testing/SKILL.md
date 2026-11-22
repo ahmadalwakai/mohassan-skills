@@ -1,16 +1,23 @@
 ---
 name: اختبارات الكود والبرمجيات
 description: الاختبارات البرمجية: اختبارات الوحدة، التكامل، الطرفية e2e، التغطية، المحاكاة، الاختبارات المتقلبة، TDD. testing test tests unit integration e2e jest vitest pytest playwright cypress mock mocks coverage tdd flaky qa اختبار اختبارات الاختبار الاختبارات وحدة تكامل
-version: 1.0.0
+version: 1.1.0
 category: coding
 ---
-Use this when writing, choosing or fixing automated tests.
-1. Test behaviour, not implementation: given an input and state, assert the observable result. A refactor that keeps behaviour should not break tests.
-2. Shape: many fast unit tests for logic, fewer integration tests for real boundaries (database, HTTP, queues), a handful of end-to-end tests for the critical journeys (sign-up, checkout, the main task).
-3. Each test: one behaviour, a name that states it ("rejects an expired coupon"), arrange-act-assert layout, no logic or loops in the test body.
-4. Cover the edges where bugs live: empty, one, many, maximum, invalid, duplicate, unicode text, time zone boundaries, concurrent calls, and every error path the code promises to handle.
-5. Mock only what you do not own or cannot run fast (payment providers, email, clock, randomness). Prefer a real database in integration tests (containers or embedded engines) over mocks of the query layer.
-6. Flaky tests are bugs: replace sleeps with waiting for a condition, isolate shared state, fix time with a fake clock, seed randomness.
-7. End-to-end with Playwright or Cypress: select elements by role or label, wait on visible outcomes, keep test data independent per test.
-8. Coverage is a map of untested code, not a goal. A bug fix always comes with a test that failed before the fix.
-Answer shape: the test file with imports, the command to run it, and what each test protects.
+كتابة الاختبارات الآلية واختيارها وإصلاحها.
+
+## الخطوات
+1. اختبر السلوك لا التنفيذ: لمدخل وحالة معينين، تحقق من النتيجة الظاهرة. وإعادة الهيكلة التي تُبقي السلوك يجب ألا تكسر الاختبارات.
+2. الشكل: اختبارات وحدة سريعة كثيرة للمنطق، واختبارات تكامل أقل للحدود الحقيقية (قاعدة البيانات، وHTTP، والطوابير)، وقليل من الاختبارات الشاملة للرحلات الحرجة (التسجيل، والدفع، والمهمة الرئيسية).
+3. كل اختبار: سلوك واحد، واسم يذكره («يرفض قسيمة منتهية الصلاحية»)، وترتيب التهيئة ثم الفعل ثم التحقق، ولا منطق أو حلقات داخل الاختبار.
+4. غطِّ الحواف حيث تعيش الأخطاء: الفارغ، والواحد، والكثير، والحد الأقصى، وغير الصالح، والمكرر، والنص بترميز Unicode، وحدود المناطق الزمنية، والاستدعاءات المتزامنة، وكل مسار خطأ يعد الكود بمعالجته.
+5. لا تحاكِ إلا ما لا تملكه أو لا تستطيع تشغيله بسرعة (مزودو الدفع، والبريد، والساعة، والعشوائية). وفضّل قاعدة بيانات حقيقية في اختبارات التكامل (حاويات أو محركات مدمجة) على محاكاة طبقة الاستعلامات.
+6. الاختبارات المتقلبة أخطاء: استبدل الانتظار الثابت بانتظار شرط، واعزل الحالة المشتركة، وثبّت الوقت بساعة وهمية، وثبّت بذرة العشوائية.
+7. الاختبارات الشاملة بـ Playwright أو Cypress: اختر العناصر بالدور أو التسمية، وانتظر النتائج الظاهرة، واجعل بيانات كل اختبار مستقلة.
+8. التغطية خريطة للكود غير المختبر لا هدف. وإصلاح أي خطأ يأتي دائمًا مع اختبار كان يفشل قبل الإصلاح.
+
+## شكل الجواب
+ملف الاختبار مع الاستيرادات، وأمر تشغيله، وما يحميه كل اختبار.
+
+## ما أحتاجه منك
+- الكود المراد اختباره، واللغة وإطار الاختبار المستخدم، والسلوك المهم.

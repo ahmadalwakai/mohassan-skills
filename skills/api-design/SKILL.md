@@ -1,17 +1,24 @@
 ---
 name: واجهات API وREST
 description: هندسة واجهات API: REST، المسارات، أفعال HTTP، رموز الحالة، رسائل الأخطاء، الترقيم، الإصدارات، OpenAPI، GraphQL، webhooks. api apis rest restful http endpoint endpoints status json openapi swagger graphql webhook webhooks pagination versioning idempotency الواجهات البرمجية واجهة برمجية
-version: 1.0.0
+version: 1.1.0
 category: coding
 ---
-Use this when designing or reviewing an HTTP API.
-1. Resources are plural nouns (/bookings, /bookings/{id}); methods are the verbs. GET reads and is safe, POST creates, PUT replaces, PATCH updates part, DELETE removes. PUT and DELETE are idempotent; accept an Idempotency-Key header on POST when clients retry.
-2. Status codes: 200 OK, 201 Created with a Location header, 204 No Content, 400 malformed, 401 not authenticated, 403 not allowed, 404 not found, 409 state conflict, 422 validation failed, 429 rate limited with Retry-After, 500 server fault, 503 temporarily unavailable.
-3. One error body everywhere, for example {"error": {"code": "BOOKING_FULL", "message": "...", "details": []}}. Codes are stable and machine-readable; messages are for people.
-4. Paginate lists from the start: cursors for large or changing data, limit and offset only for small lists; filtering and sorting through query parameters; a maximum page size.
-5. Evolve without breaking: add fields, never rename or repurpose them. When a break is unavoidable, version in the path (/v2) or a header and keep the old version for a stated period.
-6. Conventions: ISO 8601 timestamps in UTC, money as integer minor units with a currency code, one casing style for fields.
-7. Security: authenticate every private route, check that the record belongs to the caller, validate input, rate-limit.
-8. Document every endpoint, schema, error and example in OpenAPI.
-9. Webhooks: sign the payload, include an event id for deduplication, retry with backoff, and expect receivers to answer 2xx quickly.
-Answer shape: an endpoint table (method, path, purpose, status codes), then example request and response JSON.
+تصميم واجهات HTTP البرمجية (API) أو مراجعتها.
+
+## الخطوات
+1. الموارد أسماء بصيغة الجمع (/bookings و/bookings/{id})، والطرق هي الأفعال: GET للقراءة وهي آمنة، وPOST للإنشاء، وPUT للاستبدال، وPATCH للتعديل الجزئي، وDELETE للحذف. PUT وDELETE لا يتغير أثرهما بالتكرار؛ اقبل ترويسة Idempotency-Key مع POST حين يعيد العميل المحاولة.
+2. رموز الحالة: 200، و201 مع ترويسة Location، و204 بلا محتوى، و400 طلب مشوّه، و401 غير مُصادَق، و403 غير مسموح، و404 غير موجود، و409 تعارض حالة، و422 فشل التحقق، و429 تجاوز الحد مع Retry-After، و500 خطأ خادم، و503 غير متاح مؤقتًا.
+3. جسم خطأ واحد في كل مكان، مثل {"error": {"code": "BOOKING_FULL", "message": "...", "details": []}}: الكود ثابت تقرؤه الآلة، والرسالة للبشر.
+4. قسّم القوائم إلى صفحات من البداية: مؤشرات (cursor) للبيانات الكبيرة أو المتغيرة، وlimit/offset للقوائم الصغيرة فقط؛ والتصفية والترتيب بمعاملات الاستعلام؛ وحد أقصى لحجم الصفحة.
+5. طوّر دون كسر: أضف حقولًا ولا تُعِد تسمية حقل أو تغيّر معناه. إن لزم الكسر فالإصدار في المسار (/v2) أو في ترويسة، مع إبقاء القديم مدة معلنة.
+6. الأعراف: طوابع زمنية ISO 8601 بتوقيت UTC، والمال أعداد صحيحة بأصغر وحدة مع رمز العملة، ونمط تسمية واحد للحقول.
+7. الأمان: مصادقة كل مسار خاص، والتأكد من أن السجل يخص الطالب، والتحقق من المدخلات، وتحديد المعدل.
+8. وثّق كل نقطة ومخطط وخطأ ومثال في OpenAPI.
+9. Webhooks: وقّع الحمولة، وأضف معرّف حدث لمنع التكرار، وأعد المحاولة بتباعد متزايد، وتوقّع ردًا سريعًا بـ 2xx.
+
+## شكل الجواب
+جدول النقاط (الطريقة، والمسار، والغرض، ورموز الحالة)، ثم مثال طلب واستجابة بصيغة JSON.
+
+## ما أحتاجه منك
+- الموارد والعمليات المطلوبة، ومن سيستخدم الواجهة.

@@ -1,16 +1,23 @@
 ---
 name: واجهات RTL من اليمين لليسار
 description: دعم العربي واتجاه RTL في المواقع والتطبيقات: عكس الواجهة، الأرقام، الأيقونات، النصوص المختلطة، التواريخ الهجرية، CSS المنطقي، التعريب. rtl ltr bidi right left dir mirroring mirrored i18n hijri numerals عربي العربي اليمين اليسار يمين يسار معكوسة معكوس مقلوبة التعريب تعريب
-version: 1.0.0
+version: 1.1.0
 category: design
 ---
-Use this for Arabic and other right-to-left interfaces.
-1. Set direction at the root: `<html lang="ar" dir="rtl">`, and `dir="auto"` on blocks of user-written text. Right alignment alone is not RTL.
-2. Use logical CSS (margin-inline-start, padding-inline-end, inset-inline, text-align: start) with flex and grid, which mirror automatically; remove hard-coded left and right.
-3. Mirror what shows direction: navigation order, back and forward arrows, step indicators, sliders, chevrons, drawer and close-button positions. Keep universal symbols unmirrored: media controls, clocks, check marks, logos, and usually the time axis of charts and number keypads.
-4. Mixed text (Arabic with English names, numbers, emails, code): isolate Latin or numeric runs with `dir="ltr"` or the bdi element so order and punctuation stay right. Phone numbers, codes and prices often need explicit LTR isolation.
-5. Digits: choose Western (0123) or Arabic-Indic (٠١٢٣) per audience and apply them everywhere; format with Intl.NumberFormat and Intl.DateTimeFormat for the locale, including the Hijri calendar where users expect it.
-6. Typography: an Arabic font with correct shaping, taller line height, no letter-spacing, truncation at word boundaries.
-7. Mobile: iOS and Android mirror layouts once RTL is supported (Android needs supportsRtl and start/end instead of left/right); test with the device language set to Arabic.
-8. Translation is not enough: dates, currency (SAR, AED, EGP), address formats, names and tone must fit the market.
-Answer shape: the concrete fixes (code or settings), then a short RTL test checklist.
+الواجهات العربية وغيرها من الواجهات التي تُكتب من اليمين إلى اليسار.
+
+## الخطوات
+1. اضبط الاتجاه من الجذر: `<html lang="ar" dir="rtl">`، و`dir="auto"` على كتل النص الذي يكتبه المستخدم. المحاذاة لليمين وحدها ليست اتجاهًا من اليمين.
+2. استخدم خصائص CSS المنطقية (`margin-inline-start` و`padding-inline-end` و`inset-inline` و`text-align: start`) مع flex وgrid اللذين ينعكسان تلقائيًا، واحذف قيم اليسار واليمين الثابتة.
+3. اعكس ما يدل على الاتجاه: ترتيب التنقل، وأسهم الرجوع والتقدم، ومؤشرات الخطوات، والمنزلقات، وعلامات الشيفرون، وموضع الدرج وزر الإغلاق. ولا تعكس الرموز العالمية: أزرار تشغيل الوسائط، والساعات، وعلامات الصح، والشعارات، وغالبًا محور الزمن في الرسوم ولوحات الأرقام.
+4. النص المختلط (عربي مع أسماء إنجليزية أو أرقام أو عناوين بريد أو كود): اعزل المقاطع اللاتينية أو الرقمية بـ `dir="ltr"` أو بعنصر `bdi` ليبقى الترتيب والترقيم صحيحين. أرقام الهواتف والأكواد والأسعار تحتاج غالبًا عزلًا صريحًا من اليسار.
+5. الأرقام: اختر الغربية (0123) أو العربية الهندية (٠١٢٣) حسب الجمهور وطبّقها في كل مكان، ونسّق بـ `Intl.NumberFormat` و`Intl.DateTimeFormat` حسب اللغة، ومعها التقويم الهجري حيث يتوقعه المستخدمون.
+6. الطباعة: خط عربي يصل الحروف صحيحًا، وارتفاع سطر أكبر، ولا تباعد بين الحروف، والقطع عند حدود الكلمات.
+7. الجوال: iOS وAndroid يعكسان التخطيط متى دُعم الاتجاه من اليمين (Android يحتاج `supportsRtl` وstart/end بدل left/right)؛ واختبر ولغة الجهاز مضبوطة على العربية.
+8. الترجمة لا تكفي: التواريخ، والعملة (ريال، ودرهم، وجنيه)، وصيغ العناوين، والأسماء، والنبرة يجب أن تناسب السوق.
+
+## شكل الجواب
+الإصلاحات الملموسة (كود أو إعدادات)، ثم قائمة قصيرة لاختبار الاتجاه من اليمين.
+
+## ما أحتاجه منك
+- المنصة (ويب أو iOS أو Android) والإطار، والكود أو لقطة للمشكلة.

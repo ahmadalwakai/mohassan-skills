@@ -1,16 +1,23 @@
 ---
 name: كلمات المرور والمصادقة والصلاحيات
 description: تسجيل الدخول والمصادقة والصلاحيات: تخزين آمن لكلمات المرور، الجلسات، JWT، OAuth، التحقق بخطوتين، الأدوار، استعادة الحساب. authentication auth login signin signup session sessions jwt oauth oidc sso 2fa mfa passkeys hashing bcrypt argon2 roles rbac permissions تسجيل الدخول المصادقة الصلاحيات صلاحيات الجلسات كلمات المرور
-version: 1.0.0
+version: 1.1.0
 category: security
 ---
-Use this for sign-in, sessions, tokens and permission design.
-1. Passwords: hash with Argon2id (or bcrypt with cost 12 or more, or scrypt); the salt is per password and built into the algorithm; never store them reversibly. Allow long passphrases (64 characters or more), check new ones against breached-password lists, and avoid forced periodic changes.
-2. Sign-in protection: rate limits and growing delays per account and per IP, one generic error message ("email or password is incorrect"), two-factor sign-in with authenticator apps or passkeys in preference to SMS.
-3. Web sessions: server-side sessions or signed tokens in cookies marked Secure, HttpOnly and SameSite; a new session id at sign-in; idle expiry; sign-out from all devices.
-4. JWT: lifetimes of minutes, refresh tokens that rotate and can be revoked; verify signature, issuer, audience and expiry; reject the "none" algorithm; prefer cookies over localStorage for browser apps.
-5. OAuth and OpenID Connect: authorization code flow with PKCE, a checked state parameter, minimal scopes.
-6. Authorization: deny by default; check permissions on the server for every request and every object; model roles (RBAC) or attributes (ABAC) in one place instead of scattered checks.
-7. Recovery is part of security: single-use, short-lived reset links; a notice to the owner on every account change; re-authentication before sensitive actions such as an email or payout change.
-8. Log authentication events, never the secrets themselves.
-Answer shape: the recommended design, then code for the critical parts (hashing, session or token checks).
+تصميم تسجيل الدخول والجلسات والتوكنات والصلاحيات بأمان.
+
+## الخطوات
+1. كلمات المرور: جزّئها بـ Argon2id (أو bcrypt بتكلفة 12 فأكثر، أو scrypt)، والملح خاص بكل كلمة ومدمج في الخوارزمية، ولا تخزّنها بشكل قابل للعكس أبدًا. اسمح بعبارات طويلة (64 حرفًا فأكثر)، وافحص الجديدة مقابل قوائم الكلمات المسرّبة، وتجنب فرض التغيير الدوري.
+2. حماية الدخول: حدود معدل وتأخير متزايد لكل حساب ولكل IP، ورسالة خطأ عامة واحدة («البريد أو كلمة المرور غير صحيحة»)، وتحقق بخطوتين بتطبيقات المصادقة أو مفاتيح المرور (Passkeys) مقدَّمًا على الرسائل النصية.
+3. جلسات الويب: جلسات على الخادم أو توكنات موقّعة في ملفات تعريف ارتباط بخصائص Secure وHttpOnly وSameSite، ومعرّف جلسة جديد عند الدخول، وانتهاء عند الخمول، وخروج من كل الأجهزة.
+4. JWT: أعمار بالدقائق، وتوكنات تحديث تُدوَّر ويمكن إبطالها؛ تحقّق من التوقيع والمُصدِر والجمهور والانتهاء، وارفض الخوارزمية none، وفضّل ملفات تعريف الارتباط على localStorage في تطبيقات المتصفح.
+5. OAuth وOpenID Connect: مسار رمز التفويض مع PKCE، ومعامل state مفحوص، وأضيق نطاقات ممكنة.
+6. التفويض: المنع هو الأصل؛ افحص الصلاحية على الخادم لكل طلب ولكل كائن، ونمذج الأدوار (RBAC) أو السمات (ABAC) في مكان واحد بدل فحوص متفرقة.
+7. الاستعادة جزء من الأمان: روابط إعادة تعيين قصيرة العمر تُستخدم مرة واحدة، وإشعار للمالك عند كل تغيير في الحساب، وإعادة مصادقة قبل الأفعال الحساسة مثل تغيير البريد أو حساب الدفع.
+8. سجّل أحداث المصادقة، ولا تسجّل الأسرار نفسها أبدًا.
+
+## شكل الجواب
+التصميم المقترح، ثم كود الأجزاء الحرجة (التجزئة، وفحص الجلسة أو التوكن).
+
+## ما أحتاجه منك
+- اللغة والإطار، ونوع التطبيق: ويب، أو جوال، أو API.

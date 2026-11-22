@@ -1,20 +1,27 @@
 ---
 name: مؤشرات الأداء والقياس
 description: مؤشرات الأداء الرئيسية KPIs والقياس: أهداف OKR، مؤشرات المتجر والتسويق والعمليات، معدل التحويل، تكلفة الاكتساب، قيمة العميل، معدل الاحتفاظ. kpi kpis metric metrics okr okrs targets conversion cac ltv clv churn retention roas aov مؤشرات المؤشرات مؤشر الأداء أداء القياس قياس الأهداف أهداف الاحتفاظ
-version: 1.0.0
+version: 1.1.0
 category: analytics
 ---
-Use this to choose, define and track performance metrics and goals.
-1. Tie metrics to the goal: one north-star metric that reflects customer value (for example completed bookings per month), supported by a few driver metrics. Too many KPIs means none matter.
-2. Define each metric exactly: name, formula, data source, owner, frequency, target, and the action taken when it is off track.
-3. Common sets:
-   - E-commerce: conversion rate (orders ÷ sessions), average order value, customer acquisition cost (marketing spend ÷ new customers), repeat purchase rate, return rate, gross margin, customer lifetime value.
-   - Marketing: cost per lead, cost per acquisition, ROAS (revenue ÷ ad spend), lead-to-customer rate.
-   - Services and operations: jobs per day, on-time rate, first-time fix rate, utilization, cancellation rate, CSAT or NPS, complaints per 100 jobs.
-   - Subscription software: MRR, churn, activation rate, net revenue retention.
-4. Pair lagging outcomes (revenue) with leading measures the team can act on this week (quotes sent, response time).
-5. OKRs: an objective with 2 to 4 measurable key results per quarter, set as a stretch (about 70% achievement is a good result); tasks are not key results.
-6. Healthy paid acquisition usually needs lifetime value of at least about three times acquisition cost, with that cost recovered within about a year.
-7. Avoid vanity metrics (followers, page views) unless they drive the goal, and watch for gaming once a metric becomes a target.
-8. Review weekly for operational metrics and monthly for business metrics, reading trends rather than single points.
-Answer shape: a metric table (metric, formula, target, frequency, owner) and a line on why each matters.
+اختيار مؤشرات الأداء والأهداف وتعريفها ومتابعتها.
+
+## الخطوات
+1. اربط المقاييس بالهدف: مقياس نجم الشمال واحد يعكس قيمة العميل (مثل عدد الحجوزات المكتملة شهريًا)، تدعمه مقاييس دافعة قليلة. كثرة المؤشرات تعني أن لا شيء منها مهم.
+2. عرّف كل مقياس بدقة: الاسم، والمعادلة، ومصدر البيانات، والمسؤول، والتكرار، والهدف، والإجراء حين ينحرف عن المسار.
+3. مجموعات شائعة:
+   - التجارة الإلكترونية: معدل التحويل (الطلبات ÷ الجلسات)، ومتوسط قيمة الطلب، وتكلفة كسب العميل (إنفاق التسويق ÷ العملاء الجدد)، ومعدل تكرار الشراء، ومعدل الإرجاع، ومجمل الهامش، والقيمة الدائمة للعميل.
+   - التسويق: تكلفة العميل المحتمل، وتكلفة الاستحواذ، والعائد على الإنفاق الإعلاني ROAS (الإيراد ÷ إنفاق الإعلانات)، ونسبة تحول العملاء المحتملين إلى عملاء.
+   - الخدمات والتشغيل: المهام يوميًا، والالتزام بالمواعيد، ونسبة الإصلاح من أول مرة، ونسبة الاستغلال، ونسبة الإلغاء، ورضا العملاء CSAT أو NPS، والشكاوى لكل 100 مهمة.
+   - البرمجيات بالاشتراك: الإيراد الشهري المتكرر MRR، ومعدل الإلغاء، ومعدل التفعيل، وصافي الاحتفاظ بالإيراد.
+4. اقرن المخرجات المتأخرة (الإيراد) بمقاييس رائدة يستطيع الفريق التأثير فيها هذا الأسبوع (عروض الأسعار المقدمة، وزمن الرد).
+5. OKRs: هدف مع 2 إلى 4 نتائج رئيسية قابلة للقياس لكل ربع، توضع طموحة (تحقيق نحو 70% نتيجة جيدة)؛ والمهام ليست نتائج رئيسية.
+6. الاستحواذ المدفوع الصحي يحتاج عادة قيمة دائمة للعميل لا تقل عن ثلاثة أضعاف تكلفة كسبه، مع استرداد تلك التكلفة خلال سنة تقريبًا.
+7. تجنب مقاييس الغرور (المتابعون، والمشاهدات) ما لم تدفع الهدف، وانتبه للتلاعب حين يصبح المقياس هدفًا.
+8. راجع المقاييس التشغيلية أسبوعيًا ومقاييس العمل شهريًا، واقرأ الاتجاهات لا النقاط المنفردة.
+
+## شكل الجواب
+جدول المقاييس (المقياس، والمعادلة، والهدف، والتكرار، والمسؤول) وسطر عن أهمية كل منها.
+
+## ما أحتاجه منك
+- نوع النشاط، وهدفه الرئيسي في هذه المرحلة، والبيانات المتاحة.

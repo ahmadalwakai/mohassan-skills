@@ -1,18 +1,25 @@
 ---
 name: أمن تطبيقات الويب
 description: أمن تطبيقات ومواقع الويب: OWASP Top 10، حقن SQL، XSS، CSRF، SSRF، رفع الملفات، التحقق من المدخلات، رؤوس الأمان، فحص الثغرات. security secure owasp vulnerability vulnerabilities injection xss csrf ssrf cors csp headers pentest audit hardening ثغرة ثغرات الثغرات أمن الأمان اختراق هاكر حقن
-version: 1.0.0
+version: 1.1.0
 category: security
 ---
-Use this to build or review a web application against common attacks.
-1. Treat all input as hostile: validate type, length, format and allowed values on the server; reject rather than repair.
-2. Injection: parameterized queries or an ORM for SQL, argument arrays instead of shell strings, no eval of user data, safe XML and YAML parsers.
-3. XSS: rely on the framework's auto-escaping, sanitize any user HTML (DOMPurify or a server equivalent), set a Content-Security-Policy that blocks inline script, mark session cookies HttpOnly.
-4. Sessions: hashed passwords, rate-limited sign-in, cookies marked Secure, HttpOnly and SameSite, session renewal at sign-in.
-5. Authorization on every request, on the server, per object: the record must belong to the caller. Broken access control is the most common serious flaw; never trust ids or roles that come from the client.
-6. CSRF: SameSite cookies plus anti-CSRF tokens for cookie-authenticated forms.
-7. SSRF: when the server fetches a URL from a user, allow-list hosts, block private and cloud metadata address ranges, and refuse redirects to them.
-8. Uploads: check the type by content, cap the size, store outside the web root under random names, serve with the correct content type and Content-Disposition.
-9. Transport and headers: HTTPS with HSTS, X-Content-Type-Options: nosniff, frame-ancestors in the CSP, restrictive CORS.
-10. Dependencies and credentials: audit packages, update regularly, keep credentials in a secret manager and out of code and logs.
-Answer shape: findings as risk, affected code, one-line attack scenario and fix; then what was not checked.
+بناء تطبيق ويب أو مراجعته في مواجهة الهجمات الشائعة.
+
+## الخطوات
+1. عامل كل مدخل على أنه معادٍ: تحقق على الخادم من النوع والطول والصيغة والقيم المسموحة، وارفض بدل أن تصلح.
+2. الحقن: استعلامات بمعاملات أو ORM لقواعد SQL، ومصفوفات وسائط بدل نصوص الصدفة، ولا `eval` لبيانات المستخدم، ومحللات XML وYAML آمنة.
+3. XSS: اعتمد على الترميز التلقائي في الإطار، ونقِّ أي HTML من المستخدم (DOMPurify أو مقابل على الخادم)، واضبط Content-Security-Policy تمنع السكربتات المضمّنة، وعلّم ملفات تعريف ارتباط الجلسة بـ HttpOnly.
+4. الجلسات: كلمات مرور مجزّأة، وتسجيل دخول محدود المعدل، وملفات تعريف ارتباط بخصائص Secure وHttpOnly وSameSite، وتجديد الجلسة عند الدخول.
+5. التفويض في كل طلب، على الخادم، لكل كائن: السجل يجب أن يخص الطالب. وكسر التحكم في الوصول أكثر الثغرات الخطيرة شيوعًا؛ ولا تثق أبدًا بمعرّفات أو أدوار تأتي من العميل.
+6. CSRF: ملفات تعريف ارتباط SameSite مع رموز مضادة لـ CSRF للنماذج المصادَق عليها بملفات تعريف الارتباط.
+7. SSRF: حين يجلب الخادم رابطًا من المستخدم، استخدم قائمة مضيفين مسموحين، واحجب نطاقات العناوين الخاصة وعناوين بيانات السحابة الوصفية، وارفض التحويلات إليها.
+8. الرفع: افحص النوع من المحتوى، وحدّد الحجم، وخزّن خارج جذر الويب بأسماء عشوائية، وقدّم الملفات بنوع المحتوى الصحيح وContent-Disposition.
+9. النقل والترويسات: HTTPS مع HSTS، و`X-Content-Type-Options: nosniff`، وframe-ancestors في سياسة CSP، وCORS مقيّد.
+10. الاعتماديات وبيانات الاعتماد: دقّق الحزم، وحدّثها بانتظام، واحفظ بيانات الاعتماد في مدير أسرار خارج الكود والسجلات.
+
+## شكل الجواب
+الملاحظات في صورة: الخطر، والكود المتأثر، وسيناريو الهجوم في سطر، والإصلاح؛ ثم ما لم يُفحص.
+
+## ما أحتاجه منك
+- الكود أو وصف التطبيق، والإطار واللغة، وطريقة المصادقة المستخدمة.

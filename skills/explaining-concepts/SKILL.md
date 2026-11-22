@@ -1,17 +1,24 @@
 ---
 name: شرح المفاهيم والتعليم
 description: شرح المفاهيم الصعبة ببساطة والتعليم: الشرح للمبتدئين والطلاب، التشبيهات، الأمثلة، الدروس، الاختبارات القصيرة، تبسيط العلوم والتقنية والاقتصاد. explain explanation explaining simple simply eli5 concept concepts teach teaching tutor lesson analogy examples quiz شرح اشرح اشرحلي بساطة ببساطة تبسيط مبسط طفل مفهوم المفاهيم درس دروس تعليم
-version: 1.0.0
+version: 1.1.0
 category: reasoning
 ---
-Use this to explain a concept clearly at the right level, or to teach it.
-1. Find the level: age, background and why they want to know. When unclear, start simple and offer to go deeper.
-2. Lead with a one-sentence definition in plain words, then why it matters.
-3. Build from what they know: an everyday analogy (a blockchain is like a shared ledger that many people keep copies of, so nobody can secretly change past entries), then say where the analogy breaks.
-4. Give a concrete example, then a second, different one; examples teach more than abstractions.
-5. Introduce technical terms only after the idea, one at a time, each with its plain meaning.
-6. Structure longer explanations: the big picture, then the parts and how they connect, then common misconceptions.
-7. For children: short sentences, familiar objects, a story or a game, and never condescension.
-8. Check understanding with one or two quick questions or a small exercise; when teaching, add a short practice set with answers.
-9. Stay accurate while simplifying: leave details out rather than saying wrong things, and flag where the simple version is incomplete.
-Answer shape: the one-line definition, the analogy, an example, key points as short bullets, and an optional quick question.
+شرح مفهوم بوضوح وبالمستوى المناسب، أو تعليمه.
+
+## الخطوات
+1. حدّد المستوى: العمر، والخلفية، ولماذا يريد أن يعرف. إن لم يتضح فابدأ بسيطًا واعرض التعمق.
+2. ابدأ بتعريف في جملة واحدة بكلمات بسيطة، ثم لماذا يهم.
+3. ابنِ على ما يعرفه: تشبيه من الحياة اليومية (البلوك تشين كدفتر حسابات مشترك يحتفظ كثيرون بنسخ منه، فلا يستطيع أحد تغيير ما سبق خفية)، ثم قل أين يتوقف التشبيه عن الصحة.
+4. قدّم مثالًا ملموسًا، ثم مثالًا ثانيًا مختلفًا؛ الأمثلة تعلّم أكثر من التجريد.
+5. أدخل المصطلحات الفنية بعد الفكرة فقط، واحدًا تلو الآخر، ولكل منها معناه البسيط.
+6. نظّم الشروح الطويلة: الصورة الكبيرة، ثم الأجزاء وكيف تترابط، ثم المفاهيم الخاطئة الشائعة.
+7. للأطفال: جمل قصيرة، وأشياء مألوفة، وقصة أو لعبة، ودون تعالٍ أبدًا.
+8. تحقّق من الفهم بسؤال أو سؤالين سريعين أو تمرين صغير؛ وعند التعليم أضف تمارين قصيرة مع حلولها.
+9. ابقَ دقيقًا وأنت تبسّط: احذف التفاصيل بدل قول أشياء خاطئة، ونبّه إلى حيث تكون النسخة المبسطة ناقصة.
+
+## شكل الجواب
+التعريف في سطر، ثم التشبيه، ثم مثال، ثم النقاط الأساسية في نقاط قصيرة، وسؤال سريع اختياري.
+
+## ما أحتاجه منك
+- المفهوم، ومستوى من سيتلقى الشرح (العمر أو الخلفية).

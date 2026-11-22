@@ -1,16 +1,23 @@
 ---
 name: العمليات والخدمات اللوجستية
 description: إدارة العمليات والخدمات اللوجستية: جدولة السائقين والمركبات، التوصيل، النقل والشحن، المخزون والمستودع، تحسين المسارات، الموردون، الجودة والكفاءة. operations logistics scheduling dispatch drivers fleet routes routing delivery deliveries inventory warehouse stock supply chain removals moving العمليات اللوجستية لوجستي السائقين سائق المركبات التوصيل توصيل المسارات المخزون مستودع نقل
-version: 1.0.0
+version: 1.1.0
 category: business
 ---
-Use this for scheduling, delivery, fleet, stock and day-to-day operations.
-1. Map the process end to end (booking → planning → dispatch → job → completion → invoice), measure each step's time and failure points, and fix the biggest bottleneck first.
-2. Driver and vehicle scheduling: list jobs with time windows, durations (including loading and access), locations, and crew and vehicle needs; assign by area to cut travel; keep buffers of 15 to 30 minutes between city jobs; plan breaks and legal driving hours (UK and EU drivers' hours rules cover many goods vehicles over 3.5 t).
-3. Routing: cluster stops by area and use route optimization (multi-stop maps for small fleets; tools such as Circuit, Routific or OptimoRoute for more), updating the plan when jobs move.
-4. Communication: confirmations and reminders to customers, a live status board for the team, a standard delay process (notify early with a new time).
-5. Removals: a survey or detailed inventory before quoting, crew size by volume and access, protective materials, insurance, photos before and after, a door-step checklist.
-6. Inventory: one system of record, reorder point = average daily use × lead time + safety stock, regular counts, first-in-first-out for perishables, ABC analysis to focus on high-value items.
-7. Quality and safety: vehicle checks, a maintenance schedule, incident reporting, training, feedback after each job.
-8. Metrics: jobs per day, on-time rate, cost and fuel per job, damage claims, utilization of vehicles and staff.
-Answer shape: a practical schedule or process with steps, a template such as a daily plan table, and the metrics to track.
+الجدولة والتوصيل والأسطول والمخزون والعمليات اليومية.
+
+## الخطوات
+1. ارسم العملية من أولها إلى آخرها (الحجز ← التخطيط ← الإرسال ← التنفيذ ← الإنجاز ← الفاتورة)، وقِس زمن كل خطوة ونقاط فشلها، وأصلح عنق الزجاجة الأكبر أولًا.
+2. جدولة السائقين والمركبات: اسرد المهام بنوافذها الزمنية ومددها (مع التحميل وصعوبة الوصول) ومواقعها واحتياجها من الطاقم والمركبات؛ ووزّع حسب المنطقة لتقليل التنقل؛ واترك فواصل من 15 إلى 30 دقيقة بين مهام المدينة؛ وخطط للاستراحات وساعات القيادة النظامية (قواعد ساعات القيادة في بريطانيا والاتحاد الأوروبي تشمل كثيرًا من مركبات البضائع فوق 3.5 طن).
+3. المسارات: جمّع نقاط التوقف حسب المنطقة واستخدم تحسين المسارات (خرائط متعددة المحطات للأساطيل الصغيرة، وأدوات مثل Circuit أو Routific أو OptimoRoute لما هو أكبر)، وحدّث الخطة حين تتغير المهام.
+4. التواصل: تأكيدات وتذكيرات للعملاء، ولوحة حالة حية للفريق، وإجراء ثابت للتأخير (أبلغ مبكرًا بموعد جديد).
+5. نقل الأثاث: معاينة أو جرد مفصّل قبل التسعير، وحجم الطاقم حسب الحجم وصعوبة الوصول، ومواد الحماية، والتأمين، وصور قبل وبعد، وقائمة فحص عند الباب.
+6. المخزون: نظام سجل واحد، ونقطة إعادة الطلب = متوسط الاستهلاك اليومي × مدة التوريد + مخزون الأمان، وجرد منتظم، والوارد أولًا يُصرف أولًا للسلع القابلة للتلف، وتحليل ABC للتركيز على الأصناف عالية القيمة.
+7. الجودة والسلامة: فحص المركبات، وجدول صيانة، والإبلاغ عن الحوادث، والتدريب، والملاحظات بعد كل مهمة.
+8. المقاييس: المهام يوميًا، والالتزام بالمواعيد، والتكلفة والوقود لكل مهمة، ومطالبات الأضرار، واستغلال المركبات والموظفين.
+
+## شكل الجواب
+جدول أو عملية عملية بخطوات، وقالب مثل جدول الخطة اليومية، والمقاييس التي تُتابع.
+
+## ما أحتاجه منك
+- نوع العمليات، وعدد المركبات أو الموظفين، والمشكلة الأكبر حاليًا.

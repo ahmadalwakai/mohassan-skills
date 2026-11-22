@@ -1,21 +1,29 @@
 ---
 name: مراجعة الكود وتحسينه
 description: مراجعة الكود البرمجي وتحسينه: أخطاء منطقية، حالات حدية، ثغرات، أداء، وضوح، تسمية، تكرار، اختبارات، إعادة هيكلة. code review reviewer pull request PR diff refactor refactoring clean readability maintainability راجع مراجعه الكود كود الشيفرة البرمجية تحسين هيكلة
-version: 1.0.0
+version: 1.1.0
 category: coding
 ---
-Use this when reviewing or improving code, a diff or a pull request.
-1. Establish intent first: what the change must do, its inputs, outputs and callers. Judge the code against that intent, not personal taste.
-2. Review in this order and report blockers early:
-   - Correctness: empty, null/undefined, zero, negative, very large, duplicate and unicode/RTL inputs; time zones and daylight saving; off-by-one; error paths; races between concurrent requests.
-   - Security: untrusted input reaching SQL, shell, HTML or file paths; missing authorization checks; credentials committed in code.
-   - Data safety: destructive migrations, unscoped deletes, retries that are not idempotent.
-   - Performance: N+1 queries, work inside loops that belongs outside, blocking I/O on hot paths, unbounded memory.
-   - Clarity: names that say what things are, functions with one job, duplication, dead code.
-   - Tests: are the new behaviour and the motivating bug covered?
-3. Write each finding as: location, the concrete failure (this input gives this wrong result), severity (blocker / should fix / optional) and the smallest fix.
-4. Do not rewrite working code into a preferred style. Style remarks come last and are optional.
-5. Refactoring keeps behaviour identical: one change at a time, guarded by existing tests or a characterization test written first.
-6. Look outside the diff: callers, public APIs, config, docs and migrations the change touches.
-7. If a judgement needs code you cannot see, name what is missing instead of guessing.
-Answer shape: one-line verdict, findings grouped by severity, corrected code only where it fixes a blocker.
+مراجعة الكود أو التعديل أو طلب الدمج (Pull Request) وتحسينه.
+
+## الخطوات
+1. حدّد الغرض أولًا: ما الذي يجب أن يفعله التغيير، ومدخلاته ومخرجاته ومن يستدعيه. احكم على الكود بهذا الغرض لا بالذوق الشخصي.
+2. راجع بهذا الترتيب وأبلغ عن المانع أولًا:
+   - الصحة: المدخلات الفارغة وnull/undefined والصفر والسالب والكبير جدًا والمكرر والنصوص العربية (RTL)؛ والمناطق الزمنية والتوقيت الصيفي؛ وأخطاء الإزاحة بواحد؛ ومسارات الخطأ؛ والسباق بين الطلبات المتزامنة.
+   - الأمان: مدخلات غير موثوقة تصل إلى SQL أو الصدفة (shell) أو HTML أو مسارات الملفات؛ وفحوص صلاحية ناقصة؛ وبيانات اعتماد مكتوبة داخل الكود.
+   - سلامة البيانات: ترحيلات هدّامة، وحذف بلا نطاق، وإعادة محاولة تكرر الأثر.
+   - الأداء: استعلامات N+1، وعمل داخل الحلقات مكانه خارجها، وإدخال وإخراج حاجب في المسارات الساخنة، وذاكرة بلا حد.
+   - الوضوح: أسماء تقول ما الشيء، ودوال بمهمة واحدة، وتكرار، وكود ميت.
+   - الاختبارات: هل يغطي اختبار السلوك الجديد والخطأ الذي استدعى التغيير؟
+3. اكتب كل ملاحظة هكذا: الموضع، والفشل الملموس (هذا المدخل يعطي هذه النتيجة الخاطئة)، والخطورة (مانع / يجب إصلاحه / اختياري)، وأصغر إصلاح.
+4. لا تُعِد كتابة كود يعمل إلى أسلوب تفضله؛ ملاحظات الأسلوب أخيرة واختيارية.
+5. إعادة الهيكلة تُبقي السلوك كما هو: تغيير واحد في كل مرة، تحرسه اختبارات قائمة أو اختبار توصيف يُكتب أولًا.
+6. انظر خارج التعديل: من يستدعي الكود، والواجهات العامة، والإعدادات، والتوثيق، والترحيلات التي يمسها التغيير.
+7. إن احتاج الحكم كودًا لا تراه فسمِّ ما ينقص بدل التخمين.
+
+## شكل الجواب
+حكم في سطر واحد، ثم الملاحظات مجمّعة حسب الخطورة، والكود المصحح فقط حيث يُصلح مانعًا.
+
+## ما أحتاجه منك
+- الكود أو التعديل كاملًا، واللغة والإطار.
+- ما الذي يُفترض أن يفعله التغيير.

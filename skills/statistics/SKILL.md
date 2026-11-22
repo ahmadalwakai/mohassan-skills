@@ -1,16 +1,23 @@
 ---
 name: الإحصاء والتنبؤ
 description: الإحصاء والتنبؤ: المتوسط والوسيط والانحراف المعياري، الاحتمالات، العينات، الدلالة الإحصائية، قيمة p، فترات الثقة، الانحدار، السلاسل الزمنية والتنبؤ بالمبيعات. statistical mean median mode variance deviation probability sample significance significant pvalue confidence interval regression correlation forecast forecasting timeseries إحصاء الإحصاء احصاء إحصائية الإحصائية المتوسط الوسيط الانحراف الاحتمالات الانحدار التنبؤ
-version: 1.0.0
+version: 1.1.0
 category: analytics
 ---
-Use this for statistical reasoning, statistical tests and forecasts.
-1. Describe before inferring: for skewed data (incomes, delivery times, house prices) report the median and quartiles, not only the mean, which suits roughly symmetric data. Always give the spread (standard deviation or interquartile range) and the sample size.
-2. Samples: say how the sample was drawn; convenience samples and self-selected surveys can be biased whatever their size.
-3. Significance: a p-value is the probability of data at least this extreme if there were no real effect. p < 0.05 is a convention, not proof. Report the effect size and a 95% confidence interval, which show how large and how certain the effect is.
-4. Choose the test by data type: two group means (t-test, or Mann-Whitney for skewed data), proportions (chi-square or a two-proportion z-test), several groups (ANOVA or Kruskal-Wallis), relationships (correlation, regression). Check the assumptions.
-5. Many comparisons inflate false positives: correct for them, or fix the main metric in advance.
-6. Correlation is not causation: randomized experiments establish causes; observational data need careful control of confounders.
-7. Regression: interpret coefficients in real units ("each extra day of delivery time goes with 3% fewer repeat orders"), check residuals, never extrapolate far beyond the data.
-8. Forecasting: begin with simple baselines (last value, same period last year, moving average), then seasonal methods (exponential smoothing, ARIMA, Prophet) when there is enough history, ideally two or more seasonal cycles; validate on a held-out recent period; always give a range, not a single number.
-Answer shape: the result in plain words, the numbers with their uncertainty, the method, and its main limitation.
+الاستدلال الإحصائي والاختبارات الإحصائية والتنبؤ.
+
+## الخطوات
+1. صِف قبل أن تستنتج: للبيانات الملتوية (الدخول، وأزمنة التوصيل، وأسعار البيوت) اذكر الوسيط والربيعيات لا المتوسط وحده، فالمتوسط يناسب البيانات المتماثلة تقريبًا. واذكر دائمًا التشتت (الانحراف المعياري أو المدى الربيعي) وحجم العينة.
+2. العينات: قل كيف سُحبت العينة؛ فعينات الملاءمة والاستبيانات ذاتية الاختيار قد تكون متحيزة مهما كبرت.
+3. الدلالة: القيمة الاحتمالية (p-value) هي احتمال الحصول على بيانات بهذا التطرف أو أكثر لو لم يوجد أثر حقيقي. وp < 0.05 عُرف لا دليل. اذكر حجم الأثر وفترة ثقة 95%، فهما يُظهران كم الأثر كبير وكم هو مؤكد.
+4. اختر الاختبار حسب نوع البيانات: متوسطا مجموعتين (اختبار t، أو Mann-Whitney للبيانات الملتوية)، والنسب (مربع كاي أو اختبار z لنسبتين)، وعدة مجموعات (ANOVA أو Kruskal-Wallis)، والعلاقات (الارتباط، والانحدار). وافحص الافتراضات.
+5. المقارنات الكثيرة تضخّم الإيجابيات الكاذبة: صحّح لها، أو ثبّت المقياس الرئيسي مسبقًا.
+6. الارتباط ليس سببية: التجارب العشوائية تثبت الأسباب، والبيانات الرصدية تحتاج ضبطًا دقيقًا للعوامل المربكة.
+7. الانحدار: فسّر المعاملات بوحدات حقيقية («كل يوم إضافي في زمن التوصيل يرتبط بطلبات متكررة أقل 3%»)، وافحص البواقي، ولا تستقرئ بعيدًا عن مدى البيانات أبدًا.
+8. التنبؤ: ابدأ بخطوط أساس بسيطة (آخر قيمة، والفترة نفسها من العام الماضي، والمتوسط المتحرك)، ثم الطرق الموسمية (التنعيم الأسي، وARIMA، وProphet) حين يتوفر تاريخ كافٍ، ويفضل دورتان موسميتان أو أكثر؛ وتحقق على فترة حديثة محجوزة؛ وأعطِ دائمًا نطاقًا لا رقمًا واحدًا.
+
+## شكل الجواب
+النتيجة بكلمات بسيطة، ثم الأرقام مع عدم يقينها، ثم الطريقة، وأهم قيودها.
+
+## ما أحتاجه منك
+- السؤال، ووصف البيانات وحجمها، وما قيس وكيف.

@@ -1,16 +1,23 @@
 ---
 name: المطبوعات والبوسترات والكروت
 description: المطبوعات: البوسترات، البروشورات، كروت العمل، الفلايرات، المنيو، اللوحات الإعلانية، المقاسات، الدقة، CMYK، هوامش القص للطباعة. print printing poster posters flyer flyers brochure card cards menu banner signage cmyk bleed dpi a4 a5 بوستر بوسترات ملصق مطبوعات المطبوعات بروشور فلاير كرت كروت بطاقة للطباعة منيو
-version: 1.0.0
+version: 1.1.0
 category: design
 ---
-Use this for posters, flyers, brochures, business cards, menus and signs.
-1. Brief: purpose (announce, sell, inform), audience, where it is seen and from how far, the one message, the action wanted (visit, call, scan), the required details (date, place, price, contact), and the print size and method.
-2. Poster hierarchy: one dominant headline or image readable from a distance, then the key detail (date, offer), then supporting information, then contact and logo. Check it at 25 percent size: the main message must still read.
-3. Common sizes: business card 85 x 55 mm in the UK and Europe, 90 x 50 mm in much of the Gulf (confirm with the printer), 3.5 x 2 in in the US; flyers A5 (148 x 210 mm) or A6; posters A3, A2 or A1; roll-up banners about 85 x 200 cm.
-4. Print setup: CMYK (or Pantone for exact brand colors), images at 300 dpi at final size (150 dpi is acceptable for large banners seen from afar), 3 mm bleed on every edge, a 3 to 5 mm safe margin for text, fonts embedded or outlined, PDF/X export when the printer accepts it.
-5. Type: short, large headlines; body text of at least 9 to 10 pt on flyers and cards; strong contrast; Arabic set in a proper Arabic font and checked in the final PDF for correct shaping.
-6. Paper prints darker and duller than a screen shows; request a proof for important runs and agree the paper (coated or uncoated, weight in gsm).
-7. A QR code of at least 2 x 2 cm with a short, tested link and a call to action beside it.
-8. Final check: spelling in both languages, phone numbers, dates, prices, logo version, bleed and crop marks.
-Answer shape: the layout with the text for each area, then sizes and print specifications as a checklist.
+تصميم الملصقات والمنشورات الورقية والكتيبات وبطاقات العمل وقوائم الطعام واللافتات.
+
+## الخطوات
+1. الموجز: الغرض (إعلان، أو بيع، أو إعلام)، والجمهور، وأين يُرى ومن أي مسافة، والرسالة الواحدة، والفعل المطلوب (زيارة، أو اتصال، أو مسح رمز)، والتفاصيل اللازمة (التاريخ، والمكان، والسعر، ووسيلة التواصل)، ومقاس الطباعة وطريقتها.
+2. تسلسل الملصق: عنوان أو صورة مهيمنة تُقرأ من بعيد، ثم التفصيل الأهم (التاريخ أو العرض)، ثم المعلومات الداعمة، ثم التواصل والشعار. افحصه مصغرًا إلى 25%: يجب أن تظل الرسالة الرئيسية مقروءة.
+3. المقاسات الشائعة: بطاقة العمل 85 × 55 مم في بريطانيا وأوروبا، و90 × 50 مم في معظم الخليج (تأكد مع المطبعة)، و3.5 × 2 بوصة في أمريكا؛ والمنشورات A5 (148 × 210 مم) أو A6؛ والملصقات A3 أو A2 أو A1؛ ولافتات Roll-up نحو 85 × 200 سم.
+4. إعداد الطباعة: CMYK (أو Pantone لألوان العلامة الدقيقة)، وصور بدقة 300 dpi بالمقاس النهائي (و150 dpi مقبولة للافتات الكبيرة التي تُرى من بعيد)، و3 مم زيادة قص على كل حافة، وهامش أمان من 3 إلى 5 مم للنص، وخطوط مضمّنة أو محوّلة إلى منحنيات، وتصدير PDF/X حين تقبله المطبعة.
+5. الخط: عناوين قصيرة وكبيرة، ونص لا يقل عن 9 إلى 10 نقاط في المنشورات والبطاقات، وتباين قوي، والعربية بخط عربي مناسب يُفحص اتصال حروفه في ملف PDF النهائي.
+6. الورق يُخرج الألوان أغمق وأبهت مما تظهر على الشاشة؛ اطلب نسخة تجريبية للكميات المهمة، واتفق على الورق (لامع أو غير لامع، والوزن بالغرام).
+7. رمز QR لا يقل عن 2 × 2 سم، برابط قصير مجرَّب ودعوة إلى الإجراء بجانبه.
+8. الفحص الأخير: الإملاء في اللغتين، وأرقام الهواتف، والتواريخ، والأسعار، ونسخة الشعار، وزيادة القص وعلامات القطع.
+
+## شكل الجواب
+التخطيط مع نص كل منطقة، ثم المقاسات ومواصفات الطباعة في قائمة فحص.
+
+## ما أحتاجه منك
+- نوع المطبوع ومقاسه، والرسالة والتفاصيل المطلوبة، والشعار والألوان إن وُجدت.

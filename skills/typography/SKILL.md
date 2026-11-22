@@ -1,16 +1,23 @@
 ---
 name: الخطوط والطباعة
 description: اختيار الخطوط للمواقع والتطبيقات والمطبوعات: خطوط عربية ولاتينية، تناسق العربي مع اللاتيني، أحجام الخط، تباعد الأسطر، التسلسل الطباعي، تراخيص الخطوط. typography font fonts typeface typefaces pairing size sizes leading kerning hierarchy readability خط خطوط الخط الخطوط عربية طباعي الطباعي حجم
-version: 1.0.0
+version: 1.1.0
 category: design
 ---
-Use this for choosing and setting type for screens or print.
-1. Choose for the job: reading text needs a highly legible family with open shapes; headlines can carry more personality. At most two families (headings and text), or one family in several weights.
-2. Arabic fonts for screens: Noto Naskh Arabic or Amiri for traditional reading text; Noto Kufi Arabic, Tajawal, Cairo, IBM Plex Sans Arabic, Readex Pro or Almarai for modern interfaces. Check the character set (Persian and Urdu letters if needed), the digits, diacritics and kashida support.
-3. Arabic with Latin: pair by letter body height, stroke weight and overall tone (IBM Plex Sans Arabic with IBM Plex Sans, Noto Kufi Arabic with Noto Sans, Cairo with Inter or a similar grotesque). Arabic usually needs about 10 to 15 percent more size to look equal to Latin.
-4. Sizes: body text 16 px or more on screens (Arabic often 17 to 18 px); headings on a modular scale with a ratio of about 1.2 to 1.333; clear steps between levels.
-5. Line height: about 1.5 for Latin text and 1.6 to 1.8 for Arabic text because of ascenders, descenders and dots; headings tighter (1.1 to 1.3).
-6. Line length of 45 to 75 characters. Avoid justified text on the web unless hyphenation and kashida are handled. Never add letter-spacing to Arabic: it breaks the joins.
-7. Web delivery: WOFF2, subsets for the scripts used, font-display: swap, preload only the main text font, few weights.
-8. Licensing: confirm the license covers web, app or commercial print use.
-Answer shape: recommended families with sizes and line heights, as a style table or a sample CSS block.
+اختيار الخطوط وضبطها للشاشات أو الطباعة.
+
+## الخطوات
+1. اختر حسب المهمة: نص القراءة يحتاج عائلة شديدة الوضوح بأشكال مفتوحة، والعناوين تحتمل شخصية أكبر. عائلتان على الأكثر (للعناوين والنص)، أو عائلة واحدة بعدة أوزان.
+2. خطوط عربية للشاشات: Noto Naskh Arabic أو Amiri لنص القراءة التقليدي، وNoto Kufi Arabic أو Tajawal أو Cairo أو IBM Plex Sans Arabic أو Readex Pro أو Almarai للواجهات الحديثة. وافحص مجموعة الحروف (حروف الفارسية والأردية إن لزمت)، والأرقام، والتشكيل، ودعم الكشيدة.
+3. العربية مع اللاتينية: زاوج حسب ارتفاع جسم الحرف وسماكة الخط والطابع العام (IBM Plex Sans Arabic مع IBM Plex Sans، وNoto Kufi Arabic مع Noto Sans، وCairo مع Inter أو خط مشابه). والعربية تحتاج عادة حجمًا أكبر بنحو 10 إلى 15% لتبدو مساوية للاتينية.
+4. الأحجام: نص المتن 16 بكسل أو أكثر على الشاشات (والعربية غالبًا 17 إلى 18)، والعناوين على سلّم بنسبة نحو 1.2 إلى 1.333، بفروق واضحة بين المستويات.
+5. ارتفاع السطر: نحو 1.5 للنص اللاتيني، ومن 1.6 إلى 1.8 للعربي بسبب الصواعد والنوازل والنقاط؛ والعناوين أضيق (1.1 إلى 1.3).
+6. طول السطر من 45 إلى 75 حرفًا. وتجنب ضبط النص من الطرفين على الويب ما لم تُعالج التجزئة والكشيدة. ولا تضف تباعدًا بين الحروف العربية أبدًا: فهو يقطع اتصالها.
+7. التقديم على الويب: WOFF2، ومجموعات فرعية للكتابات المستخدمة، و`font-display: swap`، والتحميل المسبق لخط النص الرئيسي فقط، وأوزان قليلة.
+8. الترخيص: تأكد أن الرخصة تغطي الويب أو التطبيق أو الطباعة التجارية.
+
+## شكل الجواب
+العائلات الموصى بها مع الأحجام وارتفاعات الأسطر، في جدول أنماط أو كتلة CSS نموذجية.
+
+## ما أحتاجه منك
+- مكان الاستخدام (شاشة أو طباعة)، واللغات، وطابع العلامة، والخطوط الحالية إن وُجدت.

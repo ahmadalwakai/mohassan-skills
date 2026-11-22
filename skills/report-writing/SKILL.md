@@ -1,17 +1,24 @@
 ---
 name: كتابة التقارير
 description: كتابة التقارير المهنية: تقرير شهري، تقرير أداء، تقرير مبيعات، تقرير مشروع، الملخص التنفيذي، النتائج، التوصيات، هيكل التقرير. report reports reporting executive findings recommendations monthly quarterly annual status تقرير تقارير التقرير التنفيذي تنفيذي توصيات التوصيات شهري سنوي ربعي
-version: 1.0.0
+version: 1.1.0
 category: documents
 ---
-Use this for business, project and performance reports.
-1. Define the reader and the decision: who reads it, what they must decide or know, and how much time they have.
-2. Executive summary first, half a page at most: purpose, three to five key findings with numbers, the main recommendation and what is needed from the reader. Many readers stop there.
-3. Body: background and scope → method and data sources → findings, each with its evidence → analysis of why it happened → recommendations → risks and next steps → appendices for detail.
-4. Performance reports compare against target, previous period and the same period last year, show the trend, explain variances above a stated threshold, and keep facts apart from interpretation.
-5. Numbers: consistent units and periods, percentages with their base, one message per chart with a title that states it, tables only for lookup.
-6. Recommendations follow from the findings and name the action, owner, deadline, expected effect and cost.
-7. Style: short paragraphs, headings that are statements rather than labels, plain language, active voice, abbreviations defined.
-8. Honesty: state data gaps, assumptions and uncertainty; never soften bad news into vagueness.
-9. When data is missing, deliver the structure with clearly marked placeholders instead of invented figures.
-Answer shape: the report with headings, starting with the executive summary; placeholders in brackets for missing data.
+كتابة تقارير الأعمال والمشاريع والأداء.
+
+## الخطوات
+1. حدّد القارئ والقرار: من يقرأ، وما الذي يجب أن يقرره أو يعرفه، وكم لديه من الوقت.
+2. الملخص التنفيذي أولًا، في نصف صفحة على الأكثر: الغرض، ومن ثلاث إلى خمس نتائج رئيسية بالأرقام، والتوصية الرئيسية، وما المطلوب من القارئ. قراء كثيرون يتوقفون هنا.
+3. المتن: الخلفية والنطاق ← المنهج ومصادر البيانات ← النتائج مع دليل كل منها ← تحليل أسباب ما حدث ← التوصيات ← المخاطر والخطوات التالية ← الملاحق للتفاصيل.
+4. تقارير الأداء تقارن بالهدف وبالفترة السابقة وبالفترة نفسها من العام الماضي، وتُظهر الاتجاه، وتشرح الانحرافات فوق حد معلن، وتفصل الحقائق عن التفسير.
+5. الأرقام: وحدات وفترات ثابتة، والنسب المئوية مع أساسها، ورسالة واحدة لكل رسم بعنوان يذكرها، والجداول للبحث فقط.
+6. التوصيات تنبع من النتائج، وتذكر الإجراء، والمسؤول، والموعد، والأثر المتوقع، والتكلفة.
+7. الأسلوب: فقرات قصيرة، وعناوين في صورة عبارات لا تسميات، ولغة بسيطة، والمبني للمعلوم، والاختصارات معرَّفة.
+8. الأمانة: اذكر فجوات البيانات والافتراضات وعدم اليقين، ولا تحوّل الأخبار السيئة إلى غموض.
+9. حين تنقص البيانات، قدّم الهيكل بمواضع فارغة معلَّمة بوضوح بدل أرقام مخترعة.
+
+## شكل الجواب
+التقرير بعناوينه، يبدأ بالملخص التنفيذي، مع مواضع بين قوسين للبيانات الناقصة.
+
+## ما أحتاجه منك
+- موضوع التقرير وقارئه، والفترة، والبيانات أو الأرقام المتاحة.

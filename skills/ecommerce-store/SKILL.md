@@ -1,16 +1,23 @@
 ---
 name: المتاجر الإلكترونية
 description: إنشاء وإدارة المتاجر الإلكترونية: شوبيفاي، سلة، زد، WooCommerce، صفحات المنتجات، الدفع، الشحن، السلة المتروكة، الاسترجاع، المبيعات أونلاين. ecommerce online shop shopify woocommerce salla zid checkout cart abandonment shipping payments dropshipping متجر متاجر المتجر إلكتروني الإلكتروني الالكتروني أونلاين اونلاين شوبيفاي سلة زد الشحن الدفع
-version: 1.0.0
+version: 1.1.0
 category: business
 ---
-Use this to start, run or improve an online store.
-1. Platform choice: Shopify for speed and apps worldwide; Salla or Zid for Saudi and Gulf merchants (Arabic-first, local payment and shipping integrations); WooCommerce for full control on WordPress; marketplaces (Amazon, Noon, Etsy) for reach at lower margins. Compare fees, local payments, shipping integrations, Arabic support and needed apps.
-2. Product pages that sell: clear title, several real photos (white background and in use), price and delivery cost visible, benefits before specs, size or fit guidance, stock status, reviews, returns information near the button.
-3. Checkout: guest checkout, few fields, local payment methods (cards, Apple Pay, mada, cash on delivery where expected, Tabby or Tamara in the Gulf, Klarna in Europe), trust marks, shipping cost and time shown early.
-4. Cart abandonment: surprise costs are the main cause. Show totals early, set a free-shipping threshold, send reminders (1 hour, 24 hours, a small incentive at 48 hours if margins allow), and fix speed and mobile issues.
-5. Shipping and returns: reliable carriers with tracking, clear delivery times by region, a simple returns process that meets consumer law (14 days to cancel most online orders in the UK and EU).
-6. Legal basics: business registration, VAT where required, terms, privacy policy, cookie consent, accurate product claims.
-7. Growth: SEO on product and category pages, an email list from day one, social content, paid ads once conversion tracking works; watch conversion rate, average order value, acquisition cost and repeat rate.
-8. Operations: stock levels, reorder points, packaging, response times.
-Answer shape: the recommendation or plan in steps, tailored to the country and product, with the metrics to watch.
+إطلاق متجر إلكتروني أو تشغيله أو تحسينه.
+
+## الخطوات
+1. اختيار المنصة: Shopify للسرعة والتطبيقات عالميًا؛ وسلة أو زد لتجار السعودية والخليج (عربية أولًا، مع ربط الدفع والشحن المحليين)؛ وWooCommerce للتحكم الكامل على WordPress؛ والأسواق (Amazon، ونون، وEtsy) للوصول بهامش أقل. قارن الرسوم، والدفع المحلي، وربط الشحن، ودعم العربية، والتطبيقات اللازمة.
+2. صفحات منتج تبيع: عنوان واضح، وصور حقيقية متعددة (خلفية بيضاء وأثناء الاستخدام)، والسعر وتكلفة التوصيل ظاهران، والفوائد قبل المواصفات، وإرشاد للمقاس، وحالة المخزون، والمراجعات، ومعلومات الإرجاع قرب الزر.
+3. الدفع: شراء دون حساب، وحقول قليلة، وطرق دفع محلية (البطاقات، وApple Pay، ومدى، والدفع عند الاستلام حيث يُتوقع، وتابي أو تمارا في الخليج، وKlarna في أوروبا)، وعلامات ثقة، وتكلفة الشحن ومدته ظاهرتان مبكرًا.
+4. السلال المتروكة: التكاليف المفاجئة السبب الأول. أظهر الإجمالي مبكرًا، وضع حدًا للشحن المجاني، وذكّر العميل (بعد ساعة، ثم 24 ساعة، ثم حافز صغير بعد 48 ساعة إن سمح الهامش)، وأصلح مشكلات السرعة والجوال.
+5. الشحن والإرجاع: شركات شحن موثوقة مع تتبع، ومدد توصيل واضحة لكل منطقة، وإرجاع بسيط يوافق قانون المستهلك (14 يومًا لإلغاء معظم الطلبات الإلكترونية في بريطانيا والاتحاد الأوروبي).
+6. الأساسيات القانونية: تسجيل النشاط، وضريبة القيمة المضافة حيث تلزم، والشروط، وسياسة الخصوصية، وموافقة ملفات تعريف الارتباط، وادعاءات منتجات دقيقة.
+7. النمو: تحسين محركات البحث لصفحات المنتجات والأقسام، وقائمة بريدية من اليوم الأول، ومحتوى اجتماعي، وإعلانات مدفوعة بعد أن يعمل تتبع التحويل؛ وراقب معدل التحويل، ومتوسط قيمة الطلب، وتكلفة كسب العميل، ومعدل التكرار.
+8. التشغيل: مستويات المخزون، ونقاط إعادة الطلب، والتغليف، وأزمنة الرد.
+
+## شكل الجواب
+التوصية أو الخطة في خطوات مفصّلة على البلد والمنتج، مع المقاييس التي تُراقب.
+
+## ما أحتاجه منك
+- البلد، ونوع المنتجات، وهل لديك متجر قائم أم تبدأ من الصفر.

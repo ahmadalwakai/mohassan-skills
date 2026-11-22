@@ -1,17 +1,24 @@
 ---
 name: التفاوض
 description: التفاوض: التفاوض على الراتب، الأسعار مع الموردين، العقود، الإيجار، الصفقات، العرض المقابل، البديل الأفضل BATNA، الإقناع، معالجة الاعتراضات. negotiation negotiate negotiating salary counteroffer supplier suppliers deal deals batna persuasion objections leverage تفاوض التفاوض أفاوض افاوض نفاوض مفاوضات المفاوضات الراتب راتب صفقة الموردين مورد
-version: 1.0.0
+version: 1.1.0
 category: business
 ---
-Use this to prepare for and conduct a negotiation.
-1. Prepare more than you talk: your goal, your walk-away point, your BATNA (best alternative if there is no deal), the other side's likely interests, constraints and alternatives, and market data (salary surveys, competing quotes, comparable prices).
-2. Anchor high but defensibly: open with a specific, justified figure near the top of the realistic range ("Based on the role's scope and market data for similar positions, I'm looking for 58,000"). Precise numbers signal research.
-3. Negotiate interests, not positions: ask open questions about what matters to them (timing, risk, volume, cash flow) and design options that give them that at low cost to you.
-4. Trade, never give: every concession earns something back ("If we commit to 12 months, can you do 8% lower?"), and each concession is smaller than the last.
-5. Salary: let them name a range first when possible; negotiate the whole package (base, bonus, start date, remote days, training, title, leave); get the final offer in writing.
-6. Suppliers: get at least three quotes and negotiate total cost (payment terms, delivery, quality guarantees, volume tiers) while keeping the relationship healthy.
-7. Objections: acknowledge, ask what lies behind them, answer with evidence, and let silence work; never argue with feelings.
-8. Close clearly: summarize what was agreed and who does what by when, and confirm in writing.
-9. Walk away when the deal is worse than your BATNA.
-Answer shape: a preparation sheet (goal, walk-away, BATNA, their interests, opening, trades), then suggested wording for the key moments.
+الاستعداد للتفاوض وإدارته.
+
+## الخطوات
+1. استعد أكثر مما تتكلم: هدفك، ونقطة انسحابك، وأفضل بديل لديك إن لم يتم الاتفاق (BATNA)، ومصالح الطرف الآخر المرجحة وقيوده وبدائله، وبيانات السوق (مسوح الرواتب، وعروض الأسعار المنافسة، والأسعار المماثلة).
+2. ارسِ رقمًا مرتفعًا يمكن الدفاع عنه: افتتح برقم محدد مبرر قرب أعلى النطاق الواقعي («بناءً على نطاق الدور وبيانات السوق لوظائف مماثلة، أتطلع إلى 58,000»). الأرقام الدقيقة توحي بالبحث.
+3. فاوض على المصالح لا المواقف: اسأل أسئلة مفتوحة عما يهمهم (التوقيت، والمخاطرة، والكمية، والتدفق النقدي)، وصمّم خيارات تعطيهم ذلك بتكلفة قليلة عليك.
+4. بادل ولا تتنازل مجانًا: كل تنازل يقابله شيء («إن التزمنا 12 شهرًا، هل يمكن خفض السعر 8%؟»)، وكل تنازل أصغر من سابقه.
+5. الراتب: دعهم يذكرون النطاق أولًا حين يمكن، وفاوض على الحزمة كلها (الأساسي، والمكافأة، وتاريخ البدء، وأيام العمل عن بعد، والتدريب، والمسمى، والإجازات)، واحصل على العرض النهائي مكتوبًا.
+6. الموردون: احصل على ثلاثة عروض أسعار على الأقل، وفاوض على التكلفة الكلية (شروط الدفع، والتوصيل، وضمانات الجودة، وشرائح الكمية) مع الحفاظ على العلاقة.
+7. الاعتراضات: أقرّ بها، واسأل عما وراءها، وأجب بالأدلة، ودع الصمت يعمل؛ ولا تجادل المشاعر.
+8. أغلق بوضوح: لخّص ما اتُّفق عليه ومن يفعل ماذا ومتى، وأكّده كتابيًا.
+9. انسحب حين يكون الاتفاق أسوأ من بديلك الأفضل.
+
+## شكل الجواب
+ورقة استعداد (الهدف، ونقطة الانسحاب، والبديل الأفضل، ومصالحهم، والافتتاح، والمبادلات)، ثم صياغات مقترحة للحظات الحاسمة.
+
+## ما أحتاجه منك
+- موضوع التفاوض والطرف الآخر، وهدفك، والبدائل المتاحة لك.

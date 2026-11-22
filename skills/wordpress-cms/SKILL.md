@@ -1,16 +1,23 @@
 ---
 name: مواقع WordPress وأنظمة إدارة المحتوى
 description: مواقع ووردبريس وأنظمة إدارة المحتوى: القوالب، الإضافات، Elementor، WooCommerce، الحماية، السرعة، النسخ الاحتياطي، أعطال التحديثات، نقل الموقع. wordpress wp woocommerce elementor plugin plugins theme themes cms gutenberg wix squarespace ووردبريس وورد بريس الووردبريس إضافة إضافات اضافات قالب قوالب
-version: 1.0.0
+version: 1.1.0
 category: coding
 ---
-Use this for WordPress and similar site builders.
-1. Before any change: a full backup of files and database, and a staging copy for anything risky. Most hosts and backup plugins provide both.
-2. Site broken after an update: enable WP_DEBUG_LOG to read the real error. If the dashboard is unreachable, rename the plugins folder (or one plugin's folder) through SFTP or the host file manager to disable plugins, then re-enable them one at a time; switch to a default theme the same way. Restore the backup if needed and repeat the update on staging.
-3. Plugins: fewer is better. Choose maintained ones (recent updates, many installs, good support), delete unused ones, and never install pirated premium plugins.
-4. Hardening: current core, themes and plugins; unique strong admin passwords with two-factor sign-in; no "admin" username; limited login attempts; least-privilege roles; a web application firewall; HTTPS everywhere; file editing disabled in the dashboard.
-5. Speed: decent hosting on PHP 8.x with object caching, a page cache plugin, a CDN, compressed WebP images, lazy loading, few fonts and sliders, page builders used sparingly.
-6. WooCommerce: test checkout end to end after every update, try payment gateways in test mode first, document stock and tax settings.
-7. SEO basics: clean permalinks, an SEO plugin for titles and sitemaps, one H1 per page, alt text.
-8. Migration: copy files and database, run a serialization-aware search and replace for URLs, then check links, forms and outgoing email.
-Answer shape: the likely cause, then numbered steps the owner can follow, with risky steps marked.
+مواقع WordPress وما يشبهها من منصات بناء المواقع.
+
+## الخطوات
+1. قبل أي تغيير: نسخة احتياطية كاملة للملفات وقاعدة البيانات، ونسخة تجريبية (staging) لأي تغيير خطر. ومعظم الاستضافات وإضافات النسخ الاحتياطي توفر الاثنتين.
+2. موقع معطل بعد تحديث: فعّل `WP_DEBUG_LOG` لقراءة الخطأ الحقيقي. وإن تعذر الوصول إلى لوحة التحكم، أعد تسمية مجلد الإضافات (أو مجلد إضافة واحدة) عبر SFTP أو مدير ملفات الاستضافة لتعطيلها، ثم أعد تفعيلها واحدة واحدة؛ وانتقل إلى قالب افتراضي بالطريقة نفسها. واستعد النسخة الاحتياطية عند الحاجة، وكرّر التحديث على النسخة التجريبية.
+3. الإضافات: الأقل أفضل. اختر المصونة منها (تحديثات حديثة، وتثبيتات كثيرة، ودعم جيد)، واحذف غير المستخدمة، ولا تثبّت إضافات مدفوعة مقرصنة أبدًا.
+4. التحصين: النواة والقوالب والإضافات محدّثة؛ وكلمات مرور قوية فريدة للمسؤولين مع التحقق بخطوتين؛ ولا اسم مستخدم «admin»؛ وتحديد محاولات الدخول؛ وأدوار بأقل الصلاحيات؛ وجدار حماية لتطبيقات الويب؛ وHTTPS في كل مكان؛ وتعطيل تحرير الملفات من لوحة التحكم.
+5. السرعة: استضافة جيدة بإصدار PHP 8.x مع تخزين الكائنات مؤقتًا، وإضافة تخزين مؤقت للصفحات، وشبكة CDN، وصور WebP مضغوطة، وتأجيل التحميل، وخطوط ومنزلقات قليلة، ومنشئو الصفحات بحذر.
+6. WooCommerce: اختبر الدفع من البداية إلى النهاية بعد كل تحديث، وجرّب بوابات الدفع في وضع الاختبار أولًا، ووثّق إعدادات المخزون والضرائب.
+7. أساسيات السيو: روابط دائمة نظيفة، وإضافة سيو للعناوين وخرائط الموقع، وH1 واحد لكل صفحة، ونص بديل للصور.
+8. النقل: انسخ الملفات وقاعدة البيانات، وشغّل بحثًا واستبدالًا للروابط يراعي البيانات المسلسلة، ثم افحص الروابط والنماذج والبريد الصادر.
+
+## شكل الجواب
+السبب المرجح، ثم خطوات مرقمة يستطيع المالك اتباعها، مع تعليم الخطوات الخطرة.
+
+## ما أحتاجه منك
+- رابط الموقع أو وصف المشكلة، وما الذي تغيّر قبل ظهورها، وهل لديك نسخة احتياطية.

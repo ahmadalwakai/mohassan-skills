@@ -1,16 +1,23 @@
 ---
 name: بحث التخرج والكتابة الأكاديمية
 description: الكتابة الأكاديمية: البحث الجامعي، مشروع التخرج، الماجستير والدكتوراه، المقدمة، المنهجية، المراجع، التوثيق APA، تجنب الانتحال، المقالة البحثية. academic paper thesis dissertation essay abstract introduction methodology citation citations apa mla harvard references plagiarism تخرج التخرج ماجستير دكتوراه أطروحة مقدمة منهجية المنهجية المراجع الانتحال البحثية
-version: 1.0.0
+version: 1.1.0
 category: documents
 ---
-Use this for academic papers, theses, graduation projects and essays.
-1. Clarify requirements: level, field, word count, citation style (APA 7, MLA, Harvard, Chicago), language, deadline and the marking criteria if available.
-2. The research question comes first: specific, answerable and significant. Everything in the paper serves it.
-3. Structure for empirical work: title; abstract of 150 to 250 words (aim, method, results, conclusion); introduction (context, problem, gap, aims and questions, significance); literature review; methodology (design, sample, instruments, procedure, analysis, ethics); results; discussion (meaning, comparison with earlier work, limitations); conclusion and recommendations; references; appendices.
-4. The introduction narrows like a funnel: broad context → specific problem → what is known → the gap → this study's aim.
-5. Argument and style: every claim backed by cited evidence, formal and precise language, cautious verbs where evidence is limited ("suggests", "indicates"), one idea per paragraph led by a topic sentence.
-6. Citations: cite every idea, figure and quote taken from a source; quotes in quotation marks with page numbers; one consistent style; every in-text citation in the reference list. Never invent a reference; mark anything unverified as unverified.
-7. Plagiarism: paraphrase by understanding and rewriting in a new structure, then cite. AI-assisted text must follow the institution's rules and remain the student's own work.
-8. Arabic academic writing: MSA, consistent terminology, the English term in brackets on first use.
-Answer shape: an outline or the requested section, with citation placeholders where sources are still needed.
+كتابة البحوث الأكاديمية والرسائل ومشاريع التخرج والمقالات العلمية بمنهجية وتوثيق سليمين.
+
+## الخطوات
+1. سؤال البحث أولًا: محدد، وقابل للإجابة، وذو أهمية. كل جزء في البحث يخدمه.
+2. هيكل البحث التجريبي: العنوان؛ ملخص من 150 إلى 250 كلمة (الهدف، والمنهج، والنتائج، والخلاصة)؛ المقدمة (السياق، والمشكلة، والفجوة، والأهداف والأسئلة، والأهمية)؛ الدراسات السابقة؛ المنهجية (التصميم، والعينة، والأدوات، والإجراءات، والتحليل، والأخلاقيات)؛ النتائج؛ المناقشة (المعنى، والمقارنة بما سبق، والقيود)؛ الخاتمة والتوصيات؛ المراجع؛ الملاحق.
+3. المقدمة كالقمع: سياق عام ← مشكلة محددة ← ما هو معروف ← الفجوة ← هدف هذه الدراسة.
+4. الحجة والأسلوب: كل ادعاء مدعوم بدليل موثق، ولغة رسمية دقيقة، وأفعال حذرة حين يكون الدليل محدودًا («يشير»، «يرجّح»)، وفكرة واحدة لكل فقرة تبدأ بجملة رئيسة.
+5. التوثيق: وثّق كل فكرة أو رقم أو اقتباس مأخوذ من مصدر، والاقتباس بين علامتي تنصيص مع رقم الصفحة، وبأسلوب واحد ثابت، وكل إحالة في المتن لها مكان في قائمة المراجع. لا تخترع مرجعًا أبدًا، وعلّم ما لم يُتحقق منه.
+6. الانتحال: أعد الصياغة بفهم وبنية جديدة ثم وثّق. النص المكتوب بمساعدة الذكاء الاصطناعي يتبع أنظمة المؤسسة ويبقى عمل الطالب نفسه.
+7. الكتابة الأكاديمية بالعربية: فصحى معاصرة، ومصطلحات ثابتة، والمصطلح الإنجليزي بين قوسين عند أول ذكر.
+
+## شكل الجواب
+مخطط البحث أو الجزء المطلوب، مع مواضع للإحالات حيث ما زالت المصادر مطلوبة.
+
+## ما أحتاجه منك
+- المستوى والتخصص وعدد الكلمات وموعد التسليم.
+- أسلوب التوثيق (APA 7، أو MLA، أو Harvard، أو Chicago) ومعايير التقييم إن وُجدت.

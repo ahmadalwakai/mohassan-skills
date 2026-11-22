@@ -1,15 +1,22 @@
 ---
 name: كشف الاحتيال والتصيد
 description: كشف الاحتيال الإلكتروني والتصيد: رسائل ومكالمات مشبوهة، روابط وهمية، انتحال البنوك والشركات، عروض مزيفة، ابتزاز، خطوات الإنقاذ إثر الوقوع في الاحتيال. scam scams fraud phishing smishing vishing spoof fake suspicious impersonation احتيال الاحتيال نصب نصاب تصيد التصيد مشبوه مشبوهة وهمي وهمية مزيف
-version: 1.0.0
+version: 1.1.0
 category: security
 ---
-Use this when someone asks whether a message, call, offer or website is a scam, or has already fallen for one.
-1. Red flags: urgency or threats (account suspended, fine, arrest); requests for one-time codes, card numbers or sign-in details; payment by gift cards, crypto or transfer to a personal account; a link whose domain differs from the real one (look-alike spelling, extra words, odd endings); unexpected attachments; offers that are too good; a known contact writing from a new number.
-2. Banks, government bodies and delivery companies do not ask for one-time codes or full sign-in details by message or phone.
-3. Safe check: leave the link and number in the message unused; open the official app or type the known address, or call the number printed on the card or the official site.
-4. A one-time code is for the account owner alone, including when the caller claims to be support.
-5. If money or details were already given: call the bank at once on its official number to freeze cards and dispute payments; change the affected password and any reused one; turn on two-factor sign-in; sign out other sessions; keep screenshots and transaction ids; report to the national fraud service (Action Fraud in the UK, for example) and to the platform.
-6. Remote-access apps installed at a caller's request must be removed and the device checked.
-7. Romance, investment and job scams build trust for weeks; the first request to move or invest money is the signal.
-Answer shape: a clear verdict (likely scam, unclear, likely genuine) with the specific signs, then the safe next steps in order.
+حين يسأل أحد هل رسالة أو مكالمة أو عرض أو موقع احتيال، أو حين يكون قد وقع فيه بالفعل.
+
+## الخطوات
+1. علامات الخطر: الاستعجال أو التهديد (تعليق الحساب، أو غرامة، أو اعتقال)؛ وطلب رموز التحقق لمرة واحدة أو أرقام البطاقات أو بيانات الدخول؛ والدفع ببطاقات الهدايا أو العملات الرقمية أو التحويل إلى حساب شخصي؛ ورابط يختلف نطاقه عن النطاق الحقيقي (تهجئة مشابهة، أو كلمات زائدة، أو نهايات غريبة)؛ ومرفقات غير متوقعة؛ وعروض أجمل من أن تُصدَّق؛ وجهة اتصال معروفة تكتب من رقم جديد.
+2. البنوك والجهات الحكومية وشركات التوصيل لا تطلب رموز التحقق ولا بيانات الدخول كاملة برسالة أو مكالمة.
+3. الفحص الآمن: لا تستخدم الرابط ولا الرقم الواردين في الرسالة، وافتح التطبيق الرسمي أو اكتب العنوان المعروف بنفسك، أو اتصل بالرقم المطبوع على البطاقة أو في الموقع الرسمي.
+4. رمز التحقق لصاحب الحساب وحده، حتى لو ادعى المتصل أنه من الدعم الفني.
+5. إن قُدّم مال أو بيانات بالفعل: اتصل بالبنك فورًا على رقمه الرسمي لتجميد البطاقات والاعتراض على المدفوعات؛ وغيّر كلمة المرور المتأثرة وأي كلمة مكررة في مواقع أخرى؛ وفعّل التحقق بخطوتين؛ وأنهِ الجلسات الأخرى؛ واحتفظ بلقطات الشاشة وأرقام العمليات؛ وأبلغ جهة مكافحة الاحتيال الوطنية (مثل Action Fraud في بريطانيا) والمنصة المعنية.
+6. تطبيقات التحكم عن بعد التي ثُبّتت بطلب المتصل يجب حذفها وفحص الجهاز.
+7. احتيال العلاقات والاستثمار والوظائف يبني الثقة أسابيع؛ وأول طلب لتحويل المال أو استثماره هو الإشارة.
+
+## شكل الجواب
+حكم واضح (احتيال مرجح، أو غير واضح، أو حقيقي مرجح) مع العلامات المحددة، ثم الخطوات الآمنة التالية بالترتيب.
+
+## ما أحتاجه منك
+- نص الرسالة أو وصف المكالمة أو العرض كما وصلك، وهل قدّمت أي مال أو بيانات.

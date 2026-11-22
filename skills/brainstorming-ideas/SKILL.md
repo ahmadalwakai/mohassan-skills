@@ -1,16 +1,23 @@
 ---
 name: العصف الذهني وتوليد الأفكار
 description: العصف الذهني وتوليد الأفكار: أفكار مشاريع، أفكار محتوى، أفكار فعاليات وهدايا، حلول إبداعية، تقييم الأفكار واختيار الأقوى منها. brainstorm brainstorming ideas idea ideation scamper mindmap innovation concepts عصف ذهني العصف الذهني أفكار افكار فكرة فكره اقتراحات ابتكار إبداعية فعاليات
-version: 1.0.0
+version: 1.1.0
 category: creativity
 ---
-Use this to generate many ideas and then choose strong ones.
-1. Frame the challenge as a question with constraints: "How might we win 20 new customers a month with under 500 pounds?" Note budget, time, skills, audience and what has already been tried.
-2. Diverge before judging: produce a long list (20 or more) quickly, including obvious, unusual and extreme ideas. Quantity first, criticism later.
-3. Change the angle: SCAMPER (substitute, combine, adapt, modify, put to another use, eliminate, reverse); reverse brainstorming (how could we make it worse, then invert); analogies from other industries; flipped constraints (zero budget, ten times the budget); the customer journey step by step; new trends or technology applied to the problem.
-4. Group ideas into themes and merge fragments into stronger concepts.
-5. Converge with criteria: impact, cost, speed, fit with existing strengths, risk. Score quickly from 1 to 5 or use an impact and effort matrix; pick quick wins plus one bold bet.
-6. Make the top ideas concrete: who it serves, how it works, the first step, the cost, and a cheap test that can run within a week.
-7. Business ideas with little capital: services built on existing skills, local services with little stock, digital products, and pre-selling before building; check demand and local regulations.
-8. State the weak points of each shortlisted idea honestly.
-Answer shape: a grouped list of ideas, then the top three with first steps and a cheap test for each.
+توليد أفكار كثيرة ثم اختيار أقواها وتحويلها إلى خطوات قابلة للتجربة.
+
+## الخطوات
+1. صُغ التحدي سؤالًا بقيوده: «كيف نكسب 20 عميلًا جديدًا شهريًا بأقل من 500 جنيه إسترليني؟» وسجّل الميزانية والوقت والمهارات والجمهور وما جُرّب سابقًا.
+2. توسّع قبل الحكم: قائمة طويلة (20 فكرة أو أكثر) بسرعة، فيها البديهي والغريب والمتطرف. الكم أولًا والنقد لاحقًا.
+3. غيّر الزاوية: SCAMPER (استبدل، ادمج، كيّف، عدّل، استخدم لغرض آخر، احذف، اعكس)؛ والعصف العكسي (كيف نجعلها أسوأ ثم اعكس)؛ وتشبيهات من صناعات أخرى؛ وقيود مقلوبة (ميزانية صفر أو عشرة أضعافها)؛ ورحلة العميل خطوة خطوة؛ واتجاهات أو تقنيات جديدة.
+4. جمّع الأفكار في محاور، وادمج الأجزاء في مفاهيم أقوى.
+5. ضيّق بمعايير: الأثر، والتكلفة، والسرعة، والملاءمة لنقاط القوة، والمخاطرة. قيّم سريعًا من 1 إلى 5 أو بمصفوفة الأثر والجهد، واختر مكاسب سريعة ورهانًا جريئًا واحدًا.
+6. اجعل أفضل الأفكار ملموسة: من تخدم، وكيف تعمل، والخطوة الأولى، والتكلفة، وتجربة رخيصة خلال أسبوع.
+7. أفكار مشاريع برأس مال صغير: خدمات تقوم على مهارات موجودة، وخدمات محلية بمخزون قليل، ومنتجات رقمية، والبيع المسبق قبل البناء؛ مع التحقق من الطلب والأنظمة المحلية.
+8. اذكر نقاط ضعف كل فكرة مختارة بصدق.
+
+## شكل الجواب
+قائمة أفكار مجمّعة في محاور، ثم أفضل ثلاث مع الخطوة الأولى وتجربة رخيصة لكل منها.
+
+## ما أحتاجه منك
+- التحدي أو الهدف، والميزانية والوقت المتاحان، وما جرّبته من قبل.

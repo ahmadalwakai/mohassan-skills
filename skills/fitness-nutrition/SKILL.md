@@ -1,16 +1,23 @@
 ---
 name: اللياقة والتغذية
 description: اللياقة البدنية والتغذية: برامج التمارين في البيت والنادي، إنقاص الوزن، بناء العضلات، البروتين، السعرات، النوم، الصيام المتقطع. fitness workout workouts exercise exercises gym training strength cardio loss muscle protein calories diet nutrition fasting لياقة اللياقة تمارين التمارين تمرين رياضة نادي جيم الوزن إنقاص تخسيس عضلات العضلات بروتين البروتين سعرات حمية رجيم تغذية
-version: 1.0.0
+version: 1.1.0
 category: research
 ---
-Use this for exercise plans, healthy eating and body composition goals. It gives general guidance, not medical treatment.
-1. Safety first: heart, joint or blood pressure conditions, pregnancy, or chest pain, dizziness or breathlessness during exercise call for medical clearance; stop when such symptoms appear.
-2. Weekly baseline (WHO): 150 to 300 minutes of moderate or 75 to 150 minutes of vigorous activity, plus muscle-strengthening on two or more days.
-3. Beginner home plan, three non-consecutive days: squats, push-ups (against a wall or on knees at first), glute bridges, backpack or band rows, planks, lunges; 2 to 3 sets of 8 to 15 controlled repetitions; add repetitions, sets or load a little each week; walk on the other days.
-4. Form before load: full range, controlled tempo, neutral spine, a 5 to 10 minute warm-up; muscle soreness is normal, sharp pain is not.
-5. Fat loss: a modest deficit of about 300 to 500 kcal a day, high protein, vegetables and whole foods, fewer sugary drinks and ultra-processed snacks; about 0.5 to 1 percent of body weight per week; strength training preserves muscle.
-6. Muscle gain: about 1.6 g of protein per kg of body weight per day (up to about 2.2) spread over meals, resistance training close to effort limits, a small calorie surplus, 7 to 9 hours of sleep.
-7. Intermittent fasting helps some people control intake, but total calories and protein still decide results; it does not suit everyone (diabetes on medication, pregnancy, eating disorders).
-8. Supplements are optional; creatine monohydrate and protein powder have the best evidence; avoid products with exaggerated claims.
-Answer shape: a weekly plan table (day, exercises, sets and reps), nutrition targets, and how to progress.
+خطط التمارين والأكل الصحي وأهداف تكوين الجسم. إرشاد عام لا علاج طبي.
+
+## الخطوات
+1. السلامة أولًا: أمراض القلب أو المفاصل أو ضغط الدم، والحمل، أو ألم الصدر أو الدوخة أو ضيق النفس أثناء التمرين، كلها تستدعي إذنًا طبيًا؛ وتوقف عند ظهور هذه الأعراض.
+2. الحد الأدنى الأسبوعي (منظمة الصحة العالمية): من 150 إلى 300 دقيقة من النشاط المعتدل أو من 75 إلى 150 دقيقة من النشاط الشديد، مع تمارين تقوية العضلات يومين أو أكثر.
+3. خطة منزلية للمبتدئ، ثلاثة أيام غير متتالية: القرفصاء، والضغط (على الحائط أو على الركبتين في البداية)، ورفع الحوض، والسحب بحقيبة ظهر أو شريط مطاطي، والبلانك، والطعنات؛ من 2 إلى 3 مجموعات من 8 إلى 15 تكرارًا بتحكم؛ وزد التكرار أو المجموعات أو الحمل قليلًا كل أسبوع؛ وامشِ في الأيام الأخرى.
+4. الأداء الصحيح قبل الحمل: مدى حركة كامل، وإيقاع متحكم، وظهر محايد، وإحماء من 5 إلى 10 دقائق؛ ألم العضلات المعتاد طبيعي، والألم الحاد ليس كذلك.
+5. خسارة الدهون: عجز معتدل نحو 300 إلى 500 سعرة يوميًا، وبروتين مرتفع، وخضار وأطعمة كاملة، ومشروبات سكرية ووجبات خفيفة مصنعة أقل؛ ونحو 0.5 إلى 1% من وزن الجسم أسبوعيًا؛ وتمارين القوة تحفظ العضلات.
+6. بناء العضلات: نحو 1.6 غرام بروتين لكل كيلوغرام من وزن الجسم يوميًا (حتى نحو 2.2) موزعة على الوجبات، وتمارين مقاومة قريبة من حد الجهد، وفائض سعرات صغير، ونوم من 7 إلى 9 ساعات.
+7. الصيام المتقطع يساعد بعض الناس على ضبط ما يأكلون، لكن مجموع السعرات والبروتين هما ما يحدد النتيجة؛ ولا يناسب الجميع (السكري مع الأدوية، والحمل، واضطرابات الأكل).
+8. المكملات اختيارية؛ الكرياتين مونوهيدرات ومسحوق البروتين أقواها دليلًا؛ وتجنب المنتجات ذات الادعاءات المبالغ فيها.
+
+## شكل الجواب
+جدول خطة أسبوعية (اليوم، والتمارين، والمجموعات والتكرارات)، وأهداف التغذية، وطريقة التدرج.
+
+## ما أحتاجه منك
+- العمر والوزن والطول، والهدف، والأيام المتاحة، والمعدات، وأي حالة صحية.

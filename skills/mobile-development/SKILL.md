@@ -1,16 +1,23 @@
 ---
 name: تطوير تطبيقات الجوال
 description: برمجة تطبيقات الجوال للآيفون والأندرويد: Flutter، React Native، Swift، Kotlin، الأذونات، الإشعارات، الأداء، النشر على App Store وGoogle Play. mobile apps ios android iphone flutter dart react native expo swift swiftui kotlin compose store play testflight apk جوال الجوال موبايل آيفون ايفون أندرويد اندرويد تطبيقات
-version: 1.0.0
+version: 1.1.0
 category: coding
 ---
-Use this for building, testing and publishing mobile apps.
-1. Choose the stack from constraints: native (Swift/SwiftUI, Kotlin/Jetpack Compose) for the best platform fit, heavy device features or top performance; Flutter or React Native with Expo for one codebase and a small team. Existing web skills favour React Native; pixel-identical custom UI favours Flutter.
-2. Architecture: separate UI, state (one predictable store or view models) and data (a repository over the API and a local cache). Design for offline and slow networks with caching, retries, and clear loading and error states.
-3. Platform rules: Human Interface Guidelines and Material Design, touch targets of at least 44 pt on iOS and 48 dp on Android, safe areas, dynamic type, dark mode, RTL mirroring for Arabic.
-4. Permissions: request at the moment of need with a reason, and keep the app usable in a reduced way when refused.
-5. Security: tokens in Keychain or Keystore, never in plain storage; HTTPS only; no server-side keys embedded in the app binary.
-6. Performance: keep the main thread free, virtualize long lists, size images for the screen, measure startup time and memory.
-7. Release: TestFlight and Play internal testing first; store listing, screenshots, privacy answers (App Privacy, Data safety) and age rating; on Android an App Bundle signed with an upload key you keep safe. Expect review delays and fix rejections against the cited guideline.
-8. Crash reporting and analytics from the first build, with consent where required.
-Answer shape: a recommendation with reasons, then the code or step list for the chosen platform.
+بناء تطبيقات الجوال واختبارها وإطلاقها في المتاجر.
+
+## الخطوات
+1. اختر التقنية حسب القيود: الأصلية (Swift/SwiftUI وKotlin/Jetpack Compose) لأفضل ملاءمة للمنصة أو ميزات الجهاز الكثيفة أو الأداء الأعلى؛ وFlutter أو React Native مع Expo لقاعدة كود واحدة وفريق صغير. خبرة الويب الموجودة ترجّح React Native، والواجهة المخصصة المتطابقة حتى البكسل ترجّح Flutter.
+2. البنية: افصل الواجهة، والحالة (مخزن واحد متوقع أو نماذج عرض)، والبيانات (مستودع فوق الـ API وذاكرة محلية). صمّم للعمل دون اتصال وعلى الشبكات البطيئة بالتخزين المؤقت وإعادة المحاولة وحالات تحميل وخطأ واضحة.
+3. قواعد المنصات: إرشادات Apple للواجهات وMaterial Design، وأهداف لمس 44 نقطة على الأقل في iOS و48 dp في Android، والمناطق الآمنة، والخط الديناميكي، والوضع الداكن، وعكس الاتجاه (RTL) للعربية.
+4. الأذونات: اطلبها لحظة الحاجة مع ذكر السبب، وأبقِ التطبيق صالحًا للاستخدام بشكل محدود عند الرفض.
+5. الأمان: التوكنات في Keychain أو Keystore لا في التخزين العادي، وHTTPS فقط، ولا مفاتيح خادم مضمّنة داخل ملف التطبيق.
+6. الأداء: أبقِ الخيط الرئيسي حرًا، واعرض القوائم الطويلة افتراضيًا، وقِس الصور على الشاشة، وقِس زمن الإقلاع والذاكرة.
+7. الإطلاق: TestFlight والاختبار الداخلي في Play أولًا؛ ثم صفحة المتجر، ولقطات الشاشة، وأجوبة الخصوصية (App Privacy وData safety)، والتصنيف العمري؛ وفي Android حزمة App Bundle موقّعة بمفتاح تحفظه بأمان. توقّع تأخر المراجعة، وأصلح الرفض وفق البند المذكور فيه.
+8. تقارير الأعطال والتحليلات من أول نسخة، مع الموافقة حيث تلزم.
+
+## شكل الجواب
+توصية بأسبابها، ثم الكود أو قائمة الخطوات للمنصة المختارة.
+
+## ما أحتاجه منك
+- المنصات المستهدفة، وخبرة الفريق، وأهم ميزات التطبيق، وهل له خادم خلفي.

@@ -1,17 +1,24 @@
 ---
 name: الكتابة الإبداعية والقصص
 description: الكتابة الإبداعية وكتابة القصص والروايات والسيناريو: قصص الأطفال، القصة القصيرة، الحبكة، الشخصيات، الحوار، النهاية المفاجئة، النكت، الخيال العلمي. story stories storytelling fiction novel plot characters dialogue twist screenplay fairy children kids scifi fantasy joke jokes قصة قصص القصة رواية روايات حكاية حبكة شخصيات سيناريو أطفال للأطفال نكتة نكت
-version: 1.0.0
+version: 1.1.0
 category: creativity
 ---
-Use this for stories, children's tales, fiction, screenplays and other creative writing.
-1. Pin down the brief: audience and age, length, tone (funny, moving, tense), language and dialect, point of view, and any required elements or values.
-2. Story spine: a character who wants something, an obstacle that makes it hard, rising stakes, a turning point, and a change by the end. Start close to the action; end on an image or line that stays with the reader.
-3. Characters: each with a clear want, a flaw and a distinct voice; show feelings through action and dialogue instead of naming them.
-4. Children's stories: simple sentences, repetition and rhythm, a relatable child or animal hero, one value shown through events rather than a lecture, a warm ending; picture books often run 300 to 800 words; nothing frightening for young ages.
-5. A twist works when the clues were fair: plant two or three details early that only make sense after the reveal.
-6. Dialogue: short lines, each revealing character or moving the plot, no speeches. In Arabic choose MSA narration with dialect dialogue, or MSA throughout, and stay consistent.
-7. Long pieces: outline first (beginning, middle, end, chapter beats), then write, keeping names, ages and facts consistent.
-8. Real places, wars and people need care and respect for victims; invented events must read clearly as fiction, never as fact.
-9. Humor relies on surprise, specific detail and timing; keep jokes kind and suited to the audience.
-Answer shape: a title, then the piece itself; at most one line at the end about possible changes.
+كتابة القصص وحكايات الأطفال والأدب القصصي والسيناريوهات وغيرها من الكتابة الإبداعية.
+
+## الخطوات
+1. ثبّت المطلوب: الجمهور والعمر، والطول، والنبرة (مضحكة، مؤثرة، مشوقة)، واللغة واللهجة، ووجهة النظر، وأي عناصر أو قيم مطلوبة.
+2. عمود القصة: شخصية تريد شيئًا، وعقبة تصعّبه، ورهانات تتصاعد، ونقطة تحول، وتغيّر في النهاية. ابدأ قريبًا من الحدث، واختم بصورة أو جملة تبقى مع القارئ.
+3. الشخصيات: لكل منها رغبة واضحة وعيب وصوت مميز؛ أظهر المشاعر بالفعل والحوار بدل تسميتها.
+4. قصص الأطفال: جمل بسيطة، وتكرار وإيقاع، وبطل طفل أو حيوان قريب من القارئ، وقيمة واحدة تظهر في الأحداث لا في الموعظة، ونهاية دافئة؛ القصص المصورة غالبًا من 300 إلى 800 كلمة؛ ولا شيء مخيف للصغار.
+5. الحبكة المفاجئة تنجح حين تكون القرائن عادلة: ازرع تفصيلتين أو ثلاثًا مبكرًا لا يتضح معناها إلا بعد المفاجأة.
+6. الحوار: أسطر قصيرة، كل منها يكشف الشخصية أو يدفع الحبكة، بلا خطب. في العربية اختر سردًا بالفصحى وحوارًا بالعامية، أو الفصحى في الكل، والتزم بما اخترت.
+7. الأعمال الطويلة: مخطط أولًا (البداية، والوسط، والنهاية، ومحطات الفصول)، ثم الكتابة مع ثبات الأسماء والأعمار والحقائق.
+8. الأماكن والحروب والأشخاص الحقيقيون يحتاجون عناية واحترامًا للضحايا؛ والأحداث المتخيلة تُقرأ بوضوح على أنها خيال لا حقيقة.
+9. الفكاهة تقوم على المفاجأة والتفصيل المحدد والتوقيت؛ اجعل النكات لطيفة تناسب الجمهور.
+
+## شكل الجواب
+عنوان، ثم النص نفسه، وسطر واحد على الأكثر في النهاية عن تعديلات ممكنة.
+
+## ما أحتاجه منك
+- نوع النص والجمهور وعمره، والطول، والنبرة، واللغة أو اللهجة.

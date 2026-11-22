@@ -1,16 +1,23 @@
 ---
 name: أداء المواقع والتطبيقات
 description: أداء المواقع وسرعة التحميل: Core Web Vitals، LCP، INP، CLS، حجم الحزم، ضغط صور، التخزين المؤقت، CDN، بطء الخادم. performance speed slow lighthouse pagespeed vitals lcp inp cls ttfb bundle lazy loading cdn compression سرعة السرعة بطء بطيء بطيئة الأداء أداء تسريع التحميل
-version: 1.0.0
+version: 1.1.0
 category: coding
 ---
-Use this to make a website or web app load and respond faster.
-1. Measure before changing: Lighthouse or PageSpeed Insights for lab data, field data (Chrome UX Report or real-user monitoring) for the truth. Targets at the 75th percentile: LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1, TTFB under about 0.8 s.
-2. LCP (largest content): serve the hero image as AVIF or WebP at its displayed size, preload it and never lazy-load it, inline critical CSS, remove render-blocking scripts, cut server time with caching.
-3. INP (responsiveness): ship less JavaScript, split long tasks over 50 ms, defer third-party scripts, keep input handlers light, debounce expensive listeners.
-4. CLS (layout shift): width and height or aspect-ratio on images, video and embeds; reserved space for late content; font-display: swap with matched fallback metrics.
-5. JavaScript weight: analyze the bundle, drop unused libraries, import only the functions used, split code by route, load non-critical widgets on interaction.
-6. Network: HTTP/2 or HTTP/3, Brotli or gzip, a CDN for static files with long cache lifetimes and hashed file names, short caching for HTML.
-7. Images and fonts: responsive srcset, lazy loading below the fold, subset fonts, at most two families with few weights.
-8. Server: indexes, query caching, no N+1 calls, streaming or pagination for large responses.
-Answer shape: the measured bottleneck first, then fixes ordered by gain and effort, then how to re-measure.
+تسريع تحميل الموقع أو تطبيق الويب واستجابته.
+
+## الخطوات
+1. قِس قبل التغيير: Lighthouse أو PageSpeed Insights لبيانات المختبر، والبيانات الميدانية (تقرير Chrome UX أو مراقبة المستخدمين الحقيقيين) للحقيقة. الأهداف عند المئين 75: LCP ≤ 2.5 ثانية، وINP ≤ 200 مللي ثانية، وCLS ≤ 0.1، وTTFB أقل من نحو 0.8 ثانية.
+2. LCP (أكبر محتوى): قدّم الصورة الرئيسية بصيغة AVIF أو WebP بحجم عرضها، وحمّلها مسبقًا ولا تؤجل تحميلها أبدًا، وضمّن CSS الحرج، وأزل السكربتات التي تعطل العرض، وقلّل زمن الخادم بالتخزين المؤقت.
+3. INP (الاستجابة): أرسل JavaScript أقل، وقسّم المهام الطويلة التي تتجاوز 50 مللي ثانية، وأجّل سكربتات الأطراف الثالثة، وأبقِ معالجات الإدخال خفيفة، وخفّف تكرار المستمعين المكلفين.
+4. CLS (انزياح التخطيط): العرض والارتفاع أو aspect-ratio للصور والفيديو والعناصر المضمّنة، ومساحة محجوزة للمحتوى المتأخر، و`font-display: swap` مع خط احتياطي بمقاييس مطابقة.
+5. وزن JavaScript: حلّل الحزمة، واحذف المكتبات غير المستخدمة، واستورد الدوال المستخدمة فقط، وقسّم الكود حسب المسار، وحمّل الأدوات غير الحرجة عند التفاعل.
+6. الشبكة: HTTP/2 أو HTTP/3، وضغط Brotli أو gzip، وشبكة CDN للملفات الثابتة بمدد تخزين طويلة وأسماء ملفات ببصمة، وتخزين قصير لصفحات HTML.
+7. الصور والخطوط: srcset متجاوب، وتأجيل تحميل ما تحت الجزء الظاهر، وخطوط بمجموعات فرعية، وعائلتان على الأكثر بأوزان قليلة.
+8. الخادم: الفهارس، وتخزين الاستعلامات مؤقتًا، ولا استدعاءات N+1، والبث أو تقسيم الصفحات للاستجابات الكبيرة.
+
+## شكل الجواب
+عنق الزجاجة المقيس أولًا، ثم الإصلاحات مرتبة حسب المكسب والجهد، ثم طريقة إعادة القياس.
+
+## ما أحتاجه منك
+- رابط الصفحة أو تقرير Lighthouse، والإطار والاستضافة، والصفحات الأهم.

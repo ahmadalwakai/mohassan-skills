@@ -1,17 +1,24 @@
 ---
 name: معادلات Excel والجداول الحسابية
 description: جداول Excel وGoogle Sheets: المعادلات، VLOOKUP، XLOOKUP، INDEX MATCH، الجداول المحورية، التنسيق الشرطي، المخططات، الأتمتة، قوالب الميزانية. excel sheets spreadsheet spreadsheets formula formulas vlookup xlookup index match pivot conditional formatting macro vba powerquery إكسل اكسل الإكسل شيت معادلة معادلات دالة دوال المحورية الحسابية
-version: 1.0.0
+version: 1.1.0
 category: analytics
 ---
-Use this for spreadsheet formulas, analysis and templates in Excel or Google Sheets.
-1. Structure data as a proper table: one header row, one record per row, one type per column, no merged cells or blank rows inside; format it as a Table (Ctrl+T) so formulas and pivots grow with it.
-2. Lookups: XLOOKUP is the modern default, for example =XLOOKUP(A2, Prices[Item], Prices[Price], "Not found"): exact match by default, looks left or right, handles missing values. VLOOKUP needs the key in the first column and FALSE for an exact match, and breaks when columns move. INDEX with MATCH works in every version. Google Sheets supports XLOOKUP too.
-3. Summaries: SUMIFS, COUNTIFS and AVERAGEIFS for conditional totals; pivot tables for breakdowns; FILTER, SORT and UNIQUE dynamic arrays in Excel 365 and Sheets.
-4. Dates and text: store real dates, not text; EOMONTH, NETWORKDAYS and DATEDIF for date math; TEXT only for display; TRIM, CLEAN and VALUE to fix imported data; TEXTSPLIT or Text to Columns to separate fields.
-5. Robust formulas: absolute references ($A$1) for fixed cells, named ranges, IFERROR only around expected errors, data validation lists for inputs, assumptions in labelled cells instead of numbers typed into formulas.
-6. Formatting: conditional formatting for thresholds and duplicates, consistent number formats (currency, %), frozen header rows.
-7. Charts: lines for trends, columns for comparisons; no 3D or crowded pies.
-8. Automation: Power Query for repeated imports and cleanup; macros or Apps Script for repetitive actions, documented.
-9. Regional settings: some locales separate arguments with semicolons, and some Arabic versions translate function names.
-Answer shape: the exact formula with its cell references explained, where to put it, and a small example table.
+صيغ جداول البيانات والتحليل والقوالب في Excel أو Google Sheets.
+
+## الخطوات
+1. نظّم البيانات جدولًا صحيحًا: صف عناوين واحد، وسجل واحد في كل صف، ونوع واحد في كل عمود، ولا خلايا مدمجة أو صفوف فارغة داخله؛ ونسّقه جدولًا (Ctrl+T) لتتسع الصيغ والجداول المحورية معه.
+2. البحث: XLOOKUP هو الافتراضي الحديث، مثل `=XLOOKUP(A2, Prices[Item], Prices[Price], "Not found")`: مطابقة تامة افتراضيًا، ويبحث يمينًا أو يسارًا، ويعالج القيم الغائبة. وVLOOKUP يحتاج المفتاح في العمود الأول وFALSE للمطابقة التامة، وينكسر حين تتحرك الأعمدة. وINDEX مع MATCH يعمل في كل الإصدارات. وGoogle Sheets يدعم XLOOKUP أيضًا.
+3. الملخصات: SUMIFS وCOUNTIFS وAVERAGEIFS للمجاميع الشرطية، والجداول المحورية للتقسيمات، والمصفوفات الديناميكية FILTER وSORT وUNIQUE في Excel 365 وSheets.
+4. التواريخ والنصوص: خزّن تواريخ حقيقية لا نصوصًا، واستخدم EOMONTH وNETWORKDAYS وDATEDIF لحساب التواريخ، وTEXT للعرض فقط، وTRIM وCLEAN وVALUE لإصلاح البيانات المستوردة، وTEXTSPLIT أو «تحويل النص إلى أعمدة» لفصل الحقول.
+5. صيغ متينة: مراجع مطلقة (`$A$1`) للخلايا الثابتة، ونطاقات مسماة، وIFERROR حول الأخطاء المتوقعة فقط، وقوائم تحقق من البيانات للمدخلات، والافتراضات في خلايا مسماة بدل أرقام مكتوبة داخل الصيغ.
+6. التنسيق: تنسيق شرطي للحدود والتكرار، وتنسيقات أرقام ثابتة (العملة، والنسبة المئوية)، وتثبيت صف العناوين.
+7. الرسوم: الخطوط للاتجاهات، والأعمدة للمقارنات؛ ولا رسوم ثلاثية الأبعاد أو دوائر مزدحمة.
+8. الأتمتة: Power Query للاستيراد والتنظيف المتكررين، والماكرو أو Apps Script للإجراءات المتكررة، مع توثيقها.
+9. الإعدادات الإقليمية: بعض اللغات تفصل الوسائط بفاصلة منقوطة، وبعض النسخ العربية تترجم أسماء الدوال.
+
+## شكل الجواب
+الصيغة بالضبط مع شرح مراجع خلاياها، ومكان وضعها، وجدول مثال صغير.
+
+## ما أحتاجه منك
+- أعمدة بياناتك ومثال على صفوفها، والنتيجة المطلوبة، وهل تستخدم Excel أم Google Sheets.
