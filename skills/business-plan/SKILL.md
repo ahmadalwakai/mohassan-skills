@@ -1,7 +1,7 @@
 ---
 name: خطة العمل ودراسة الجدوى
-description: كتابة خطة العمل ودراسة الجدوى للمشاريع: فكرة المشروع، السوق، المنافسة، التشغيل، التكاليف، الإيرادات، نقطة التعادل، التمويل، المخاطر، رأس المال. plan feasibility study startup venture financial projections funding investors revenue costs خطة خطة العمل جدوى الجدوى مشاريع رأس المال تمويل التمويل الإيرادات التكاليف ناشئة
-version: 1.1.0
+description: كتابة خطة العمل ودراسة الجدوى للمشاريع: فكرة المشروع، السوق، المنافسة، التشغيل، التكاليف، الإيرادات، نقطة التعادل، التمويل، المخاطر، رأس المال. plan feasibility study startup venture financial projections funding investors revenue costs خطة خطة العمل جدوى الجدوى مشاريع رأس المال تمويل التمويل الإيرادات التكاليف ناشئة محل محلات
+version: 1.1.1
 category: business
 ---
 كتابة خطة عمل أو دراسة جدوى يقتنع بها القارئ وتصمد أرقامها.

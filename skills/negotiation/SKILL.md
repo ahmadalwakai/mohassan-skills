@@ -1,7 +1,7 @@
 ---
 name: التفاوض
-description: التفاوض: التفاوض على الراتب، الأسعار مع الموردين، العقود، الإيجار، الصفقات، العرض المقابل، البديل الأفضل BATNA، الإقناع، معالجة الاعتراضات. negotiation negotiate negotiating salary counteroffer supplier suppliers deal deals batna persuasion objections leverage تفاوض التفاوض أفاوض افاوض نفاوض مفاوضات المفاوضات الراتب راتب صفقة الموردين مورد
-version: 1.1.0
+description: التفاوض: التفاوض على الراتب، الأسعار مع الموردين، العقود، الإيجار، الصفقات، العرض المقابل، البديل الأفضل BATNA، الإقناع، معالجة الاعتراضات. negotiation negotiate negotiating salary counteroffer supplier suppliers price lower price deal deals batna persuasion objections leverage تفاوض التفاوض أفاوض افاوض نفاوض مفاوضات المفاوضات الراتب راتب صفقة الموردين مورد
+version: 1.1.1
 category: business
 ---
 الاستعداد للتفاوض وإدارته.

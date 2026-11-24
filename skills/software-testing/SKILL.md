@@ -1,7 +1,7 @@
 ---
 name: اختبارات الكود والبرمجيات
-description: الاختبارات البرمجية: اختبارات الوحدة، التكامل، الطرفية e2e، التغطية، المحاكاة، الاختبارات المتقلبة، TDD. testing test tests unit integration e2e jest vitest pytest playwright cypress mock mocks coverage tdd flaky qa اختبار اختبارات الاختبار الاختبارات وحدة تكامل
-version: 1.1.0
+description: الاختبارات البرمجية: اختبارات الوحدة، التكامل، الطرفية e2e، التغطية، المحاكاة، الاختبارات المتقلبة، TDD، اختبار دالة. testing test tests unit integration e2e jest vitest pytest playwright cypress mock mocks coverage tdd flaky qa function اختبار اختبارات الاختبار الاختبارات وحدة تكامل دالة الدوال
+version: 1.1.1
 category: coding
 ---
 كتابة الاختبارات الآلية واختيارها وإصلاحها.

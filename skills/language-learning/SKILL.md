@@ -1,7 +1,7 @@
 ---
 name: تعلم اللغات
-description: تعلم اللغات: خطة لتعلم الإنجليزية والفرنسية والإسبانية والعربية، المبتدئ، المفردات، المحادثة، الاستماع، النطق، التكرار المتباعد، المستويات A1 إلى C2. learning learn language languages vocabulary speaking listening pronunciation fluency beginner spaced repetition anki cefr duolingo تعلم أتعلم اتعلم لتعلم لغة اللغة لغات اللغات مبتدئ مفردات المحادثة النطق
-version: 1.1.0
+description: تعلم اللغات: أتعلم لغة، خطة لتعلم الإنجليزية والفرنسية والإسبانية والعربية، المبتدئ، المفردات، المحادثة، الاستماع، النطق، التكرار المتباعد، المستويات A1 إلى C2. learning learn language languages vocabulary speaking listening pronunciation fluency beginner spaced repetition anki cefr duolingo تعلم أتعلم اتعلم لتعلم لغة اللغة لغات اللغات مبتدئ مفردات المحادثة النطق
+version: 1.1.1
 category: languages
 ---
 التخطيط لتعلم لغة أو التدريب عليها.

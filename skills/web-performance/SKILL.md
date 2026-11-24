@@ -1,7 +1,7 @@
 ---
 name: أداء المواقع والتطبيقات
-description: أداء المواقع وسرعة التحميل: Core Web Vitals، LCP، INP، CLS، حجم الحزم، ضغط صور، التخزين المؤقت، CDN، بطء الخادم. performance speed slow lighthouse pagespeed vitals lcp inp cls ttfb bundle lazy loading cdn compression سرعة السرعة بطء بطيء بطيئة الأداء أداء تسريع التحميل
-version: 1.1.0
+description: أداء المواقع وسرعة التحميل: Core Web Vitals، LCP، INP، CLS، حجم الحزم، ضغط صور، التخزين المؤقت، CDN، بطء الخادم. performance speed slow lighthouse pagespeed vitals lcp inp cls ttfb bundle size lazy loading cdn compression سرعة السرعة بطء بطيء بطيئة الأداء أداء تسريع التحميل
+version: 1.1.1
 category: coding
 ---
 تسريع تحميل الموقع أو تطبيق الويب واستجابته.

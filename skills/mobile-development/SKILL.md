@@ -1,7 +1,7 @@
 ---
-name: تطوير تطبيقات الجوال
+name: تطوير تطبيقات الجوال: أندرويد، آيفون
 description: برمجة تطبيقات الجوال للآيفون والأندرويد: Flutter، React Native، Swift، Kotlin، الأذونات، الإشعارات، الأداء، النشر على App Store وGoogle Play. mobile apps ios android iphone flutter dart react native expo swift swiftui kotlin compose store play testflight apk جوال الجوال موبايل آيفون ايفون أندرويد اندرويد تطبيقات
-version: 1.1.0
+version: 1.1.1
 category: coding
 ---
 بناء تطبيقات الجوال واختبارها وإطلاقها في المتاجر.

@@ -1,7 +1,7 @@
 ---
-name: اللياقة والتغذية
+name: اللياقة والتمارين والتغذية
 description: اللياقة البدنية والتغذية: برامج التمارين في البيت والنادي، إنقاص الوزن، بناء العضلات، البروتين، السعرات، النوم، الصيام المتقطع. fitness workout workouts exercise exercises gym training strength cardio loss muscle protein calories diet nutrition fasting لياقة اللياقة تمارين التمارين تمرين رياضة نادي جيم الوزن إنقاص تخسيس عضلات العضلات بروتين البروتين سعرات حمية رجيم تغذية
-version: 1.1.0
+version: 1.1.1
 category: research
 ---
 خطط التمارين والأكل الصحي وأهداف تكوين الجسم. إرشاد عام لا علاج طبي.

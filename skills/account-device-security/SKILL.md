@@ -1,7 +1,7 @@
 ---
 name: حماية الحسابات والأجهزة
-description: حماية الحسابات والأجهزة: التحقق بخطوتين، مدير كلمات المرور، استرجاع حساب مخترق، إنستغرام، واتساب، البريد، الجوال، الفيروسات، النسخ الاحتياطي. hacked hack recovery recover 2fa authenticator manager passkey antivirus malware ransomware backup instagram whatsapp gmail حساب حسابي مخترق مخترقة اخترق انسرق سرقة استرجاع استرداد فيروس فيروسات
-version: 1.1.0
+description: حماية الحسابات والأجهزة: التحقق بخطوتين، مدير كلمات المرور، استرجاع حساب مخترق، إنستغرام، واتساب، البريد، الجوال، الفيروسات، النسخ الاحتياطي. hacked hack recovery recover 2fa authenticator manager passkey antivirus malware ransomware backup instagram whatsapp gmail حساب حسابي أحمي حسابي الاختراق مخترق مخترقة اخترق انسرق سرقة استرجاع استرداد فيروس فيروسات
+version: 1.1.1
 category: security
 ---
 حماية الحسابات والأجهزة، واستعادة حساب مخترَق خطوة بخطوة.
