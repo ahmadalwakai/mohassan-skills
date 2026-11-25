@@ -1,6 +1,6 @@
 # Mohassan skills library
 
-193 instruction-only skills for Mohassan's GitHub skills source. Each skill is guidance text. When a request matches a skill, the chat adds it to the model's prompt. When no model is running, the chat shows the skill's steps to the person who asked instead. A skill grants no tools, runs no code and has no side effects.
+194 instruction-only skills for Mohassan's GitHub skills source. Each skill is guidance text. When a request matches a skill, the chat adds it to the model's prompt. When no model is running, the chat shows the skill's steps to the person who asked instead. A skill grants no tools, runs no code and has no side effects.
 
 ## Layout
 
